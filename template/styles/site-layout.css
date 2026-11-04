@@ -1,0 +1,52 @@
+/* One layout policy for all 29 static pages. Keep the approved Chinese
+   desktop header unchanged; give longer translated menus the same height. */
+@media (min-width: 1024px) {
+  html:not([lang="zh-Hans"]) .header .wrapper { display:flex; align-items:center; min-height:65px; }
+  html:not([lang="zh-Hans"]) .header .logo { flex-shrink:0; margin:0 10px; }
+  html:not([lang="zh-Hans"]) .header .menu-top { flex:1; min-width:0; display:flex; flex-wrap:wrap; justify-content:flex-end; padding:0; }
+  html:not([lang="zh-Hans"]) .header .menu-top > li { float:none; }
+  html:not([lang="zh-Hans"]) .header .menu-top li a { margin:0 0 3px 12px; }
+  html:not([lang="zh-Hans"]) .header .menu-top2 { order:3; flex-shrink:0; padding:0 0 0 16px; }
+}
+/* Reserve room for translated headings, never clip or use a fixed height.
+   Desktop and tablet columns share the same start line in every language. */
+.div-index2 .h-f3 { min-height:88px; }
+.div-index4 h2 { min-height:30px; }
+.div-index4 .d > .wrapper2 > p { min-height:90px; }
+/* Contact office cards share slots; longer addresses can still grow. */
+.div-contactus2 .l, .div-contactus2 .l2 { min-height:190px; }
+/* Iframes are block-level so language-dependent baseline gaps cannot add
+   space between the map and the next section. External maps remain external. */
+.content iframe { display:block; }
+/* Make navigation and image controls keyboard-visible without changing the
+   original colors or images. */
+:where(a, button, input, textarea):focus-visible { outline:2px solid #0085ce; outline-offset:3px; }
+@media (max-width:600px) {
+  .div-index2 .h-f3 { min-height:76px; }
+  .div-index4 h2 { min-height:60px; }
+  .div-index4 .d > .wrapper2 > p { min-height:140px; }
+}
+@media (max-width:360px) {
+  .div-career h1 { min-height:88px; }
+}
+@media (prefers-reduced-motion:reduce) {
+  html { scroll-behavior:auto; }
+  #img-index3-1, #img-index3-2 { left:0 !important; }
+  #line-index3-1 { opacity:1 !important; }
+}
+/* Explicit line boxes prevent CJK fallback font metrics from changing the
+   height of the homepage's three text columns. The slots can still expand. */
+.div-index2 p { line-height:22px; }
+.div-index2 .r, .div-index2 .r2 { min-height:88px; }
+@media (max-width:600px) {
+  .div-index4 .d > .wrapper2 > p { min-height:168px; }
+}
+@media (max-width:360px) {
+  .div-awarded h1 { min-height:88px; }
+}
+@media (max-width:360px) {
+  .div-index2 .r, .div-index2 .r2 { min-height:104px; }
+}
+.mobile-menu-toggle { line-height:22px; }
+.image-viewer .viewer-caption { min-width:0; overflow-wrap:anywhere; }
+.image-viewer button { flex-shrink:0; }

@@ -1,3 +1,4 @@
+@import url("site-layout.css");
 /* Repairs against the live site's published template.css, 2026-11-04.
    Keep its colors, original graphics, typography and desktop column widths. */
 @font-face { font-family: CordiaUPC; src: url('../../fonts/CordiaUPC.woff') format('woff'); font-display: swap; }

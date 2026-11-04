@@ -10,6 +10,17 @@
   };
   window.addEventListener('load', window.default_resize);
   window.addEventListener('resize', window.default_resize);
+  // Late font loading and wrapped translated labels can resize a fixed header
+  // without a viewport resize. Keep its spacer measured, not hard-coded.
+  document.addEventListener('DOMContentLoaded', function () {
+    var header = document.getElementById('header');
+    if (header && window.ResizeObserver) {
+      var observer = new ResizeObserver(window.default_resize);
+      observer.observe(header);
+    }
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(window.default_resize);
+    window.default_resize();
+  });
 
   // No PHP/mail backend was included. Never submit personal data to a dead URL
   // or claim a message was sent. Keep the original form and explain this limit.
@@ -37,9 +48,23 @@
 
 // Restore the mobile menu and image gallery without a PHP or library backend.
 document.addEventListener('DOMContentLoaded', function () {
+  var ui = {
+    en: { menu: 'Menu', navigation: 'Mobile navigation', gallery: 'Image gallery', previous: 'Previous image', next: 'Next image', close: 'Close gallery' },
+    th: { menu: 'เมนู', navigation: 'เมนูนำทาง', gallery: 'แกลเลอรีรูปภาพ', previous: 'รูปก่อนหน้า', next: 'รูปถัดไป', close: 'ปิดแกลเลอรี' },
+    ja: { menu: 'メニュー', navigation: 'ナビゲーション', gallery: '画像ギャラリー', previous: '前の画像', next: '次の画像', close: 'ギャラリーを閉じる' },
+    'zh-Hans': { menu: '菜单', navigation: '导航菜单', gallery: '图片库', previous: '上一张图片', next: '下一张图片', close: '关闭图片库' }
+  }[document.documentElement.lang];
+  // Only interface controls are localized here; business copy stays in HTML.
+  ui = ui || { menu: 'Menu', navigation: 'Mobile navigation', gallery: 'Image gallery', previous: 'Previous image', next: 'Next image', close: 'Close gallery' };
+  document.querySelectorAll('#frm_check input[placeholder], #frm_check textarea[placeholder]').forEach(function (field) {
+    field.setAttribute('aria-label', field.getAttribute('placeholder').replace(/\s*\*$/, ''));
+  });
+  document.querySelectorAll('a[target="_blank"]').forEach(function (link) { link.rel = 'noopener noreferrer'; });
   var navigation = document.querySelector('.mobile-navigation');
   var toggle = document.querySelector('.mobile-menu-toggle');
   if (toggle && navigation) {
+    toggle.textContent = '☰ ' + ui.menu;
+    navigation.setAttribute('aria-label', ui.navigation);
     toggle.addEventListener('click', function () {
       var open = navigation.classList.toggle('is-open');
       toggle.setAttribute('aria-expanded', String(open));
@@ -52,12 +77,29 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   }
+  if (navigation && toggle) {
+    document.addEventListener('click', function (event) {
+      if (!navigation.contains(event.target)) {
+        navigation.classList.remove('is-open');
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+    window.addEventListener('resize', function () {
+      if (window.innerWidth >= 1024) {
+        navigation.classList.remove('is-open');
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+  }
   var links = Array.from(document.querySelectorAll('.div-awarded-d a[href^="uploads/awards/"], .div-contactus2 a[href^="uploads/contactus_photos/"]'));
   if (!links.length) return;
   var viewer = document.createElement('dialog');
   viewer.className = 'image-viewer';
-  viewer.setAttribute('aria-label', 'Image gallery');
+  viewer.setAttribute('aria-label', ui.gallery);
   viewer.innerHTML = '<div class="viewer-toolbar"><button type="button" data-viewer="prev" aria-label="Previous image">‹</button><p class="viewer-caption"></p><button type="button" data-viewer="next" aria-label="Next image">›</button><button type="button" data-viewer="close" aria-label="Close gallery">×</button></div>';
+  viewer.querySelector('[data-viewer="prev"]').setAttribute('aria-label', ui.previous);
+  viewer.querySelector('[data-viewer="next"]').setAttribute('aria-label', ui.next);
+  viewer.querySelector('[data-viewer="close"]').setAttribute('aria-label', ui.close);
   document.body.appendChild(viewer);
   var current = 0;
   function show(index) {

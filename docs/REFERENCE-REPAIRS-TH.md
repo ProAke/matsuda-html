@@ -1,5 +1,7 @@
 # ซ่อม Static HTML เทียบกับเว็บอ้างอิง
 
+> บันทึกการซ่อมรอบก่อน ดู `ALL-PAGES-LAYOUT-TH.md` สำหรับการตรวจครบ 29 หน้าและผลทดสอบล่าสุด
+
 วันที่ 4 พฤศจิกายน 2026 — สาขา `arena/e5eaf122-matsuda-html`
 
 อ้างอิงหลัก: https://hi.matsuda-sangyothailand.com/
