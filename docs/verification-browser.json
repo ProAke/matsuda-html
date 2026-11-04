@@ -1,0 +1,563 @@
+{
+  "date": "2026-11-04",
+  "source": "matsuda-html-02/matsuda-static/",
+  "desktop_1280": [
+    {
+      "file": "awarded.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "awarded_cn.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "awarded_jp.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "awarded_th.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "business.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "business_cn.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "business_en.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "business_jp.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "business_th.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "career.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "career_cn.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "career_jp.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "career_th.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "company.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "company_cn.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "company_jp.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "company_th.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "contactus.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "contactus_cn.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "contactus_jp.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "contactus_th.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "index.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "index_cn.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "index_jp.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "index_th.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "management.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "management_cn.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "management_en.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    },
+    {
+      "file": "management_jp.html",
+      "errors": [],
+      "failed": [],
+      "images": []
+    }
+  ],
+  "mobile_tablet_and_interactions": [
+    {
+      "file": "awarded.html",
+      "width": 390,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "awarded_cn.html",
+      "width": 390,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "awarded_jp.html",
+      "width": 390,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "awarded_th.html",
+      "width": 390,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "business.html",
+      "width": 390,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "business_cn.html",
+      "width": 390,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "business_en.html",
+      "width": 390,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "business_jp.html",
+      "width": 390,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "business_th.html",
+      "width": 390,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "career.html",
+      "width": 390,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "career_cn.html",
+      "width": 390,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "career_jp.html",
+      "width": 390,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "career_th.html",
+      "width": 390,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "company.html",
+      "width": 519,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "company_cn.html",
+      "width": 519,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "company_jp.html",
+      "width": 519,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "company_th.html",
+      "width": 519,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "contactus.html",
+      "width": 395,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "contactus_cn.html",
+      "width": 395,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "contactus_jp.html",
+      "width": 395,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "contactus_th.html",
+      "width": 395,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "index_cn.html",
+      "width": 390,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "index_jp.html",
+      "width": 390,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "index_th.html",
+      "width": 390,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "management.html",
+      "width": 395,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "management_cn.html",
+      "width": 395,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "management_en.html",
+      "width": 395,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "management_jp.html",
+      "width": 395,
+      "viewport": 390,
+      "broken": []
+    },
+    {
+      "file": "awarded.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "awarded_cn.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "awarded_jp.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "awarded_th.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "business.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "business_cn.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "business_en.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "business_jp.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "business_th.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "career.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "career_cn.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "career_jp.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "career_th.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "company.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "company_cn.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "company_jp.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "company_th.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "contactus.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "contactus_cn.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "contactus_jp.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "contactus_th.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "index.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "index_cn.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "index_jp.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "index_th.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "management.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "management_cn.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "management_en.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "management_jp.html",
+      "width": 768,
+      "viewport": 768,
+      "broken": []
+    },
+    {
+      "file": "contactus.html",
+      "formNotice": "This static site has no message-delivery backend. Please contact us using the phone or email listed on this page. Your message has not been sent.",
+      "posts": 0
+    },
+    {
+      "file": "contactus_th.html",
+      "formNotice": "เว็บไซต์ static นี้ยังไม่มีระบบส่งข้อความ กรุณาติดต่อทางโทรศัพท์หรืออีเมลที่ระบุบนหน้านี้ (ข้อความยังไม่ได้ถูกส่ง)",
+      "posts": 0
+    },
+    {
+      "file": "contactus_jp.html",
+      "formNotice": "この静的サイトには送信機能がありません。記載の電話番号またはメールでお問い合わせください。メッセージは送信されていません。",
+      "posts": 0
+    },
+    {
+      "file": "contactus_cn.html",
+      "formNotice": "此静态网站尚无消息发送功能。请使用本页列出的电话或电子邮件联系。消息尚未发送。",
+      "posts": 0
+    },
+    {
+      "slider": "mg1",
+      "before": 0,
+      "after": 1
+    },
+    {
+      "slider": "mg2",
+      "before": 0,
+      "after": 1
+    },
+    {
+      "languageNavigation": "index.html -> index_th.html"
+    }
+  ]
+}
