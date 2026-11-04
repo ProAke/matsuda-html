@@ -1,0 +1,9 @@
+<script setup lang="ts">
+import site from '~/data/site.json'
+import assets from '~/data/assets.json'
+import documents from '~/data/documents.json'
+defineProps<{ page: string }>()
+const { t, lang } = useContent()
+const policy = computed(() => documents.policies[lang.value as keyof typeof documents.policies])
+</script>
+<template><CompanyProfile v-if="page === 'company'" /><ContactInformation v-else-if="page === 'contact'" /><AwardsCollection v-else-if="page === 'awards'" /><template v-else-if="page === 'links'"><section class="div-management"><div class="wrapper"><h1 class="topic">{{ t.nav[5] }}</h1><p><a :href="site.groupUrl" target="_blank" rel="noopener noreferrer">Matsuda Sangyo Co., Ltd.</a></p><img class="group-illustration" :src="assets.group" :alt="t.nav[5]" loading="lazy"></div></section><div class="div-management2 decorative-panel"><img src="/legacy/images/bg-management2.png" alt="" loading="lazy"></div></template><template v-else-if="page === 'business'"><section class="div-business1"><div class="wrapper"><h1 class="topic">{{ t.nav[2] }}</h1><img class="img-business1" :src="assets.business[0]" :alt="t.nav[2]"></div></section><section class="wrapper business-chart"><p v-if="lang !== 'en'" class="document-note">{{ t.imageEnglish }}</p><img :src="assets.business[1]" :alt="t.nav[2]" loading="lazy"></section></template><section v-else-if="page === 'environment'" class="div-career"><div class="wrapper"><h1 class="topic">{{ t.policyHeading }}</h1><p v-if="policy.language !== lang" class="document-note">{{ t.documentEnglish }}</p><a :href="policy.src" target="_blank" rel="noopener noreferrer"><img class="policy-document" :src="policy.src" :alt="t.policyHeading" :lang="policy.language" loading="lazy"></a><p><a :href="policy.src" target="_blank" rel="noopener noreferrer">{{ t.originalDocument }}</a></p></div></section></template>

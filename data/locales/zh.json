@@ -17,5 +17,75 @@
   "legacyHome": {
     "title": "为了繁荣与美丽的地球",
     "business": "贵金属相关业务"
-  }
+  },
+  "companyHeading": "公司介绍",
+  "profile": "公司概况",
+  "shareholder": "股东",
+  "capital": "注册资本",
+  "address": "地址",
+  "phone": "电话",
+  "fax": "传真",
+  "businessType": "业务类型",
+  "capitalUnit": "泰铢",
+  "contactHeading": "联系信息",
+  "feedback": "意见与咨询",
+  "name": "姓名",
+  "email": "电子邮箱",
+  "subject": "主题",
+  "message": "留言",
+  "prepare": "准备邮件",
+  "openMail": "打开邮件应用",
+  "draftNotice": "邮件尚未发送。请在邮件应用中检查草稿并发送。",
+  "privacy": "此表单仅在您的设备上准备邮件。网站不会将填写内容提交到服务器或进行存储。",
+  "backTop": "返回顶部",
+  "backHome": "返回首页",
+  "documentEnglish": "原始政策文件为英文。",
+  "originalDocument": "查看原始文件",
+  "availableDocuments": "已核实并收集的文件",
+  "reviewNotice": "此处展示当前已收集的文件。",
+  "imageEnglish": "原始图示包含英文文字。",
+  "businessEmail": "业务咨询",
+  "careersEmail": "招聘咨询",
+  "generalEmail": "一般事务咨询",
+  "map": "位置地图",
+  "sendTo": "收件人",
+  "sourcePending": "尚无法核实该来源页面的内容。以下展示已收集的文件。",
+  "officeNames": [
+    "大城府总部",
+    "春武里分公司"
+  ],
+  "officeAddresses": [
+    "高科技工业园，148 Moo 1, Banlen, Bangpa-in, Ayutthaya 13160",
+    "品通第三工业园，219/20 Moo 6, Bo-Win, Sriracha, Chonburi 20230"
+  ],
+  "officeZones": [
+    "免税区",
+    "一般区"
+  ],
+  "businessTypes": [
+    "收集和回收含贵金属（金、银、铂、钯）的废料及有色金属",
+    "回收含贵金属（金、银、铂、钯）的废料及有色金属"
+  ],
+  "footerParagraphs": [
+    "松田产业（泰国）拥有高效的物流系统，以支持客户需求。",
+    "我们使用配备GPS的4至10轮封闭式货车，提供危险及非危险废弃物和废料运输服务。",
+    "松田产业（泰国）运用先进的贵金属精炼技术和注重环境保护的专业知识开展业务。"
+  ],
+  "homeTitle": "为了繁荣与美丽的地球",
+  "homeStatement": "松田产业开展与贵金属相关的多种业务。",
+  "homeServices": [
+    "贵金属废料收集与回收",
+    "贵金属材料"
+  ],
+  "homeBusinessTitle": "贵金属相关业务",
+  "homeDescription": "松田产业（泰国）通过有效利用地球资源，为产业与地球作出贡献。我们运用技术推动资源回收与再利用，减少不必要的填埋。",
+  "policyHeading": "质量与环境政策",
+  "awardTitles": [
+    "白色工厂",
+    "ISO 9001及14001 — 认证范围",
+    "ISO 9001及14001 — 认证证书",
+    "租赁汽车碳信用",
+    "绿色工业四级 — 大城府",
+    "绿色工业三级 — 品通第三工业园"
+  ]
 }
