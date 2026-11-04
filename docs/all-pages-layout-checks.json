@@ -1,0 +1,8529 @@
+{
+  "date": "2026-11-04",
+  "source": "Local Chromium checks; CN variants are per-category layout baselines. Chinese Company HTML remains unchanged. Not a live pixel diff.",
+  "thirdPartyEmbeds": "External requests blocked for deterministic QA; Google Maps is not validated.",
+  "viewports": [
+    310,
+    390,
+    768,
+    1024,
+    1280
+  ],
+  "pages": 29,
+  "checks": 145,
+  "interactions": [
+    {
+      "file": "awarded.html",
+      "menu": true,
+      "languageSwitch": true,
+      "galleryImages": 6
+    },
+    {
+      "file": "awarded_cn.html",
+      "menu": true,
+      "languageSwitch": true,
+      "galleryImages": 6
+    },
+    {
+      "file": "awarded_jp.html",
+      "menu": true,
+      "languageSwitch": true,
+      "galleryImages": 6
+    },
+    {
+      "file": "awarded_th.html",
+      "menu": true,
+      "languageSwitch": true,
+      "galleryImages": 6
+    },
+    {
+      "file": "business.html",
+      "menu": true,
+      "languageSwitch": true
+    },
+    {
+      "file": "business_cn.html",
+      "menu": true,
+      "languageSwitch": true
+    },
+    {
+      "file": "business_en.html",
+      "menu": true,
+      "languageSwitch": true
+    },
+    {
+      "file": "business_jp.html",
+      "menu": true,
+      "languageSwitch": true
+    },
+    {
+      "file": "business_th.html",
+      "menu": true,
+      "languageSwitch": true
+    },
+    {
+      "file": "career.html",
+      "menu": true,
+      "languageSwitch": true
+    },
+    {
+      "file": "career_cn.html",
+      "menu": true,
+      "languageSwitch": true
+    },
+    {
+      "file": "career_jp.html",
+      "menu": true,
+      "languageSwitch": true
+    },
+    {
+      "file": "career_th.html",
+      "menu": true,
+      "languageSwitch": true
+    },
+    {
+      "file": "company.html",
+      "menu": true,
+      "languageSwitch": true
+    },
+    {
+      "file": "company_cn.html",
+      "menu": true,
+      "languageSwitch": true
+    },
+    {
+      "file": "company_jp.html",
+      "menu": true,
+      "languageSwitch": true
+    },
+    {
+      "file": "company_th.html",
+      "menu": true,
+      "languageSwitch": true
+    },
+    {
+      "file": "contactus.html",
+      "menu": true,
+      "languageSwitch": true,
+      "galleryImages": 2,
+      "formNotSent": true
+    },
+    {
+      "file": "contactus_cn.html",
+      "menu": true,
+      "languageSwitch": true,
+      "galleryImages": 2,
+      "formNotSent": true
+    },
+    {
+      "file": "contactus_jp.html",
+      "menu": true,
+      "languageSwitch": true,
+      "galleryImages": 2,
+      "formNotSent": true
+    },
+    {
+      "file": "contactus_th.html",
+      "menu": true,
+      "languageSwitch": true,
+      "galleryImages": 2,
+      "formNotSent": true
+    },
+    {
+      "file": "index.html",
+      "menu": true,
+      "languageSwitch": true,
+      "sliders": 2
+    },
+    {
+      "file": "index_cn.html",
+      "menu": true,
+      "languageSwitch": true,
+      "sliders": 2
+    },
+    {
+      "file": "index_jp.html",
+      "menu": true,
+      "languageSwitch": true,
+      "sliders": 2
+    },
+    {
+      "file": "index_th.html",
+      "menu": true,
+      "languageSwitch": true,
+      "sliders": 2
+    },
+    {
+      "file": "management.html",
+      "menu": true,
+      "languageSwitch": true
+    },
+    {
+      "file": "management_cn.html",
+      "menu": true,
+      "languageSwitch": true
+    },
+    {
+      "file": "management_en.html",
+      "menu": true,
+      "languageSwitch": true
+    },
+    {
+      "file": "management_jp.html",
+      "menu": true,
+      "languageSwitch": true
+    }
+  ],
+  "results": [
+    {
+      "file": "awarded.html",
+      "width": 310,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 1337
+        },
+        ".div-awarded": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 1337
+        },
+        ".div-awarded-d": {
+          "x": 5,
+          "y": 208,
+          "w": 300,
+          "h": 1224
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1432,
+          "w": 310,
+          "h": 527
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1959,
+          "w": 310,
+          "h": 159
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "awarded.html",
+        "awarded_jp.html",
+        "awarded_th.html",
+        "awarded_cn.html"
+      ]
+    },
+    {
+      "file": "awarded_cn.html",
+      "width": 310,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 1337
+        },
+        ".div-awarded": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 1337
+        },
+        ".div-awarded-d": {
+          "x": 5,
+          "y": 208,
+          "w": 300,
+          "h": 1224
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1432,
+          "w": 310,
+          "h": 527
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1959,
+          "w": 310,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "awarded.html",
+        "awarded_jp.html",
+        "awarded_th.html",
+        "awarded_cn.html"
+      ]
+    },
+    {
+      "file": "awarded_jp.html",
+      "width": 310,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 1337
+        },
+        ".div-awarded": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 1337
+        },
+        ".div-awarded-d": {
+          "x": 5,
+          "y": 208,
+          "w": 300,
+          "h": 1224
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1432,
+          "w": 310,
+          "h": 527
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1959,
+          "w": 310,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "awarded.html",
+        "awarded_jp.html",
+        "awarded_th.html",
+        "awarded_cn.html"
+      ]
+    },
+    {
+      "file": "awarded_th.html",
+      "width": 310,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 1337
+        },
+        ".div-awarded": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 1337
+        },
+        ".div-awarded-d": {
+          "x": 5,
+          "y": 208,
+          "w": 300,
+          "h": 1224
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1432,
+          "w": 310,
+          "h": 527
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1959,
+          "w": 310,
+          "h": 159
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "awarded.html",
+        "awarded_jp.html",
+        "awarded_th.html",
+        "awarded_cn.html"
+      ]
+    },
+    {
+      "file": "business.html",
+      "width": 310,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 527.171875
+        },
+        ".footer": {
+          "x": 0,
+          "y": 622.171875,
+          "w": 310,
+          "h": 527
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1149.171875,
+          "w": 310,
+          "h": 159
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "business.html",
+        "business_jp.html",
+        "business_th.html",
+        "business_cn.html"
+      ]
+    },
+    {
+      "file": "business_cn.html",
+      "width": 310,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 527.171875
+        },
+        ".footer": {
+          "x": 0,
+          "y": 622.171875,
+          "w": 310,
+          "h": 527
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1149.171875,
+          "w": 310,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "business.html",
+        "business_jp.html",
+        "business_th.html",
+        "business_cn.html"
+      ]
+    },
+    {
+      "file": "business_en.html",
+      "width": 310,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 527.171875
+        },
+        ".footer": {
+          "x": 0,
+          "y": 622.171875,
+          "w": 310,
+          "h": 527
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1149.171875,
+          "w": 310,
+          "h": 159
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "business.html",
+        "business_jp.html",
+        "business_th.html",
+        "business_cn.html"
+      ]
+    },
+    {
+      "file": "business_jp.html",
+      "width": 310,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 527.171875
+        },
+        ".footer": {
+          "x": 0,
+          "y": 622.171875,
+          "w": 310,
+          "h": 527
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1149.171875,
+          "w": 310,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "business.html",
+        "business_jp.html",
+        "business_th.html",
+        "business_cn.html"
+      ]
+    },
+    {
+      "file": "business_th.html",
+      "width": 310,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 527.171875
+        },
+        ".footer": {
+          "x": 0,
+          "y": 622.171875,
+          "w": 310,
+          "h": 527
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1149.171875,
+          "w": 310,
+          "h": 159
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "business.html",
+        "business_jp.html",
+        "business_th.html",
+        "business_cn.html"
+      ]
+    },
+    {
+      "file": "career.html",
+      "width": 310,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 540.40625
+        },
+        ".div-career": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 540.40625
+        },
+        ".footer": {
+          "x": 0,
+          "y": 635.40625,
+          "w": 310,
+          "h": 527
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1162.40625,
+          "w": 310,
+          "h": 159
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "career.html",
+        "career_jp.html",
+        "career_th.html",
+        "career_cn.html"
+      ]
+    },
+    {
+      "file": "career_cn.html",
+      "width": 310,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 540.40625
+        },
+        ".div-career": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 540.40625
+        },
+        ".footer": {
+          "x": 0,
+          "y": 635.40625,
+          "w": 310,
+          "h": 527
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1162.40625,
+          "w": 310,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "career.html",
+        "career_jp.html",
+        "career_th.html",
+        "career_cn.html"
+      ]
+    },
+    {
+      "file": "career_jp.html",
+      "width": 310,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 540.40625
+        },
+        ".div-career": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 540.40625
+        },
+        ".footer": {
+          "x": 0,
+          "y": 635.40625,
+          "w": 310,
+          "h": 527
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1162.40625,
+          "w": 310,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "career.html",
+        "career_jp.html",
+        "career_th.html",
+        "career_cn.html"
+      ]
+    },
+    {
+      "file": "career_th.html",
+      "width": 310,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 540.40625
+        },
+        ".div-career": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 540.40625
+        },
+        ".footer": {
+          "x": 0,
+          "y": 635.40625,
+          "w": 310,
+          "h": 527
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1162.40625,
+          "w": 310,
+          "h": 159
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "career.html",
+        "career_jp.html",
+        "career_th.html",
+        "career_cn.html"
+      ]
+    },
+    {
+      "file": "company.html",
+      "width": 310,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 1576.671875
+        },
+        ".div-company1": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 287.671875
+        },
+        ".div-company2": {
+          "x": 0,
+          "y": 382.671875,
+          "w": 310,
+          "h": 158
+        },
+        ".div-company3": {
+          "x": 0,
+          "y": 540.671875,
+          "w": 310,
+          "h": 819
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1671.671875,
+          "w": 310,
+          "h": 606
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2277.671875,
+          "w": 310,
+          "h": 159
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "company.html",
+        "company_jp.html",
+        "company_th.html",
+        "company_cn.html"
+      ]
+    },
+    {
+      "file": "company_cn.html",
+      "width": 310,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 1271.671875
+        },
+        ".div-company1": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 287.671875
+        },
+        ".div-company2": {
+          "x": 0,
+          "y": 382.671875,
+          "w": 310,
+          "h": 158
+        },
+        ".div-company3": {
+          "x": 0,
+          "y": 540.671875,
+          "w": 310,
+          "h": 514
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1366.671875,
+          "w": 310,
+          "h": 522
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1888.671875,
+          "w": 310,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "company.html",
+        "company_jp.html",
+        "company_th.html",
+        "company_cn.html"
+      ]
+    },
+    {
+      "file": "company_jp.html",
+      "width": 310,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 1364.671875
+        },
+        ".div-company1": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 287.671875
+        },
+        ".div-company2": {
+          "x": 0,
+          "y": 382.671875,
+          "w": 310,
+          "h": 158
+        },
+        ".div-company3": {
+          "x": 0,
+          "y": 540.671875,
+          "w": 310,
+          "h": 607
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1459.671875,
+          "w": 310,
+          "h": 527
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1986.671875,
+          "w": 310,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "company.html",
+        "company_jp.html",
+        "company_th.html",
+        "company_cn.html"
+      ]
+    },
+    {
+      "file": "company_th.html",
+      "width": 310,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 1576.671875
+        },
+        ".div-company1": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 287.671875
+        },
+        ".div-company2": {
+          "x": 0,
+          "y": 382.671875,
+          "w": 310,
+          "h": 158
+        },
+        ".div-company3": {
+          "x": 0,
+          "y": 540.671875,
+          "w": 310,
+          "h": 819
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1671.671875,
+          "w": 310,
+          "h": 527
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2198.671875,
+          "w": 310,
+          "h": 159
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "company.html",
+        "company_jp.html",
+        "company_th.html",
+        "company_cn.html"
+      ]
+    },
+    {
+      "file": "contactus.html",
+      "width": 310,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 1388
+        },
+        ".div-contactus1": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 305
+        },
+        ".div-contactus2": {
+          "x": 0,
+          "y": 400,
+          "w": 310,
+          "h": 585
+        },
+        ".div-contactus3": {
+          "x": 0,
+          "y": 985,
+          "w": 310,
+          "h": 498
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1483,
+          "w": 310,
+          "h": 527
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2010,
+          "w": 310,
+          "h": 159
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "contactus.html",
+        "contactus_jp.html",
+        "contactus_th.html",
+        "contactus_cn.html"
+      ]
+    },
+    {
+      "file": "contactus_cn.html",
+      "width": 310,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 1388
+        },
+        ".div-contactus1": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 305
+        },
+        ".div-contactus2": {
+          "x": 0,
+          "y": 400,
+          "w": 310,
+          "h": 585
+        },
+        ".div-contactus3": {
+          "x": 0,
+          "y": 985,
+          "w": 310,
+          "h": 498
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1483,
+          "w": 310,
+          "h": 527
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2010,
+          "w": 310,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "contactus.html",
+        "contactus_jp.html",
+        "contactus_th.html",
+        "contactus_cn.html"
+      ]
+    },
+    {
+      "file": "contactus_jp.html",
+      "width": 310,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 1388
+        },
+        ".div-contactus1": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 305
+        },
+        ".div-contactus2": {
+          "x": 0,
+          "y": 400,
+          "w": 310,
+          "h": 585
+        },
+        ".div-contactus3": {
+          "x": 0,
+          "y": 985,
+          "w": 310,
+          "h": 498
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1483,
+          "w": 310,
+          "h": 485
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1968,
+          "w": 310,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "contactus.html",
+        "contactus_jp.html",
+        "contactus_th.html",
+        "contactus_cn.html"
+      ]
+    },
+    {
+      "file": "contactus_th.html",
+      "width": 310,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 1388
+        },
+        ".div-contactus1": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 305
+        },
+        ".div-contactus2": {
+          "x": 0,
+          "y": 400,
+          "w": 310,
+          "h": 585
+        },
+        ".div-contactus3": {
+          "x": 0,
+          "y": 985,
+          "w": 310,
+          "h": 498
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1483,
+          "w": 310,
+          "h": 527
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2010,
+          "w": 310,
+          "h": 159
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "contactus.html",
+        "contactus_jp.html",
+        "contactus_th.html",
+        "contactus_cn.html"
+      ]
+    },
+    {
+      "file": "index.html",
+      "width": 310,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 1249.921875
+        },
+        ".div-index1": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 84.015625
+        },
+        ".div-index2": {
+          "x": 0,
+          "y": 179.015625,
+          "w": 310,
+          "h": 324
+        },
+        ".div-index3-1": {
+          "x": 0,
+          "y": 508.015625,
+          "w": 310,
+          "h": 76.453125
+        },
+        ".div-index4": {
+          "x": 0,
+          "y": 680.171875,
+          "w": 310,
+          "h": 359.75
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1344.921875,
+          "w": 310,
+          "h": 527
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1871.921875,
+          "w": 310,
+          "h": 159
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "index.html",
+        "index_jp.html",
+        "index_th.html",
+        "index_cn.html"
+      ]
+    },
+    {
+      "file": "index_cn.html",
+      "width": 310,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 1249.921875
+        },
+        ".div-index1": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 84.015625
+        },
+        ".div-index2": {
+          "x": 0,
+          "y": 179.015625,
+          "w": 310,
+          "h": 324
+        },
+        ".div-index3-1": {
+          "x": 0,
+          "y": 508.015625,
+          "w": 310,
+          "h": 76.453125
+        },
+        ".div-index4": {
+          "x": 0,
+          "y": 680.171875,
+          "w": 310,
+          "h": 359.75
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1344.921875,
+          "w": 310,
+          "h": 527
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1871.921875,
+          "w": 310,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "index.html",
+        "index_jp.html",
+        "index_th.html",
+        "index_cn.html"
+      ]
+    },
+    {
+      "file": "index_jp.html",
+      "width": 310,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 1249.921875
+        },
+        ".div-index1": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 84.015625
+        },
+        ".div-index2": {
+          "x": 0,
+          "y": 179.015625,
+          "w": 310,
+          "h": 324
+        },
+        ".div-index3-1": {
+          "x": 0,
+          "y": 508.015625,
+          "w": 310,
+          "h": 76.453125
+        },
+        ".div-index4": {
+          "x": 0,
+          "y": 680.171875,
+          "w": 310,
+          "h": 359.75
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1344.921875,
+          "w": 310,
+          "h": 485
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1829.921875,
+          "w": 310,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "index.html",
+        "index_jp.html",
+        "index_th.html",
+        "index_cn.html"
+      ]
+    },
+    {
+      "file": "index_th.html",
+      "width": 310,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 1249.921875
+        },
+        ".div-index1": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 84.015625
+        },
+        ".div-index2": {
+          "x": 0,
+          "y": 179.015625,
+          "w": 310,
+          "h": 324
+        },
+        ".div-index3-1": {
+          "x": 0,
+          "y": 508.015625,
+          "w": 310,
+          "h": 76.453125
+        },
+        ".div-index4": {
+          "x": 0,
+          "y": 680.171875,
+          "w": 310,
+          "h": 359.75
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1344.921875,
+          "w": 310,
+          "h": 527
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1871.921875,
+          "w": 310,
+          "h": 159
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "index.html",
+        "index_jp.html",
+        "index_th.html",
+        "index_cn.html"
+      ]
+    },
+    {
+      "file": "management.html",
+      "width": 310,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 341.296875
+        },
+        ".div-management2": {
+          "x": 0,
+          "y": 268,
+          "w": 310,
+          "h": 168.296875
+        },
+        ".footer": {
+          "x": 0,
+          "y": 436.296875,
+          "w": 310,
+          "h": 527
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 963.296875,
+          "w": 310,
+          "h": 159
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "management_en.html",
+        "management_jp.html",
+        "management.html",
+        "management_cn.html"
+      ]
+    },
+    {
+      "file": "management_cn.html",
+      "width": 310,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 341.296875
+        },
+        ".div-management2": {
+          "x": 0,
+          "y": 268,
+          "w": 310,
+          "h": 168.296875
+        },
+        ".footer": {
+          "x": 0,
+          "y": 436.296875,
+          "w": 310,
+          "h": 527
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 963.296875,
+          "w": 310,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "management_en.html",
+        "management_jp.html",
+        "management.html",
+        "management_cn.html"
+      ]
+    },
+    {
+      "file": "management_en.html",
+      "width": 310,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 341.296875
+        },
+        ".div-management2": {
+          "x": 0,
+          "y": 268,
+          "w": 310,
+          "h": 168.296875
+        },
+        ".footer": {
+          "x": 0,
+          "y": 436.296875,
+          "w": 310,
+          "h": 527
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 963.296875,
+          "w": 310,
+          "h": 159
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "management_en.html",
+        "management_jp.html",
+        "management.html",
+        "management_cn.html"
+      ]
+    },
+    {
+      "file": "management_jp.html",
+      "width": 310,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 310,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 310,
+          "h": 341.296875
+        },
+        ".div-management2": {
+          "x": 0,
+          "y": 268,
+          "w": 310,
+          "h": 168.296875
+        },
+        ".footer": {
+          "x": 0,
+          "y": 436.296875,
+          "w": 310,
+          "h": 527
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 963.296875,
+          "w": 310,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "management_en.html",
+        "management_jp.html",
+        "management.html",
+        "management_cn.html"
+      ]
+    },
+    {
+      "file": "awarded.html",
+      "width": 390,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 1293
+        },
+        ".div-awarded": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 1293
+        },
+        ".div-awarded-d": {
+          "x": 5,
+          "y": 164,
+          "w": 380,
+          "h": 1224
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1388,
+          "w": 390,
+          "h": 506
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1894,
+          "w": 390,
+          "h": 159
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "awarded.html",
+        "awarded_jp.html",
+        "awarded_th.html",
+        "awarded_cn.html"
+      ]
+    },
+    {
+      "file": "awarded_cn.html",
+      "width": 390,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 1293
+        },
+        ".div-awarded": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 1293
+        },
+        ".div-awarded-d": {
+          "x": 5,
+          "y": 164,
+          "w": 380,
+          "h": 1224
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1388,
+          "w": 390,
+          "h": 506
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1894,
+          "w": 390,
+          "h": 105
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "awarded.html",
+        "awarded_jp.html",
+        "awarded_th.html",
+        "awarded_cn.html"
+      ]
+    },
+    {
+      "file": "awarded_jp.html",
+      "width": 390,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 1293
+        },
+        ".div-awarded": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 1293
+        },
+        ".div-awarded-d": {
+          "x": 5,
+          "y": 164,
+          "w": 380,
+          "h": 1224
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1388,
+          "w": 390,
+          "h": 506
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1894,
+          "w": 390,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "awarded.html",
+        "awarded_jp.html",
+        "awarded_th.html",
+        "awarded_cn.html"
+      ]
+    },
+    {
+      "file": "awarded_th.html",
+      "width": 390,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 1293
+        },
+        ".div-awarded": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 1293
+        },
+        ".div-awarded-d": {
+          "x": 5,
+          "y": 164,
+          "w": 380,
+          "h": 1224
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1388,
+          "w": 390,
+          "h": 506
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1894,
+          "w": 390,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "awarded.html",
+        "awarded_jp.html",
+        "awarded_th.html",
+        "awarded_cn.html"
+      ]
+    },
+    {
+      "file": "business.html",
+      "width": 390,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 667.765625
+        },
+        ".footer": {
+          "x": 0,
+          "y": 762.765625,
+          "w": 390,
+          "h": 506
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1268.765625,
+          "w": 390,
+          "h": 159
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "business.html",
+        "business_jp.html",
+        "business_th.html",
+        "business_cn.html"
+      ]
+    },
+    {
+      "file": "business_cn.html",
+      "width": 390,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 667.765625
+        },
+        ".footer": {
+          "x": 0,
+          "y": 762.765625,
+          "w": 390,
+          "h": 506
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1268.765625,
+          "w": 390,
+          "h": 105
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "business.html",
+        "business_jp.html",
+        "business_th.html",
+        "business_cn.html"
+      ]
+    },
+    {
+      "file": "business_en.html",
+      "width": 390,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 667.765625
+        },
+        ".footer": {
+          "x": 0,
+          "y": 762.765625,
+          "w": 390,
+          "h": 506
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1268.765625,
+          "w": 390,
+          "h": 159
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "business.html",
+        "business_jp.html",
+        "business_th.html",
+        "business_cn.html"
+      ]
+    },
+    {
+      "file": "business_jp.html",
+      "width": 390,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 667.765625
+        },
+        ".footer": {
+          "x": 0,
+          "y": 762.765625,
+          "w": 390,
+          "h": 506
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1268.765625,
+          "w": 390,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "business.html",
+        "business_jp.html",
+        "business_th.html",
+        "business_cn.html"
+      ]
+    },
+    {
+      "file": "business_th.html",
+      "width": 390,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 667.765625
+        },
+        ".footer": {
+          "x": 0,
+          "y": 762.765625,
+          "w": 390,
+          "h": 506
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1268.765625,
+          "w": 390,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "business.html",
+        "business_jp.html",
+        "business_th.html",
+        "business_cn.html"
+      ]
+    },
+    {
+      "file": "career.html",
+      "width": 390,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 611.71875
+        },
+        ".div-career": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 611.71875
+        },
+        ".footer": {
+          "x": 0,
+          "y": 706.71875,
+          "w": 390,
+          "h": 506
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1212.71875,
+          "w": 390,
+          "h": 159
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "career.html",
+        "career_jp.html",
+        "career_th.html",
+        "career_cn.html"
+      ]
+    },
+    {
+      "file": "career_cn.html",
+      "width": 390,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 611.71875
+        },
+        ".div-career": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 611.71875
+        },
+        ".footer": {
+          "x": 0,
+          "y": 706.71875,
+          "w": 390,
+          "h": 506
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1212.71875,
+          "w": 390,
+          "h": 105
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "career.html",
+        "career_jp.html",
+        "career_th.html",
+        "career_cn.html"
+      ]
+    },
+    {
+      "file": "career_jp.html",
+      "width": 390,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 611.71875
+        },
+        ".div-career": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 611.71875
+        },
+        ".footer": {
+          "x": 0,
+          "y": 706.71875,
+          "w": 390,
+          "h": 506
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1212.71875,
+          "w": 390,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "career.html",
+        "career_jp.html",
+        "career_th.html",
+        "career_cn.html"
+      ]
+    },
+    {
+      "file": "career_th.html",
+      "width": 390,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 611.71875
+        },
+        ".div-career": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 611.71875
+        },
+        ".footer": {
+          "x": 0,
+          "y": 706.71875,
+          "w": 390,
+          "h": 506
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1212.71875,
+          "w": 390,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "career.html",
+        "career_jp.html",
+        "career_th.html",
+        "career_cn.html"
+      ]
+    },
+    {
+      "file": "company.html",
+      "width": 390,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 1503.65625
+        },
+        ".div-company1": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 340.65625
+        },
+        ".div-company2": {
+          "x": 0,
+          "y": 435.65625,
+          "w": 390,
+          "h": 158
+        },
+        ".div-company3": {
+          "x": 0,
+          "y": 593.65625,
+          "w": 390,
+          "h": 693
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1598.65625,
+          "w": 390,
+          "h": 585
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2183.65625,
+          "w": 390,
+          "h": 159
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "company.html",
+        "company_jp.html",
+        "company_th.html",
+        "company_cn.html"
+      ]
+    },
+    {
+      "file": "company_cn.html",
+      "width": 390,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 1324.65625
+        },
+        ".div-company1": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 340.65625
+        },
+        ".div-company2": {
+          "x": 0,
+          "y": 435.65625,
+          "w": 390,
+          "h": 158
+        },
+        ".div-company3": {
+          "x": 0,
+          "y": 593.65625,
+          "w": 390,
+          "h": 514
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1419.65625,
+          "w": 390,
+          "h": 501
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1920.65625,
+          "w": 390,
+          "h": 105
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "company.html",
+        "company_jp.html",
+        "company_th.html",
+        "company_cn.html"
+      ]
+    },
+    {
+      "file": "company_jp.html",
+      "width": 390,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 1345.65625
+        },
+        ".div-company1": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 340.65625
+        },
+        ".div-company2": {
+          "x": 0,
+          "y": 435.65625,
+          "w": 390,
+          "h": 158
+        },
+        ".div-company3": {
+          "x": 0,
+          "y": 593.65625,
+          "w": 390,
+          "h": 535
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1440.65625,
+          "w": 390,
+          "h": 506
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1946.65625,
+          "w": 390,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "company.html",
+        "company_jp.html",
+        "company_th.html",
+        "company_cn.html"
+      ]
+    },
+    {
+      "file": "company_th.html",
+      "width": 390,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 1503.65625
+        },
+        ".div-company1": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 340.65625
+        },
+        ".div-company2": {
+          "x": 0,
+          "y": 435.65625,
+          "w": 390,
+          "h": 158
+        },
+        ".div-company3": {
+          "x": 0,
+          "y": 593.65625,
+          "w": 390,
+          "h": 693
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1598.65625,
+          "w": 390,
+          "h": 506
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2104.65625,
+          "w": 390,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "company.html",
+        "company_jp.html",
+        "company_th.html",
+        "company_cn.html"
+      ]
+    },
+    {
+      "file": "contactus.html",
+      "width": 390,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 1388
+        },
+        ".div-contactus1": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 305
+        },
+        ".div-contactus2": {
+          "x": 0,
+          "y": 400,
+          "w": 390,
+          "h": 585
+        },
+        ".div-contactus3": {
+          "x": 0,
+          "y": 985,
+          "w": 390,
+          "h": 498
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1483,
+          "w": 390,
+          "h": 506
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1989,
+          "w": 390,
+          "h": 159
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "contactus.html",
+        "contactus_jp.html",
+        "contactus_th.html",
+        "contactus_cn.html"
+      ]
+    },
+    {
+      "file": "contactus_cn.html",
+      "width": 390,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 1388
+        },
+        ".div-contactus1": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 305
+        },
+        ".div-contactus2": {
+          "x": 0,
+          "y": 400,
+          "w": 390,
+          "h": 585
+        },
+        ".div-contactus3": {
+          "x": 0,
+          "y": 985,
+          "w": 390,
+          "h": 498
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1483,
+          "w": 390,
+          "h": 506
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1989,
+          "w": 390,
+          "h": 105
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "contactus.html",
+        "contactus_jp.html",
+        "contactus_th.html",
+        "contactus_cn.html"
+      ]
+    },
+    {
+      "file": "contactus_jp.html",
+      "width": 390,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 1388
+        },
+        ".div-contactus1": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 305
+        },
+        ".div-contactus2": {
+          "x": 0,
+          "y": 400,
+          "w": 390,
+          "h": 585
+        },
+        ".div-contactus3": {
+          "x": 0,
+          "y": 985,
+          "w": 390,
+          "h": 498
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1483,
+          "w": 390,
+          "h": 485
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1968,
+          "w": 390,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "contactus.html",
+        "contactus_jp.html",
+        "contactus_th.html",
+        "contactus_cn.html"
+      ]
+    },
+    {
+      "file": "contactus_th.html",
+      "width": 390,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 1388
+        },
+        ".div-contactus1": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 305
+        },
+        ".div-contactus2": {
+          "x": 0,
+          "y": 400,
+          "w": 390,
+          "h": 585
+        },
+        ".div-contactus3": {
+          "x": 0,
+          "y": 985,
+          "w": 390,
+          "h": 498
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1483,
+          "w": 390,
+          "h": 506
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1989,
+          "w": 390,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "contactus.html",
+        "contactus_jp.html",
+        "contactus_th.html",
+        "contactus_cn.html"
+      ]
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 1307.15625
+        },
+        ".div-index1": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 105.703125
+        },
+        ".div-index2": {
+          "x": 0,
+          "y": 200.703125,
+          "w": 390,
+          "h": 292
+        },
+        ".div-index3-1": {
+          "x": 0,
+          "y": 497.703125,
+          "w": 390,
+          "h": 96.84375
+        },
+        ".div-index4": {
+          "x": 0,
+          "y": 715.765625,
+          "w": 390,
+          "h": 381.390625
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1402.15625,
+          "w": 390,
+          "h": 506
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1908.15625,
+          "w": 390,
+          "h": 159
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "index.html",
+        "index_jp.html",
+        "index_th.html",
+        "index_cn.html"
+      ]
+    },
+    {
+      "file": "index_cn.html",
+      "width": 390,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 1307.15625
+        },
+        ".div-index1": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 105.703125
+        },
+        ".div-index2": {
+          "x": 0,
+          "y": 200.703125,
+          "w": 390,
+          "h": 292
+        },
+        ".div-index3-1": {
+          "x": 0,
+          "y": 497.703125,
+          "w": 390,
+          "h": 96.84375
+        },
+        ".div-index4": {
+          "x": 0,
+          "y": 715.765625,
+          "w": 390,
+          "h": 381.390625
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1402.15625,
+          "w": 390,
+          "h": 506
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1908.15625,
+          "w": 390,
+          "h": 105
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "index.html",
+        "index_jp.html",
+        "index_th.html",
+        "index_cn.html"
+      ]
+    },
+    {
+      "file": "index_jp.html",
+      "width": 390,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 1307.15625
+        },
+        ".div-index1": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 105.703125
+        },
+        ".div-index2": {
+          "x": 0,
+          "y": 200.703125,
+          "w": 390,
+          "h": 292
+        },
+        ".div-index3-1": {
+          "x": 0,
+          "y": 497.703125,
+          "w": 390,
+          "h": 96.84375
+        },
+        ".div-index4": {
+          "x": 0,
+          "y": 715.765625,
+          "w": 390,
+          "h": 381.390625
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1402.15625,
+          "w": 390,
+          "h": 464
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1866.15625,
+          "w": 390,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "index.html",
+        "index_jp.html",
+        "index_th.html",
+        "index_cn.html"
+      ]
+    },
+    {
+      "file": "index_th.html",
+      "width": 390,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 1307.15625
+        },
+        ".div-index1": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 105.703125
+        },
+        ".div-index2": {
+          "x": 0,
+          "y": 200.703125,
+          "w": 390,
+          "h": 292
+        },
+        ".div-index3-1": {
+          "x": 0,
+          "y": 497.703125,
+          "w": 390,
+          "h": 96.84375
+        },
+        ".div-index4": {
+          "x": 0,
+          "y": 715.765625,
+          "w": 390,
+          "h": 381.390625
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1402.15625,
+          "w": 390,
+          "h": 485
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1887.15625,
+          "w": 390,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "index.html",
+        "index_jp.html",
+        "index_th.html",
+        "index_cn.html"
+      ]
+    },
+    {
+      "file": "management.html",
+      "width": 390,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 361.640625
+        },
+        ".div-management2": {
+          "x": 0,
+          "y": 268,
+          "w": 390,
+          "h": 188.640625
+        },
+        ".footer": {
+          "x": 0,
+          "y": 456.640625,
+          "w": 390,
+          "h": 506
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 962.640625,
+          "w": 390,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "management_en.html",
+        "management_jp.html",
+        "management.html",
+        "management_cn.html"
+      ]
+    },
+    {
+      "file": "management_cn.html",
+      "width": 390,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 361.640625
+        },
+        ".div-management2": {
+          "x": 0,
+          "y": 268,
+          "w": 390,
+          "h": 188.640625
+        },
+        ".footer": {
+          "x": 0,
+          "y": 456.640625,
+          "w": 390,
+          "h": 506
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 962.640625,
+          "w": 390,
+          "h": 105
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "management_en.html",
+        "management_jp.html",
+        "management.html",
+        "management_cn.html"
+      ]
+    },
+    {
+      "file": "management_en.html",
+      "width": 390,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 361.640625
+        },
+        ".div-management2": {
+          "x": 0,
+          "y": 268,
+          "w": 390,
+          "h": 188.640625
+        },
+        ".footer": {
+          "x": 0,
+          "y": 456.640625,
+          "w": 390,
+          "h": 506
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 962.640625,
+          "w": 390,
+          "h": 159
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "management_en.html",
+        "management_jp.html",
+        "management.html",
+        "management_cn.html"
+      ]
+    },
+    {
+      "file": "management_jp.html",
+      "width": 390,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 390,
+          "h": 361.640625
+        },
+        ".div-management2": {
+          "x": 0,
+          "y": 268,
+          "w": 390,
+          "h": 188.640625
+        },
+        ".footer": {
+          "x": 0,
+          "y": 456.640625,
+          "w": 390,
+          "h": 506
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 962.640625,
+          "w": 390,
+          "h": 132
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "management_en.html",
+        "management_jp.html",
+        "management.html",
+        "management_cn.html"
+      ]
+    },
+    {
+      "file": "awarded.html",
+      "width": 768,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 744
+        },
+        ".div-awarded": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 744
+        },
+        ".div-awarded-d": {
+          "x": 5,
+          "y": 164,
+          "w": 758,
+          "h": 675
+        },
+        ".footer": {
+          "x": 0,
+          "y": 839,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1261,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "awarded.html",
+        "awarded_jp.html",
+        "awarded_th.html",
+        "awarded_cn.html"
+      ]
+    },
+    {
+      "file": "awarded_cn.html",
+      "width": 768,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 744
+        },
+        ".div-awarded": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 744
+        },
+        ".div-awarded-d": {
+          "x": 5,
+          "y": 164,
+          "w": 758,
+          "h": 675
+        },
+        ".footer": {
+          "x": 0,
+          "y": 839,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1261,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "awarded.html",
+        "awarded_jp.html",
+        "awarded_th.html",
+        "awarded_cn.html"
+      ]
+    },
+    {
+      "file": "awarded_jp.html",
+      "width": 768,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 744
+        },
+        ".div-awarded": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 744
+        },
+        ".div-awarded-d": {
+          "x": 5,
+          "y": 164,
+          "w": 758,
+          "h": 675
+        },
+        ".footer": {
+          "x": 0,
+          "y": 839,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1261,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "awarded.html",
+        "awarded_jp.html",
+        "awarded_th.html",
+        "awarded_cn.html"
+      ]
+    },
+    {
+      "file": "awarded_th.html",
+      "width": 768,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 744
+        },
+        ".div-awarded": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 744
+        },
+        ".div-awarded-d": {
+          "x": 5,
+          "y": 164,
+          "w": 758,
+          "h": 675
+        },
+        ".footer": {
+          "x": 0,
+          "y": 839,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1261,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "awarded.html",
+        "awarded_jp.html",
+        "awarded_th.html",
+        "awarded_cn.html"
+      ]
+    },
+    {
+      "file": "business.html",
+      "width": 768,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 1332.03125
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1427.03125,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1849.03125,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "business.html",
+        "business_jp.html",
+        "business_th.html",
+        "business_cn.html"
+      ]
+    },
+    {
+      "file": "business_cn.html",
+      "width": 768,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 1332.03125
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1427.03125,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1849.03125,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "business.html",
+        "business_jp.html",
+        "business_th.html",
+        "business_cn.html"
+      ]
+    },
+    {
+      "file": "business_en.html",
+      "width": 768,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 1332.03125
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1427.03125,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1849.03125,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "business.html",
+        "business_jp.html",
+        "business_th.html",
+        "business_cn.html"
+      ]
+    },
+    {
+      "file": "business_jp.html",
+      "width": 768,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 1332.03125
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1427.03125,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1849.03125,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "business.html",
+        "business_jp.html",
+        "business_th.html",
+        "business_cn.html"
+      ]
+    },
+    {
+      "file": "business_th.html",
+      "width": 768,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 1332.03125
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1427.03125,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1849.03125,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "business.html",
+        "business_jp.html",
+        "business_th.html",
+        "business_cn.html"
+      ]
+    },
+    {
+      "file": "career.html",
+      "width": 768,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 1156.546875
+        },
+        ".div-career": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 1156.546875
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1251.546875,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1673.546875,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "career.html",
+        "career_jp.html",
+        "career_th.html",
+        "career_cn.html"
+      ]
+    },
+    {
+      "file": "career_cn.html",
+      "width": 768,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 1156.546875
+        },
+        ".div-career": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 1156.546875
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1251.546875,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1673.546875,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "career.html",
+        "career_jp.html",
+        "career_th.html",
+        "career_cn.html"
+      ]
+    },
+    {
+      "file": "career_jp.html",
+      "width": 768,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 1156.546875
+        },
+        ".div-career": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 1156.546875
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1251.546875,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1673.546875,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "career.html",
+        "career_jp.html",
+        "career_th.html",
+        "career_cn.html"
+      ]
+    },
+    {
+      "file": "career_th.html",
+      "width": 768,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 1156.546875
+        },
+        ".div-career": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 1156.546875
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1251.546875,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1673.546875,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "career.html",
+        "career_jp.html",
+        "career_th.html",
+        "career_cn.html"
+      ]
+    },
+    {
+      "file": "company.html",
+      "width": 768,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 1455
+        },
+        ".div-company1": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 591
+        },
+        ".div-company2": {
+          "x": 0,
+          "y": 686,
+          "w": 768,
+          "h": 115
+        },
+        ".div-company3": {
+          "x": 0,
+          "y": 801,
+          "w": 768,
+          "h": 514
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1550,
+          "w": 768,
+          "h": 501
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2051,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "company.html",
+        "company_jp.html",
+        "company_th.html",
+        "company_cn.html"
+      ]
+    },
+    {
+      "file": "company_cn.html",
+      "width": 768,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 1455
+        },
+        ".div-company1": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 591
+        },
+        ".div-company2": {
+          "x": 0,
+          "y": 686,
+          "w": 768,
+          "h": 115
+        },
+        ".div-company3": {
+          "x": 0,
+          "y": 801,
+          "w": 768,
+          "h": 514
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1550,
+          "w": 768,
+          "h": 501
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2051,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "company.html",
+        "company_jp.html",
+        "company_th.html",
+        "company_cn.html"
+      ]
+    },
+    {
+      "file": "company_jp.html",
+      "width": 768,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 1455
+        },
+        ".div-company1": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 591
+        },
+        ".div-company2": {
+          "x": 0,
+          "y": 686,
+          "w": 768,
+          "h": 115
+        },
+        ".div-company3": {
+          "x": 0,
+          "y": 801,
+          "w": 768,
+          "h": 514
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1550,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1972,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "company.html",
+        "company_jp.html",
+        "company_th.html",
+        "company_cn.html"
+      ]
+    },
+    {
+      "file": "company_th.html",
+      "width": 768,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 1455
+        },
+        ".div-company1": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 591
+        },
+        ".div-company2": {
+          "x": 0,
+          "y": 686,
+          "w": 768,
+          "h": 115
+        },
+        ".div-company3": {
+          "x": 0,
+          "y": 801,
+          "w": 768,
+          "h": 514
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1550,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1972,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "company.html",
+        "company_jp.html",
+        "company_th.html",
+        "company_cn.html"
+      ]
+    },
+    {
+      "file": "contactus.html",
+      "width": 768,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 1388
+        },
+        ".div-contactus1": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 305
+        },
+        ".div-contactus2": {
+          "x": 0,
+          "y": 400,
+          "w": 768,
+          "h": 585
+        },
+        ".div-contactus3": {
+          "x": 0,
+          "y": 985,
+          "w": 768,
+          "h": 498
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1483,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1905,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "contactus.html",
+        "contactus_jp.html",
+        "contactus_th.html",
+        "contactus_cn.html"
+      ]
+    },
+    {
+      "file": "contactus_cn.html",
+      "width": 768,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 1388
+        },
+        ".div-contactus1": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 305
+        },
+        ".div-contactus2": {
+          "x": 0,
+          "y": 400,
+          "w": 768,
+          "h": 585
+        },
+        ".div-contactus3": {
+          "x": 0,
+          "y": 985,
+          "w": 768,
+          "h": 498
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1483,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1905,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "contactus.html",
+        "contactus_jp.html",
+        "contactus_th.html",
+        "contactus_cn.html"
+      ]
+    },
+    {
+      "file": "contactus_jp.html",
+      "width": 768,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 1388
+        },
+        ".div-contactus1": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 305
+        },
+        ".div-contactus2": {
+          "x": 0,
+          "y": 400,
+          "w": 768,
+          "h": 585
+        },
+        ".div-contactus3": {
+          "x": 0,
+          "y": 985,
+          "w": 768,
+          "h": 498
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1483,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1905,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "contactus.html",
+        "contactus_jp.html",
+        "contactus_th.html",
+        "contactus_cn.html"
+      ]
+    },
+    {
+      "file": "contactus_th.html",
+      "width": 768,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 1388
+        },
+        ".div-contactus1": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 305
+        },
+        ".div-contactus2": {
+          "x": 0,
+          "y": 400,
+          "w": 768,
+          "h": 585
+        },
+        ".div-contactus3": {
+          "x": 0,
+          "y": 985,
+          "w": 768,
+          "h": 498
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1483,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1905,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "contactus.html",
+        "contactus_jp.html",
+        "contactus_th.html",
+        "contactus_cn.html"
+      ]
+    },
+    {
+      "file": "index.html",
+      "width": 768,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 1544.765625
+        },
+        ".div-index1": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 208.15625
+        },
+        ".div-index2": {
+          "x": 0,
+          "y": 303.15625,
+          "w": 768,
+          "h": 216
+        },
+        ".div-index3-1": {
+          "x": 0,
+          "y": 524.15625,
+          "w": 768,
+          "h": 193.1875
+        },
+        ".div-index4": {
+          "x": 0,
+          "y": 959.15625,
+          "w": 768,
+          "h": 375.609375
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1639.765625,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2061.765625,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "index.html",
+        "index_jp.html",
+        "index_th.html",
+        "index_cn.html"
+      ]
+    },
+    {
+      "file": "index_cn.html",
+      "width": 768,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 1544.765625
+        },
+        ".div-index1": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 208.15625
+        },
+        ".div-index2": {
+          "x": 0,
+          "y": 303.15625,
+          "w": 768,
+          "h": 216
+        },
+        ".div-index3-1": {
+          "x": 0,
+          "y": 524.15625,
+          "w": 768,
+          "h": 193.1875
+        },
+        ".div-index4": {
+          "x": 0,
+          "y": 959.15625,
+          "w": 768,
+          "h": 375.609375
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1639.765625,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2061.765625,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "index.html",
+        "index_jp.html",
+        "index_th.html",
+        "index_cn.html"
+      ]
+    },
+    {
+      "file": "index_jp.html",
+      "width": 768,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 1544.765625
+        },
+        ".div-index1": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 208.15625
+        },
+        ".div-index2": {
+          "x": 0,
+          "y": 303.15625,
+          "w": 768,
+          "h": 216
+        },
+        ".div-index3-1": {
+          "x": 0,
+          "y": 524.15625,
+          "w": 768,
+          "h": 193.1875
+        },
+        ".div-index4": {
+          "x": 0,
+          "y": 959.15625,
+          "w": 768,
+          "h": 375.609375
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1639.765625,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2061.765625,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "index.html",
+        "index_jp.html",
+        "index_th.html",
+        "index_cn.html"
+      ]
+    },
+    {
+      "file": "index_th.html",
+      "width": 768,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 1544.765625
+        },
+        ".div-index1": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 208.15625
+        },
+        ".div-index2": {
+          "x": 0,
+          "y": 303.15625,
+          "w": 768,
+          "h": 216
+        },
+        ".div-index3-1": {
+          "x": 0,
+          "y": 524.15625,
+          "w": 768,
+          "h": 193.1875
+        },
+        ".div-index4": {
+          "x": 0,
+          "y": 959.15625,
+          "w": 768,
+          "h": 375.609375
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1639.765625,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2061.765625,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "index.html",
+        "index_jp.html",
+        "index_th.html",
+        "index_cn.html"
+      ]
+    },
+    {
+      "file": "management.html",
+      "width": 768,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 521
+        },
+        ".div-management2": {
+          "x": 0,
+          "y": 246,
+          "w": 768,
+          "h": 370
+        },
+        ".footer": {
+          "x": 0,
+          "y": 616,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1038,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "management_en.html",
+        "management_jp.html",
+        "management.html",
+        "management_cn.html"
+      ]
+    },
+    {
+      "file": "management_cn.html",
+      "width": 768,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 521
+        },
+        ".div-management2": {
+          "x": 0,
+          "y": 246,
+          "w": 768,
+          "h": 370
+        },
+        ".footer": {
+          "x": 0,
+          "y": 616,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1038,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "management_en.html",
+        "management_jp.html",
+        "management.html",
+        "management_cn.html"
+      ]
+    },
+    {
+      "file": "management_en.html",
+      "width": 768,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 521
+        },
+        ".div-management2": {
+          "x": 0,
+          "y": 246,
+          "w": 768,
+          "h": 370
+        },
+        ".footer": {
+          "x": 0,
+          "y": 616,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1038,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "management_en.html",
+        "management_jp.html",
+        "management.html",
+        "management_cn.html"
+      ]
+    },
+    {
+      "file": "management_jp.html",
+      "width": 768,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 105
+        },
+        ".content": {
+          "x": 0,
+          "y": 95,
+          "w": 768,
+          "h": 521
+        },
+        ".div-management2": {
+          "x": 0,
+          "y": 246,
+          "w": 768,
+          "h": 370
+        },
+        ".footer": {
+          "x": 0,
+          "y": 616,
+          "w": 768,
+          "h": 422
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1038,
+          "w": 768,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "management_en.html",
+        "management_jp.html",
+        "management.html",
+        "management_cn.html"
+      ]
+    },
+    {
+      "file": "awarded.html",
+      "width": 1024,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 529
+        },
+        ".div-awarded": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 529
+        },
+        ".div-awarded-d": {
+          "x": 52,
+          "y": 134,
+          "w": 920,
+          "h": 460
+        },
+        ".footer": {
+          "x": 0,
+          "y": 594,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 892,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "awarded.html",
+        "awarded_jp.html",
+        "awarded_th.html",
+        "awarded_cn.html"
+      ]
+    },
+    {
+      "file": "awarded_cn.html",
+      "width": 1024,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 529
+        },
+        ".div-awarded": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 529
+        },
+        ".div-awarded-d": {
+          "x": 52,
+          "y": 134,
+          "w": 920,
+          "h": 460
+        },
+        ".footer": {
+          "x": 0,
+          "y": 594,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 892,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "awarded.html",
+        "awarded_jp.html",
+        "awarded_th.html",
+        "awarded_cn.html"
+      ]
+    },
+    {
+      "file": "awarded_jp.html",
+      "width": 1024,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 529
+        },
+        ".div-awarded": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 529
+        },
+        ".div-awarded-d": {
+          "x": 52,
+          "y": 134,
+          "w": 920,
+          "h": 460
+        },
+        ".footer": {
+          "x": 0,
+          "y": 594,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 892,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "awarded.html",
+        "awarded_jp.html",
+        "awarded_th.html",
+        "awarded_cn.html"
+      ]
+    },
+    {
+      "file": "awarded_th.html",
+      "width": 1024,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 529
+        },
+        ".div-awarded": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 529
+        },
+        ".div-awarded-d": {
+          "x": 52,
+          "y": 134,
+          "w": 920,
+          "h": 460
+        },
+        ".footer": {
+          "x": 0,
+          "y": 594,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 892,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "awarded.html",
+        "awarded_jp.html",
+        "awarded_th.html",
+        "awarded_cn.html"
+      ]
+    },
+    {
+      "file": "business.html",
+      "width": 1024,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 1781.90625
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1846.90625,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2144.90625,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "business.html",
+        "business_jp.html",
+        "business_th.html",
+        "business_cn.html"
+      ]
+    },
+    {
+      "file": "business_cn.html",
+      "width": 1024,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 1781.90625
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1846.90625,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2144.90625,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "business.html",
+        "business_jp.html",
+        "business_th.html",
+        "business_cn.html"
+      ]
+    },
+    {
+      "file": "business_en.html",
+      "width": 1024,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 1781.90625
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1846.90625,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2144.90625,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "business.html",
+        "business_jp.html",
+        "business_th.html",
+        "business_cn.html"
+      ]
+    },
+    {
+      "file": "business_jp.html",
+      "width": 1024,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 1781.90625
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1846.90625,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2144.90625,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "business.html",
+        "business_jp.html",
+        "business_th.html",
+        "business_cn.html"
+      ]
+    },
+    {
+      "file": "business_th.html",
+      "width": 1024,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 1781.90625
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1846.90625,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2144.90625,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "business.html",
+        "business_jp.html",
+        "business_th.html",
+        "business_cn.html"
+      ]
+    },
+    {
+      "file": "career.html",
+      "width": 1024,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 1158
+        },
+        ".div-career": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 1158
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1223,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1521,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "career.html",
+        "career_jp.html",
+        "career_th.html",
+        "career_cn.html"
+      ]
+    },
+    {
+      "file": "career_cn.html",
+      "width": 1024,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 1158
+        },
+        ".div-career": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 1158
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1223,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1521,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "career.html",
+        "career_jp.html",
+        "career_th.html",
+        "career_cn.html"
+      ]
+    },
+    {
+      "file": "career_jp.html",
+      "width": 1024,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 1158
+        },
+        ".div-career": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 1158
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1223,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1521,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "career.html",
+        "career_jp.html",
+        "career_th.html",
+        "career_cn.html"
+      ]
+    },
+    {
+      "file": "career_th.html",
+      "width": 1024,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 1158
+        },
+        ".div-career": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 1158
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1223,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1521,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "career.html",
+        "career_jp.html",
+        "career_th.html",
+        "career_cn.html"
+      ]
+    },
+    {
+      "file": "company.html",
+      "width": 1024,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 1271.390625
+        },
+        ".div-company1": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 370.390625
+        },
+        ".div-company2": {
+          "x": 0,
+          "y": 435.390625,
+          "w": 1024,
+          "h": 95
+        },
+        ".div-company3": {
+          "x": 0,
+          "y": 530.390625,
+          "w": 1024,
+          "h": 571
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1336.390625,
+          "w": 1024,
+          "h": 377
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1713.390625,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "company.html",
+        "company_jp.html",
+        "company_th.html",
+        "company_cn.html"
+      ]
+    },
+    {
+      "file": "company_cn.html",
+      "width": 1024,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 1214.390625
+        },
+        ".div-company1": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 370.390625
+        },
+        ".div-company2": {
+          "x": 0,
+          "y": 435.390625,
+          "w": 1024,
+          "h": 95
+        },
+        ".div-company3": {
+          "x": 0,
+          "y": 530.390625,
+          "w": 1024,
+          "h": 514
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1279.390625,
+          "w": 1024,
+          "h": 377
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1656.390625,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "company.html",
+        "company_jp.html",
+        "company_th.html",
+        "company_cn.html"
+      ]
+    },
+    {
+      "file": "company_jp.html",
+      "width": 1024,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 1214.390625
+        },
+        ".div-company1": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 370.390625
+        },
+        ".div-company2": {
+          "x": 0,
+          "y": 435.390625,
+          "w": 1024,
+          "h": 95
+        },
+        ".div-company3": {
+          "x": 0,
+          "y": 530.390625,
+          "w": 1024,
+          "h": 514
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1279.390625,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1577.390625,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "company.html",
+        "company_jp.html",
+        "company_th.html",
+        "company_cn.html"
+      ]
+    },
+    {
+      "file": "company_th.html",
+      "width": 1024,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 1271.390625
+        },
+        ".div-company1": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 370.390625
+        },
+        ".div-company2": {
+          "x": 0,
+          "y": 435.390625,
+          "w": 1024,
+          "h": 95
+        },
+        ".div-company3": {
+          "x": 0,
+          "y": 530.390625,
+          "w": 1024,
+          "h": 571
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1336.390625,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1634.390625,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "company.html",
+        "company_jp.html",
+        "company_th.html",
+        "company_cn.html"
+      ]
+    },
+    {
+      "file": "contactus.html",
+      "width": 1024,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 947
+        },
+        ".div-contactus1": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 305
+        },
+        ".div-contactus2": {
+          "x": 0,
+          "y": 370,
+          "w": 1024,
+          "h": 274
+        },
+        ".div-contactus3": {
+          "x": 0,
+          "y": 644,
+          "w": 1024,
+          "h": 368
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1012,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1310,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "contactus.html",
+        "contactus_jp.html",
+        "contactus_th.html",
+        "contactus_cn.html"
+      ]
+    },
+    {
+      "file": "contactus_cn.html",
+      "width": 1024,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 947
+        },
+        ".div-contactus1": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 305
+        },
+        ".div-contactus2": {
+          "x": 0,
+          "y": 370,
+          "w": 1024,
+          "h": 274
+        },
+        ".div-contactus3": {
+          "x": 0,
+          "y": 644,
+          "w": 1024,
+          "h": 368
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1012,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1310,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "contactus.html",
+        "contactus_jp.html",
+        "contactus_th.html",
+        "contactus_cn.html"
+      ]
+    },
+    {
+      "file": "contactus_jp.html",
+      "width": 1024,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 947
+        },
+        ".div-contactus1": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 305
+        },
+        ".div-contactus2": {
+          "x": 0,
+          "y": 370,
+          "w": 1024,
+          "h": 274
+        },
+        ".div-contactus3": {
+          "x": 0,
+          "y": 644,
+          "w": 1024,
+          "h": 368
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1012,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1310,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "contactus.html",
+        "contactus_jp.html",
+        "contactus_th.html",
+        "contactus_cn.html"
+      ]
+    },
+    {
+      "file": "contactus_th.html",
+      "width": 1024,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 947
+        },
+        ".div-contactus1": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 305
+        },
+        ".div-contactus2": {
+          "x": 0,
+          "y": 370,
+          "w": 1024,
+          "h": 274
+        },
+        ".div-contactus3": {
+          "x": 0,
+          "y": 644,
+          "w": 1024,
+          "h": 368
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1012,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1310,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "contactus.html",
+        "contactus_jp.html",
+        "contactus_th.html",
+        "contactus_cn.html"
+      ]
+    },
+    {
+      "file": "index.html",
+      "width": 1024,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 1714.1875
+        },
+        ".div-index1": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 277.546875
+        },
+        ".div-index2": {
+          "x": 0,
+          "y": 342.546875,
+          "w": 1024,
+          "h": 128
+        },
+        ".div-index3-1": {
+          "x": 0,
+          "y": 475.546875,
+          "w": 1024,
+          "h": 258.4375
+        },
+        ".div-index4": {
+          "x": 0,
+          "y": 1057.46875,
+          "w": 1024,
+          "h": 416.71875
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1779.1875,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2077.1875,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "index.html",
+        "index_jp.html",
+        "index_th.html",
+        "index_cn.html"
+      ]
+    },
+    {
+      "file": "index_cn.html",
+      "width": 1024,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 1714.1875
+        },
+        ".div-index1": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 277.546875
+        },
+        ".div-index2": {
+          "x": 0,
+          "y": 342.546875,
+          "w": 1024,
+          "h": 128
+        },
+        ".div-index3-1": {
+          "x": 0,
+          "y": 475.546875,
+          "w": 1024,
+          "h": 258.4375
+        },
+        ".div-index4": {
+          "x": 0,
+          "y": 1057.46875,
+          "w": 1024,
+          "h": 416.71875
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1779.1875,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2077.1875,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "index.html",
+        "index_jp.html",
+        "index_th.html",
+        "index_cn.html"
+      ]
+    },
+    {
+      "file": "index_jp.html",
+      "width": 1024,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 1714.1875
+        },
+        ".div-index1": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 277.546875
+        },
+        ".div-index2": {
+          "x": 0,
+          "y": 342.546875,
+          "w": 1024,
+          "h": 128
+        },
+        ".div-index3-1": {
+          "x": 0,
+          "y": 475.546875,
+          "w": 1024,
+          "h": 258.4375
+        },
+        ".div-index4": {
+          "x": 0,
+          "y": 1057.46875,
+          "w": 1024,
+          "h": 416.71875
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1779.1875,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2077.1875,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "index.html",
+        "index_jp.html",
+        "index_th.html",
+        "index_cn.html"
+      ]
+    },
+    {
+      "file": "index_th.html",
+      "width": 1024,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 1714.1875
+        },
+        ".div-index1": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 277.546875
+        },
+        ".div-index2": {
+          "x": 0,
+          "y": 342.546875,
+          "w": 1024,
+          "h": 128
+        },
+        ".div-index3-1": {
+          "x": 0,
+          "y": 475.546875,
+          "w": 1024,
+          "h": 258.4375
+        },
+        ".div-index4": {
+          "x": 0,
+          "y": 1057.46875,
+          "w": 1024,
+          "h": 416.71875
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1779.1875,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2077.1875,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "index.html",
+        "index_jp.html",
+        "index_th.html",
+        "index_cn.html"
+      ]
+    },
+    {
+      "file": "management.html",
+      "width": 1024,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 521
+        },
+        ".div-management2": {
+          "x": 0,
+          "y": 216,
+          "w": 1024,
+          "h": 370
+        },
+        ".footer": {
+          "x": 0,
+          "y": 586,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 884,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "management_en.html",
+        "management_jp.html",
+        "management.html",
+        "management_cn.html"
+      ]
+    },
+    {
+      "file": "management_cn.html",
+      "width": 1024,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 521
+        },
+        ".div-management2": {
+          "x": 0,
+          "y": 216,
+          "w": 1024,
+          "h": 370
+        },
+        ".footer": {
+          "x": 0,
+          "y": 586,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 884,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "management_en.html",
+        "management_jp.html",
+        "management.html",
+        "management_cn.html"
+      ]
+    },
+    {
+      "file": "management_en.html",
+      "width": 1024,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 521
+        },
+        ".div-management2": {
+          "x": 0,
+          "y": 216,
+          "w": 1024,
+          "h": 370
+        },
+        ".footer": {
+          "x": 0,
+          "y": 586,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 884,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "management_en.html",
+        "management_jp.html",
+        "management.html",
+        "management_cn.html"
+      ]
+    },
+    {
+      "file": "management_jp.html",
+      "width": 1024,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1024,
+          "h": 521
+        },
+        ".div-management2": {
+          "x": 0,
+          "y": 216,
+          "w": 1024,
+          "h": 370
+        },
+        ".footer": {
+          "x": 0,
+          "y": 586,
+          "w": 1024,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 884,
+          "w": 1024,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "management_en.html",
+        "management_jp.html",
+        "management.html",
+        "management_cn.html"
+      ]
+    },
+    {
+      "file": "awarded.html",
+      "width": 1280,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 529
+        },
+        ".div-awarded": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 529
+        },
+        ".div-awarded-d": {
+          "x": 180,
+          "y": 134,
+          "w": 920,
+          "h": 460
+        },
+        ".footer": {
+          "x": 0,
+          "y": 594,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 892,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "awarded.html",
+        "awarded_jp.html",
+        "awarded_th.html",
+        "awarded_cn.html"
+      ]
+    },
+    {
+      "file": "awarded_cn.html",
+      "width": 1280,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 529
+        },
+        ".div-awarded": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 529
+        },
+        ".div-awarded-d": {
+          "x": 180,
+          "y": 134,
+          "w": 920,
+          "h": 460
+        },
+        ".footer": {
+          "x": 0,
+          "y": 594,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 892,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "awarded.html",
+        "awarded_jp.html",
+        "awarded_th.html",
+        "awarded_cn.html"
+      ]
+    },
+    {
+      "file": "awarded_jp.html",
+      "width": 1280,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 529
+        },
+        ".div-awarded": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 529
+        },
+        ".div-awarded-d": {
+          "x": 180,
+          "y": 134,
+          "w": 920,
+          "h": 460
+        },
+        ".footer": {
+          "x": 0,
+          "y": 594,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 892,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "awarded.html",
+        "awarded_jp.html",
+        "awarded_th.html",
+        "awarded_cn.html"
+      ]
+    },
+    {
+      "file": "awarded_th.html",
+      "width": 1280,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 529
+        },
+        ".div-awarded": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 529
+        },
+        ".div-awarded-d": {
+          "x": 180,
+          "y": 134,
+          "w": 920,
+          "h": 460
+        },
+        ".footer": {
+          "x": 0,
+          "y": 594,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 892,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "awarded.html",
+        "awarded_jp.html",
+        "awarded_th.html",
+        "awarded_cn.html"
+      ]
+    },
+    {
+      "file": "business.html",
+      "width": 1280,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 1799.484375
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1864.484375,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2162.484375,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "business.html",
+        "business_jp.html",
+        "business_th.html",
+        "business_cn.html"
+      ]
+    },
+    {
+      "file": "business_cn.html",
+      "width": 1280,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 1799.484375
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1864.484375,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2162.484375,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "business.html",
+        "business_jp.html",
+        "business_th.html",
+        "business_cn.html"
+      ]
+    },
+    {
+      "file": "business_en.html",
+      "width": 1280,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 1799.484375
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1864.484375,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2162.484375,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "business.html",
+        "business_jp.html",
+        "business_th.html",
+        "business_cn.html"
+      ]
+    },
+    {
+      "file": "business_jp.html",
+      "width": 1280,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 1799.484375
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1864.484375,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2162.484375,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "business.html",
+        "business_jp.html",
+        "business_th.html",
+        "business_cn.html"
+      ]
+    },
+    {
+      "file": "business_th.html",
+      "width": 1280,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 1799.484375
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1864.484375,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2162.484375,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "business.html",
+        "business_jp.html",
+        "business_th.html",
+        "business_cn.html"
+      ]
+    },
+    {
+      "file": "career.html",
+      "width": 1280,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 1158
+        },
+        ".div-career": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 1158
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1223,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1521,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "career.html",
+        "career_jp.html",
+        "career_th.html",
+        "career_cn.html"
+      ]
+    },
+    {
+      "file": "career_cn.html",
+      "width": 1280,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 1158
+        },
+        ".div-career": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 1158
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1223,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1521,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "career.html",
+        "career_jp.html",
+        "career_th.html",
+        "career_cn.html"
+      ]
+    },
+    {
+      "file": "career_jp.html",
+      "width": 1280,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 1158
+        },
+        ".div-career": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 1158
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1223,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1521,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "career.html",
+        "career_jp.html",
+        "career_th.html",
+        "career_cn.html"
+      ]
+    },
+    {
+      "file": "career_th.html",
+      "width": 1280,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 1158
+        },
+        ".div-career": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 1158
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1223,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1521,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "career.html",
+        "career_jp.html",
+        "career_th.html",
+        "career_cn.html"
+      ]
+    },
+    {
+      "file": "company.html",
+      "width": 1280,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 1041.390625
+        },
+        ".div-company1": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 370.390625
+        },
+        ".div-company2": {
+          "x": 0,
+          "y": 435.390625,
+          "w": 1280,
+          "h": 95
+        },
+        ".div-company3": {
+          "x": 0,
+          "y": 530.390625,
+          "w": 1280,
+          "h": 341
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1106.390625,
+          "w": 1280,
+          "h": 377
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1483.390625,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "company.html",
+        "company_jp.html",
+        "company_th.html",
+        "company_cn.html"
+      ]
+    },
+    {
+      "file": "company_cn.html",
+      "width": 1280,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 1013.390625
+        },
+        ".div-company1": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 370.390625
+        },
+        ".div-company2": {
+          "x": 0,
+          "y": 435.390625,
+          "w": 1280,
+          "h": 95
+        },
+        ".div-company3": {
+          "x": 0,
+          "y": 530.390625,
+          "w": 1280,
+          "h": 313
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1078.390625,
+          "w": 1280,
+          "h": 377
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1455.390625,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "company.html",
+        "company_jp.html",
+        "company_th.html",
+        "company_cn.html"
+      ]
+    },
+    {
+      "file": "company_jp.html",
+      "width": 1280,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 1013.390625
+        },
+        ".div-company1": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 370.390625
+        },
+        ".div-company2": {
+          "x": 0,
+          "y": 435.390625,
+          "w": 1280,
+          "h": 95
+        },
+        ".div-company3": {
+          "x": 0,
+          "y": 530.390625,
+          "w": 1280,
+          "h": 313
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1078.390625,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1376.390625,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "company.html",
+        "company_jp.html",
+        "company_th.html",
+        "company_cn.html"
+      ]
+    },
+    {
+      "file": "company_th.html",
+      "width": 1280,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 1041.390625
+        },
+        ".div-company1": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 370.390625
+        },
+        ".div-company2": {
+          "x": 0,
+          "y": 435.390625,
+          "w": 1280,
+          "h": 95
+        },
+        ".div-company3": {
+          "x": 0,
+          "y": 530.390625,
+          "w": 1280,
+          "h": 341
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1106.390625,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1404.390625,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "company.html",
+        "company_jp.html",
+        "company_th.html",
+        "company_cn.html"
+      ]
+    },
+    {
+      "file": "contactus.html",
+      "width": 1280,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 947
+        },
+        ".div-contactus1": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 305
+        },
+        ".div-contactus2": {
+          "x": 0,
+          "y": 370,
+          "w": 1280,
+          "h": 274
+        },
+        ".div-contactus3": {
+          "x": 0,
+          "y": 644,
+          "w": 1280,
+          "h": 368
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1012,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1310,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "contactus.html",
+        "contactus_jp.html",
+        "contactus_th.html",
+        "contactus_cn.html"
+      ]
+    },
+    {
+      "file": "contactus_cn.html",
+      "width": 1280,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 947
+        },
+        ".div-contactus1": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 305
+        },
+        ".div-contactus2": {
+          "x": 0,
+          "y": 370,
+          "w": 1280,
+          "h": 274
+        },
+        ".div-contactus3": {
+          "x": 0,
+          "y": 644,
+          "w": 1280,
+          "h": 368
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1012,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1310,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "contactus.html",
+        "contactus_jp.html",
+        "contactus_th.html",
+        "contactus_cn.html"
+      ]
+    },
+    {
+      "file": "contactus_jp.html",
+      "width": 1280,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 947
+        },
+        ".div-contactus1": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 305
+        },
+        ".div-contactus2": {
+          "x": 0,
+          "y": 370,
+          "w": 1280,
+          "h": 274
+        },
+        ".div-contactus3": {
+          "x": 0,
+          "y": 644,
+          "w": 1280,
+          "h": 368
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1012,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1310,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "contactus.html",
+        "contactus_jp.html",
+        "contactus_th.html",
+        "contactus_cn.html"
+      ]
+    },
+    {
+      "file": "contactus_th.html",
+      "width": 1280,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 947
+        },
+        ".div-contactus1": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 305
+        },
+        ".div-contactus2": {
+          "x": 0,
+          "y": 370,
+          "w": 1280,
+          "h": 274
+        },
+        ".div-contactus3": {
+          "x": 0,
+          "y": 644,
+          "w": 1280,
+          "h": 368
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1012,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 1310,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "contactus.html",
+        "contactus_jp.html",
+        "contactus_th.html",
+        "contactus_cn.html"
+      ]
+    },
+    {
+      "file": "index.html",
+      "width": 1280,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 1789.328125
+        },
+        ".div-index1": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 346.9375
+        },
+        ".div-index2": {
+          "x": 0,
+          "y": 411.9375,
+          "w": 1280,
+          "h": 128
+        },
+        ".div-index3-1": {
+          "x": 0,
+          "y": 544.9375,
+          "w": 1280,
+          "h": 261
+        },
+        ".div-index4": {
+          "x": 0,
+          "y": 1132.609375,
+          "w": 1280,
+          "h": 416.71875
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1854.328125,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2152.328125,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "index.html",
+        "index_jp.html",
+        "index_th.html",
+        "index_cn.html"
+      ]
+    },
+    {
+      "file": "index_cn.html",
+      "width": 1280,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 1789.328125
+        },
+        ".div-index1": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 346.9375
+        },
+        ".div-index2": {
+          "x": 0,
+          "y": 411.9375,
+          "w": 1280,
+          "h": 128
+        },
+        ".div-index3-1": {
+          "x": 0,
+          "y": 544.9375,
+          "w": 1280,
+          "h": 261
+        },
+        ".div-index4": {
+          "x": 0,
+          "y": 1132.609375,
+          "w": 1280,
+          "h": 416.71875
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1854.328125,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2152.328125,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "index.html",
+        "index_jp.html",
+        "index_th.html",
+        "index_cn.html"
+      ]
+    },
+    {
+      "file": "index_jp.html",
+      "width": 1280,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 1789.328125
+        },
+        ".div-index1": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 346.9375
+        },
+        ".div-index2": {
+          "x": 0,
+          "y": 411.9375,
+          "w": 1280,
+          "h": 128
+        },
+        ".div-index3-1": {
+          "x": 0,
+          "y": 544.9375,
+          "w": 1280,
+          "h": 261
+        },
+        ".div-index4": {
+          "x": 0,
+          "y": 1132.609375,
+          "w": 1280,
+          "h": 416.71875
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1854.328125,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2152.328125,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "index.html",
+        "index_jp.html",
+        "index_th.html",
+        "index_cn.html"
+      ]
+    },
+    {
+      "file": "index_th.html",
+      "width": 1280,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 1789.328125
+        },
+        ".div-index1": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 346.9375
+        },
+        ".div-index2": {
+          "x": 0,
+          "y": 411.9375,
+          "w": 1280,
+          "h": 128
+        },
+        ".div-index3-1": {
+          "x": 0,
+          "y": 544.9375,
+          "w": 1280,
+          "h": 261
+        },
+        ".div-index4": {
+          "x": 0,
+          "y": 1132.609375,
+          "w": 1280,
+          "h": 416.71875
+        },
+        ".footer": {
+          "x": 0,
+          "y": 1854.328125,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 2152.328125,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "index.html",
+        "index_jp.html",
+        "index_th.html",
+        "index_cn.html"
+      ]
+    },
+    {
+      "file": "management.html",
+      "width": 1280,
+      "language": "th",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 521
+        },
+        ".div-management2": {
+          "x": 0,
+          "y": 216,
+          "w": 1280,
+          "h": 370
+        },
+        ".footer": {
+          "x": 0,
+          "y": 586,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 884,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "หน้าแรก",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "management_en.html",
+        "management_jp.html",
+        "management.html",
+        "management_cn.html"
+      ]
+    },
+    {
+      "file": "management_cn.html",
+      "width": 1280,
+      "language": "zh-Hans",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 521
+        },
+        ".div-management2": {
+          "x": 0,
+          "y": 216,
+          "w": 1280,
+          "h": 370
+        },
+        ".footer": {
+          "x": 0,
+          "y": 586,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 884,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "首页",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "management_en.html",
+        "management_jp.html",
+        "management.html",
+        "management_cn.html"
+      ]
+    },
+    {
+      "file": "management_en.html",
+      "width": 1280,
+      "language": "en",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 521
+        },
+        ".div-management2": {
+          "x": 0,
+          "y": 216,
+          "w": 1280,
+          "h": 370
+        },
+        ".footer": {
+          "x": 0,
+          "y": 586,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 884,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "Home",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "management_en.html",
+        "management_jp.html",
+        "management.html",
+        "management_cn.html"
+      ]
+    },
+    {
+      "file": "management_jp.html",
+      "width": 1280,
+      "language": "ja",
+      "rects": {
+        ".header": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 75
+        },
+        ".content": {
+          "x": 0,
+          "y": 65,
+          "w": 1280,
+          "h": 521
+        },
+        ".div-management2": {
+          "x": 0,
+          "y": 216,
+          "w": 1280,
+          "h": 370
+        },
+        ".footer": {
+          "x": 0,
+          "y": 586,
+          "w": 1280,
+          "h": 298
+        },
+        ".footer2": {
+          "x": 0,
+          "y": 884,
+          "w": 1280,
+          "h": 106
+        }
+      },
+      "brokenImages": [],
+      "clipped": [],
+      "overflow": false,
+      "homeLabel": "ホーム",
+      "navCounts": [
+        7,
+        7,
+        7
+      ],
+      "languages": [
+        "management_en.html",
+        "management_jp.html",
+        "management.html",
+        "management_cn.html"
+      ]
+    }
+  ]
+}

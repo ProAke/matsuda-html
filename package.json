@@ -4,10 +4,13 @@
   "private": true,
   "description": "Original Matsuda static HTML from matsuda-html-02/matsuda-static on Google Drive",
   "type": "module",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "start": "node scripts/serve.mjs",
     "dev": "node scripts/serve.mjs",
-    "test": "node --test tests/*.test.mjs"
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "node scripts/check-layouts.mjs"
   }
 }

@@ -1,5 +1,7 @@
 # ซ่อมตำแหน่งหน้า Company ตามภาษาจีน
 
+> บันทึกการแก้ Company รอบแรก: รอบถัดมาได้รวมกฎจาก `company-layout.css` ไปใช้ร่วมทุกหน้าใน `site-layout.css` แล้ว ดู `ALL-PAGES-LAYOUT-TH.md` สำหรับสถานะล่าสุด
+
 ใช้ `https://matsuda-sangyothailand.com/company_cn.html` เป็น reference ตามที่ผู้ใช้ยืนยัน โดยไม่แก้ `company_cn.html` และไม่แก้ CSS ที่หน้าจีน/ส่วนอื่นใช้อยู่
 
 ## สาเหตุและการซ่อม

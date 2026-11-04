@@ -19,12 +19,13 @@ test('company translations use the Chinese reference section order and visible c
   }
 });
 
-test('desktop header adjustment is limited to EN/TH/JP Company pages', async () => {
-  for (const name of variants) assert.match(await read(name), /href="template\/styles\/company-layout\.css"/);
-  for (const name of ['company_cn.html', 'index.html', 'business.html']) {
+test('Company pages use the same responsive layout policy as all other sections', async () => {
+  for (const name of ['company_cn.html', ...variants, 'index.html', 'business.html']) {
+    assert.match(await read(name), /reference-repairs\.css/);
     assert.doesNotMatch(await read(name), /company-layout\.css/);
   }
-  const css = await read('template/styles/company-layout.css');
+  assert.match(await read('template/styles/reference-repairs.css'), /@import url\("site-layout\.css"\)/);
+  const css = await read('template/styles/site-layout.css');
   assert.match(css, /@media \(min-width: 1024px\)/);
   assert.match(css, /flex-wrap:wrap/);
   assert.doesNotMatch(css, /overflow(?:-x)?\s*:\s*hidden/);

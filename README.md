@@ -1,6 +1,6 @@
 # Matsuda Sangyo — Static HTML
 
-**อัปเดตล่าสุด:** ซ่อมหน้าเว็บเทียบกับเว็บอ้างอิงแล้ว ดู [บันทึกการซ่อมล่าสุด](docs/REFERENCE-REPAIRS-TH.md) ซึ่งแทนที่รายการปัญหาที่ยังไม่แก้ในบันทึกนำเข้าครั้งแรก
+**อัปเดตล่าสุด:** ไล่ซ่อม layout ครบ 7 หมวด 29 ไฟล์ ทุกภาษาแล้ว ดู [บันทึกการซ่อมทุกหน้า](docs/ALL-PAGES-LAYOUT-TH.md) และรายงาน `docs/all-pages-layout-checks.json` (145 กรณี + interaction/resize ครบทุกหน้า)
 
 เว็บไซต์ HTML/CSS/JavaScript แบบ static แทนแอป Nuxt เดิม ตามคำขอวันที่ 4 พฤศจิกายน 2026
 
@@ -27,6 +27,8 @@ npm start
 เปลี่ยนพอร์ตได้ด้วย `PORT=8080 npm start` (macOS/Linux)
 ทดสอบ: `npm test`
 
+Browser QA (optional): `npm run test:browser` ต้องติดตั้ง Playwright/Chromium แยกและเปิดเว็บก่อน ดูวิธีในเอกสารการซ่อมทุกหน้า
+
 สำหรับ production ให้อัปโหลดไฟล์เว็บไปยัง static hosting เช่น Apache, Nginx หรือ static file hosting ได้โดยตรง ใช้ `index.html` เป็นหน้าแรก ไม่ต้องใช้ Node server, Nuxt, Vue หรือ SPA fallback บน production
 
 ## โครงสร้าง
@@ -35,7 +37,8 @@ npm start
 - `template/styles/template.css` — CSS ต้นฉบับ
 - `images/`, `uploads/`, `fonts/` — ไฟล์ประกอบจาก Drive
 - `js/`, `module/`, `plugin/` — JavaScript ต้นฉบับ (โฟลเดอร์ `module/phpbe` มีเฉพาะไฟล์ JS ไม่ใช่ PHP backend)
-- `js/static-compat.js` — ตัวช่วยสำหรับ static hosting: ระยะ header และคำเตือนฟอร์มไม่มี backend
+- `js/static-compat.js` — ระยะ header ที่ติดตามฟอนต์/การ resize, เมนูมือถือ/แกลเลอรีแยกภาษา และคำเตือนฟอร์มไม่มี backend
+- `template/styles/site-layout.css` — กฎ responsive ร่วมทุกหน้า โหลดผ่าน `reference-repairs.css`
 - `scripts/serve.mjs` — development/preview static server แบบไม่มี dependencies
 - `tests/` — ตรวจ HTML, ไฟล์ประกอบ, hash assets และ HTTP server
 - `docs/source-manifest.json` — รายชื่อและ SHA-256 ของไฟล์ที่ connector ดาวน์โหลดก่อนปรับ compatibility
