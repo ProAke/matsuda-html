@@ -1,0 +1,806 @@
+{
+  "en": {
+    "source_file": "data/legacy/en.json",
+    "source_sha256": "eaf2da2faf0cc9b21ad0f6abbd9be4be0994716135e731cbc5bfddf1f53a130b",
+    "sections": {
+      "home": {
+        "introduction": {
+          "text": "For Prosperity And A Beautiful Earth MATSUDA IS OPERATING VARIOUS BUSINESSES RELATED TO PRECIOUS METALS. - PRECIOUS METAL SCRAP COLLECTION/RECOVERY - PRECIOUS METAL MATERIALS",
+          "images": [],
+          "links": [],
+          "headings": [
+            [
+              "2",
+              "For Prosperity And A Beautiful Earth"
+            ]
+          ]
+        },
+        "diagram": {
+          "text": "",
+          "images": [
+            "/legacy/images/line-index3-1.png",
+            "/legacy/images/img-index3-1_en.png",
+            "/legacy/images/img-index3-2.png"
+          ],
+          "links": [],
+          "headings": []
+        },
+        "businessTitle": {
+          "text": "PRECIOUS METALS RELATED BUSINESS",
+          "images": [],
+          "links": [],
+          "headings": []
+        },
+        "businessDescription": {
+          "text": "Matsuda Sangyo (Thailand) Co., ltd. contributes to the industries and the earth through an effective utilization of the earth resources. With our technology, all resources will be recycled and reused to prevent an un-necessary landfill.",
+          "images": [],
+          "links": [],
+          "headings": []
+        },
+        "map": {
+          "text": "",
+          "images": [],
+          "links": [],
+          "headings": []
+        }
+      },
+      "header": {
+        "nav": [
+          "Home",
+          "Company",
+          "Related Links",
+          "Our Business",
+          "Awards and Certifications",
+          "Quality &Environment System",
+          "Contact Us"
+        ]
+      },
+      "footer": {
+        "html": {
+          "text": "Matsuda Sangyo (Thailand) Co., Ltd. has an efficient logistics system for support requests from customers. We provide Harzadous and Non-harzadous waste and scrap transportation by GPS equiped 4 to 10 wheels closed cargo truck. Matsuda Sangyo (Thailand) Co.,Ltd. operating with an advanced precious metal refining technology and environmental friendly know-how. Matsuda Sangyo (Thailand) Co.,Ltd. Hi-Tech Industrial Estate 148 Moo 1 T.Banlen A.Banpa-in, Ayutthaya 13160, Thailand. Tel: (+66)35-729-001-5 Fax: (+66)35-729-007 E-mail : About Starting business with us : sale1@matsuda-sangyo.co.th About Career opportunity : recruit@matsuda-sangyo.co.th About General matters : msta-admin@matsuda-sangyo.com",
+          "images": [
+            "/legacy/images/bg-footer.png"
+          ],
+          "links": [
+            "mailto:sale1@matsuda-sangyo.co.th",
+            "mailto:recruit@matsuda-sangyo.co.th",
+            "mailto:msta-admin@matsuda-sangyo.com"
+          ],
+          "headings": []
+        }
+      },
+      "company": {
+        "html": {
+          "text": "Corporate Introduction COMPANY PROFILE COMPANY PROFILE Ayutthaya Head Office Shareholders : Matsuda Sangyo Co., Ltd. 100% Registered Capital : 240,000,000 Thai Baht Address : Hitech Industrial Estate 148 Moo 1, Banlen, Bangpa-in, Ayutthaya 13160 Tel. : 035-729-001-5 Fax : 035-729-007 Kind of Business : Collecting and Recycling scraps containing precious metals (Gold, Silver, Platinum, Palladium) and non-ferrous metals Chonburi Branch Address : Pinthong 3 Industrial Estate 219/20 Moo 6, T.Bo-Win, A.Sriracha, Chonburi 20230 Tel. : 033-047-026-8 Fax. : 033-047-029 Kind of Business : Recycling scraps containing precious metals (Gold, Silver,Platinum, Palladium) and non-ferrous metals",
+          "images": [
+            "/legacy/uploads/11903812.jpg",
+            "/legacy/uploads/companies/696_1691038676.jpg",
+            "/legacy/uploads/companies/300_1445940288.png"
+          ],
+          "links": [],
+          "headings": [
+            [
+              "1",
+              "Corporate Introduction"
+            ],
+            [
+              "2",
+              "COMPANY PROFILE"
+            ],
+            [
+              "3",
+              ""
+            ],
+            [
+              "2",
+              "COMPANY PROFILE"
+            ]
+          ]
+        }
+      },
+      "links": {
+        "html": {
+          "text": "Related Links Matsuda Sangyo Co., Ltd. Management Message Matsuda Sangyo (Thailand) Co., Ltd. is committed to responsible precious metal processing and recycling with advanced environmental technologies. Our operations focus on sustainability, safety, and continuous improvement in all aspects of metal refining and resource recovery. We maintain strict quality control standards and environmental compliance to ensure both product excellence and environmental protection for our communities and stakeholders.",
+          "images": [
+            "/legacy/images/bg-management2.png"
+          ],
+          "links": [
+            "http://www.matsuda-sangyo.co.jp/en/index.html"
+          ],
+          "headings": [
+            [
+              "1",
+              "Related Links"
+            ],
+            [
+              "2",
+              "Management Message"
+            ]
+          ]
+        }
+      },
+      "business": {
+        "html": {
+          "text": "Our Business Matsuda Sangyo (Thailand) Co., Ltd. provides efficient logistics solutions for precious metal processing and recycling. Our comprehensive business operations include: GPS-equipped transportation fleet (4-10 wheels closed cargo trucks) for safe, trackable delivery Advanced precious metal refining technology with environmental friendly know-how Green Industry certified operations at Ayutthaya Head Office and Chonburi Branch Carbon credit initiatives for sustainable business practices We serve customers throughout Thailand with reliable waste and scrap transportation services, supported by an efficient logistics system and experienced team dedicated to excellence in resource recovery.",
+          "images": [
+            "/legacy/images/img-business1_en.png"
+          ],
+          "links": [],
+          "headings": []
+        }
+      },
+      "awards": {
+        "html": {
+          "text": "Awards and Certifications Page 1 from 1 1",
+          "images": [
+            "/legacy/uploads/awards/tmp_762_1726739420.jpg",
+            "/legacy/uploads/awards/tmp_731_1726732837.jpg",
+            "/legacy/uploads/awards/tmp_943_1726732821.jpg",
+            "/legacy/uploads/awards/tmp_732_1720411251.jpg",
+            "/legacy/uploads/awards/tmp_553_1764835658.jpg",
+            "/legacy/uploads/awards/tmp_838_1726739031.png"
+          ],
+          "links": [
+            "/legacy/uploads/awards/762_1726739420.jpg",
+            "/legacy/uploads/awards/731_1726732837.jpg",
+            "/legacy/uploads/awards/943_1726732821.jpg",
+            "/legacy/uploads/awards/732_1720411251.jpg",
+            "/legacy/uploads/awards/553_1764835658.jpg",
+            "/legacy/uploads/awards/838_1726739031.png"
+          ],
+          "headings": [
+            [
+              "1",
+              "Awards and Certifications"
+            ]
+          ]
+        }
+      },
+      "environment": {
+        "html": {
+          "text": "Quality & Environment Policy",
+          "images": [
+            "/legacy/uploads/Untitled7.jpg"
+          ],
+          "links": [],
+          "headings": [
+            [
+              "1",
+              "Quality & Environment Policy"
+            ]
+          ]
+        }
+      },
+      "contact": {
+        "html": {
+          "text": "Contact Information Ayutthaya Head Office Hi-tech Industrial Estate (Duty Free Zone) 148 Moo 1, T.Banlen, A.Bangpa-in, Ayutthaya 13160. Tel : 035 729 001-5, Fax : 035 729 007 Chonburi Branch Pinthong 3 Industrial Estate (General Zone) 219/20 Moo 6, T. Bo-Win, A.Sriracha, Chonburi 20230. Tel : 033-047-026-8 Fax : 033-047-029",
+          "images": [
+            "/legacy/uploads/contactus_photos/tmp_837_1750140747.jpg",
+            "/legacy/uploads/contactus_photos/tmp_673_1750212565.jpg"
+          ],
+          "links": [
+            "/legacy/uploads/contactus_photos/837_1750140747.jpg",
+            "/legacy/uploads/contactus_photos/673_1750212565.jpg"
+          ],
+          "headings": [
+            [
+              "1",
+              "Contact Information"
+            ],
+            [
+              "2",
+              "Ayutthaya Head Office"
+            ],
+            [
+              "2",
+              "Chonburi Branch"
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "th": {
+    "source_file": "data/legacy/th.json",
+    "source_sha256": "725b58434ab456dd58c5da41872f9fa25424802bc6b1f68111d1040126477c9f",
+    "sections": {
+      "home": {
+        "introduction": {
+          "text": "เพื่อโลกที่สวยงามและความมั่งคั่งสมบูรณ์ มัตซึดะ ซังเกียว (ประเทศไทย) ประกอบธุรกิจประเภทต่างๆ ที่เกี่ยวข้องกับโลหะมีค่า ดำเนินธุรกิจที่เกี่ยวข้องกับโลหะมีค่าต่างๆ - สกัดและรวบรวมโลหะมีค่า - นำเข้าและจัดจำหน่ายวัสดุภัณฑ์โลหะมีค่า",
+          "images": [],
+          "links": [],
+          "headings": [
+            [
+              "2",
+              "เพื่อโลกที่สวยงามและความมั่งคั่งสมบูรณ์"
+            ]
+          ]
+        },
+        "diagram": {
+          "text": "",
+          "images": [
+            "/legacy/images/line-index3-1.png",
+            "/legacy/images/img-index3-1_en.png",
+            "/legacy/images/img-index3-2.png"
+          ],
+          "links": [],
+          "headings": []
+        },
+        "businessTitle": {
+          "text": "ธุรกิจที่เกี่ยวข้องกับโลหะมีค่า",
+          "images": [],
+          "links": [],
+          "headings": []
+        },
+        "businessDescription": {
+          "text": "บริษัท มัตซึดะ ซังเกียว (ประเทศไทย) จำกัด ร่วมช่วยสนับสนุนอุตสาหกรรม และโลกของเรา ให้ใช้ทรัพยากรโลกได้อย่างคุ้มค่าและเกิดประโยชน์สูงสุด ด้วยเทคโนโลยีของเรา เหล่าทรัพยากร จะถูกนำมาใช้ซ้ำและนำกลับมาใช้ใหม่ เพื่อป้องกันไม่ให้เกิดการฝังกลบโดยไม่จำเป็น",
+          "images": [],
+          "links": [],
+          "headings": []
+        },
+        "map": {
+          "text": "",
+          "images": [],
+          "links": [],
+          "headings": []
+        }
+      },
+      "header": {
+        "nav": [
+          "หน้าแรก",
+          "บริษัท",
+          "ลิงค์ที่เกี่ยวข้อง",
+          "ธุรกิจของเรา",
+          "รางวัลและใบรับรองต่างๆ",
+          "ระบบคุณภาพและสิ่งแวดล้อม",
+          "ติดต่อเรา"
+        ]
+      },
+      "footer": {
+        "html": {
+          "text": "Matsuda Sangyo (Thailand) Co., Ltd. has an efficient logistics system for support requests from customers. We provide Harzadous and Non-harzadous waste and scrap transportation by GPS equiped 4 to 10 wheels closed cargo truck. Matsuda Sangyo (Thailand) Co.,Ltd. operating with an advanced precious metal refining technology and environmental friendly know-how. Matsuda Sangyo (Thailand) Co.,Ltd. นิคมอุตสาหกรรมไฮเทค 148 หมู่ 1 ต.บ้านเลน A.Banpa-in, Ayutthaya 13160, Thailand. Tel: (+66)35-729-001-5 Fax: (+66)35-729-007 E-mail : เริ่มต้นธุรกิจกับเรา : sale1@matsuda-sangyo.co.th โอกาสการงาน : recruit@matsuda-sangyo.co.th เรื่องทั่วไป : msta-admin@matsuda-sangyo.com",
+          "images": [
+            "/legacy/images/bg-footer.png"
+          ],
+          "links": [
+            "mailto:sale1@matsuda-sangyo.co.th",
+            "mailto:recruit@matsuda-sangyo.co.th",
+            "mailto:msta-admin@matsuda-sangyo.com"
+          ],
+          "headings": []
+        }
+      },
+      "company": {
+        "html": {
+          "text": "ข้อมูลบริษัท ข้อมูลบริษัท ข้อมูลบริษัท สำนักงานใหญ่อยุธยา ผู้ถือหุ้น : Matsuda Sangyo Co., Ltd. 100% ทุนจดทะเบียน : 240 ล้านบาท ที่อยู่ : นิคมอุตสาหกรรมไฮเทค 148 หมู่ 1, ต.บ้านเลน, อ.บางปะอิน, พระนครศรีอยุธยา 13160 เบอร์โทรศัพท์ : 035-729-001-5 แฟกซ์ : 035-729-007 ประเภทธุรกิจ : รวบรวมและรีไซเคิลโลหะมีค่า (ทอง, เงิน, แพลตินัม, แพลลาเดียม) และโลหะอื่นๆ ที่ไม่ใช่เหล็ก สาขาชลบุรี ที่อยู่ : นิคมอุตสาหกรรมปิ่นทอง 3 219/20 หมู่ 6, ต.บ่อวิน, อ.ศรีราชา, จ.ชลบุรี 20230 เบอร์โทรศัพท์ : 033-047-026-8 แฟกซ์ : 033-047-029 ประเภทธุรกิจ : Recycling scraps containing precious metals (Gold, Silver,Platinum, Palladium) and non-ferrous metals",
+          "images": [
+            "/legacy/uploads/11903812.jpg",
+            "/legacy/uploads/companies/696_1691038676.jpg",
+            "/legacy/uploads/companies/300_1445940288.png"
+          ],
+          "links": [],
+          "headings": [
+            [
+              "1",
+              "ข้อมูลบริษัท"
+            ],
+            [
+              "2",
+              "ข้อมูลบริษัท"
+            ],
+            [
+              "3",
+              ""
+            ],
+            [
+              "2",
+              "ข้อมูลบริษัท"
+            ]
+          ]
+        }
+      },
+      "links": {
+        "html": {
+          "text": "ลิงค์ที่เกี่ยวข้อง Matsuda Sangyo Co., Ltd. Management Message Matsuda Sangyo (Thailand) Co., Ltd. is committed to responsible precious metal processing and recycling with advanced environmental technologies. Our operations focus on sustainability, safety, and continuous improvement in all aspects of metal refining and resource recovery. We maintain strict quality control standards and environmental compliance to ensure both product excellence and environmental protection for our communities and stakeholders.",
+          "images": [
+            "/legacy/images/bg-management2.png"
+          ],
+          "links": [
+            "http://www.matsuda-sangyo.co.jp/en/index.html"
+          ],
+          "headings": [
+            [
+              "1",
+              "ลิงค์ที่เกี่ยวข้อง"
+            ],
+            [
+              "2",
+              "Management Message"
+            ]
+          ]
+        }
+      },
+      "business": {
+        "html": {
+          "text": "ธุรกิจของเรา Matsuda Sangyo (Thailand) Co., Ltd. provides efficient logistics solutions for precious metal processing and recycling. Our comprehensive business operations include: GPS-equipped transportation fleet (4-10 wheels closed cargo trucks) for safe, trackable delivery Advanced precious metal refining technology with environmental friendly know-how Green Industry certified operations at Ayutthaya Head Office and Chonburi Branch Carbon credit initiatives for sustainable business practices We serve customers throughout Thailand with reliable waste and scrap transportation services, supported by an efficient logistics system and experienced team dedicated to excellence in resource recovery.",
+          "images": [
+            "/legacy/images/img-business1_en.png"
+          ],
+          "links": [],
+          "headings": []
+        }
+      },
+      "awards": {
+        "html": {
+          "text": "รางวัลและใบรับรองต่างๆ Page 1 from 1 1",
+          "images": [
+            "/legacy/uploads/awards/tmp_762_1726739420.jpg",
+            "/legacy/uploads/awards/tmp_731_1726732837.jpg",
+            "/legacy/uploads/awards/tmp_943_1726732821.jpg",
+            "/legacy/uploads/awards/tmp_732_1720411251.jpg",
+            "/legacy/uploads/awards/tmp_553_1764835658.jpg",
+            "/legacy/uploads/awards/tmp_838_1726739031.png"
+          ],
+          "links": [
+            "/legacy/uploads/awards/762_1726739420.jpg",
+            "/legacy/uploads/awards/731_1726732837.jpg",
+            "/legacy/uploads/awards/943_1726732821.jpg",
+            "/legacy/uploads/awards/732_1720411251.jpg",
+            "/legacy/uploads/awards/553_1764835658.jpg",
+            "/legacy/uploads/awards/838_1726739031.png"
+          ],
+          "headings": [
+            [
+              "1",
+              "รางวัลและใบรับรองต่างๆ"
+            ]
+          ]
+        }
+      },
+      "environment": {
+        "html": {
+          "text": "นโยบายคุณภาพและสิ่งแวดล้อม",
+          "images": [
+            "/legacy/uploads/Untitledth.jpg"
+          ],
+          "links": [],
+          "headings": [
+            [
+              "1",
+              "นโยบายคุณภาพและสิ่งแวดล้อม"
+            ]
+          ]
+        }
+      },
+      "contact": {
+        "html": {
+          "text": "Contact Information Ayutthaya Head Office Hi-tech Industrial Estate (Duty Free Zone) 148 Moo 1, T.Banlen, A.Bangpa-in, Ayutthaya 13160. Tel : 035 729 001-5, Fax : 035 729 007 Chonburi Branch Pinthong 3 Industrial Estate (General Zone) 219/20 Moo 6, T. Bo-Win, A.Sriracha, Chonburi 20230. Tel : 033-047-026-8 Fax : 033-047-029",
+          "images": [
+            "/legacy/uploads/contactus_photos/tmp_837_1750140747.jpg",
+            "/legacy/uploads/contactus_photos/tmp_673_1750212565.jpg"
+          ],
+          "links": [
+            "/legacy/uploads/contactus_photos/837_1750140747.jpg",
+            "/legacy/uploads/contactus_photos/673_1750212565.jpg"
+          ],
+          "headings": [
+            [
+              "1",
+              "Contact Information"
+            ],
+            [
+              "2",
+              "Ayutthaya Head Office"
+            ],
+            [
+              "2",
+              "Chonburi Branch"
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "ja": {
+    "source_file": "data/legacy/ja.json",
+    "source_sha256": "2f12d7b8afa26972e6167501de7322b7fa46855253b360ee6fe875747cb5b011",
+    "sections": {
+      "home": {
+        "introduction": {
+          "text": "人を豊かに、地球を美しく Matsuda Sangyo (Thailand) Co., Ltd.は 貴金属に関する各種事業を 運営しております。 - 貴金属精錬回収 - 貴金属材料販売",
+          "images": [],
+          "links": [],
+          "headings": [
+            [
+              "2",
+              "人を豊かに、地球を美しく"
+            ]
+          ]
+        },
+        "diagram": {
+          "text": "",
+          "images": [
+            "/legacy/images/line-index3-1.png",
+            "/legacy/images/img-index3-1_en.png",
+            "/legacy/images/img-index3-2.png"
+          ],
+          "links": [],
+          "headings": []
+        },
+        "businessTitle": {
+          "text": "貴金属関連事業",
+          "images": [],
+          "links": [],
+          "headings": []
+        },
+        "businessDescription": {
+          "text": "Matsuda Sangyo (Thailand) Co., Ltd.は地球資源の有効活用を通して、産業や地球に貢献しています。 我々の技術では、不要な埋め立てゴミを防止するために、全ての資源がリサイクルされ、再利用されます。",
+          "images": [],
+          "links": [],
+          "headings": []
+        },
+        "map": {
+          "text": "",
+          "images": [],
+          "links": [],
+          "headings": []
+        }
+      },
+      "header": {
+        "nav": [
+          "ホーム",
+          "企業情報",
+          "関連リンク",
+          "事業内容",
+          "表彰と証明書",
+          "品質・環境システム",
+          "お問い合わせ"
+        ]
+      },
+      "footer": {
+        "html": {
+          "text": "Matsuda Sangyo (Thailand) Co., Ltd.は客先の要求に応じた効率的な流通システムを持っています。 我々はGPS付きの4～10輪トラックによる有害と無害廃棄物の輸送を提供いたします。 Matsuda Sangyo (Thailand) Co., Ltd.は高度な貴金属精錬技術と環境にやさしいノウハウで運営しております。 Matsuda Sangyo (Thailand) Co.,Ltd. Hi-Tech Industrial Estate 148 Moo 1 T.Banlen A.Banpa-in, Ayutthaya 13160, Thailand. Tel: (+66)35-729-001-5 Fax: (+66)35-729-007 E-mail : About Starting business with us : sale1@matsuda-sangyo.co.th About Career opportunity : recruit@matsuda-sangyo.co.th About General matters : msta-admin@matsuda-sangyo.com",
+          "images": [
+            "/legacy/images/bg-footer.png"
+          ],
+          "links": [
+            "mailto:sale1@matsuda-sangyo.co.th",
+            "mailto:recruit@matsuda-sangyo.co.th",
+            "mailto:msta-admin@matsuda-sangyo.com"
+          ],
+          "headings": []
+        }
+      },
+      "company": {
+        "html": {
+          "text": "企業情報 会社概要 会社概要 アユタヤ 本社 株主 : Matsuda Sangyo Co., Ltd. 100% 資本金 : 2億4,000万バーツ 所在地 : Hitech Industrial Estate 148 Moo 1, Banlen, Bangpa-in, Ayutthaya 13160 電話番号 : 035-729-001-5 ファックス : 035-729-007 業種 : 貴金属(金・銀・プラチナ・パラジウム)及び 非鉄スクラップ回収・リサイクル チョンブリー支店 所在地 : Pinthong 3 Industrial Estate 219/20 Moo 6, T.Bo-Win, A.Sriracha, Chonburi 20230 電話番号 : 033-047-026-8 ファックス : 033-047-029 業種 : 貴金属(金・銀・プラチナ・パラジウム)及び 非鉄スクラップ回収",
+          "images": [
+            "/legacy/uploads/11903812.jpg",
+            "/legacy/uploads/companies/696_1691038676.jpg",
+            "/legacy/uploads/companies/300_1445940288.png"
+          ],
+          "links": [],
+          "headings": [
+            [
+              "1",
+              "企業情報"
+            ],
+            [
+              "2",
+              "会社概要"
+            ],
+            [
+              "3",
+              ""
+            ],
+            [
+              "2",
+              "会社概要"
+            ]
+          ]
+        }
+      },
+      "links": {
+        "html": {
+          "text": "関連リンク Matsuda Sangyo Co., Ltd. Management Message Matsuda Sangyo (Thailand) Co., Ltd. is committed to responsible precious metal processing and recycling with advanced environmental technologies. Our operations focus on sustainability, safety, and continuous improvement in all aspects of metal refining and resource recovery. We maintain strict quality control standards and environmental compliance to ensure both product excellence and environmental protection for our communities and stakeholders.",
+          "images": [
+            "/legacy/images/bg-management2.png"
+          ],
+          "links": [
+            "http://www.matsuda-sangyo.co.jp/en/index.html"
+          ],
+          "headings": [
+            [
+              "1",
+              "関連リンク"
+            ],
+            [
+              "2",
+              "Management Message"
+            ]
+          ]
+        }
+      },
+      "business": {
+        "html": {
+          "text": "事業内容 Matsuda Sangyo (Thailand) Co., Ltd. provides efficient logistics solutions for precious metal processing and recycling. Our comprehensive business operations include: GPS-equipped transportation fleet (4-10 wheels closed cargo trucks) for safe, trackable delivery Advanced precious metal refining technology with environmental friendly know-how Green Industry certified operations at Ayutthaya Head Office and Chonburi Branch Carbon credit initiatives for sustainable business practices We serve customers throughout Thailand with reliable waste and scrap transportation services, supported by an efficient logistics system and experienced team dedicated to excellence in resource recovery.",
+          "images": [
+            "/legacy/images/img-business1_en.png"
+          ],
+          "links": [],
+          "headings": []
+        }
+      },
+      "awards": {
+        "html": {
+          "text": "表彰と証明書 Page 1 from 1 1",
+          "images": [
+            "/legacy/uploads/awards/tmp_762_1726739420.jpg",
+            "/legacy/uploads/awards/tmp_731_1726732837.jpg",
+            "/legacy/uploads/awards/tmp_943_1726732821.jpg",
+            "/legacy/uploads/awards/tmp_732_1720411251.jpg",
+            "/legacy/uploads/awards/tmp_553_1764835658.jpg",
+            "/legacy/uploads/awards/tmp_838_1726739031.png"
+          ],
+          "links": [
+            "/legacy/uploads/awards/762_1726739420.jpg",
+            "/legacy/uploads/awards/731_1726732837.jpg",
+            "/legacy/uploads/awards/943_1726732821.jpg",
+            "/legacy/uploads/awards/732_1720411251.jpg",
+            "/legacy/uploads/awards/553_1764835658.jpg",
+            "/legacy/uploads/awards/838_1726739031.png"
+          ],
+          "headings": [
+            [
+              "1",
+              "表彰と証明書"
+            ]
+          ]
+        }
+      },
+      "environment": {
+        "html": {
+          "text": "品質・環境方針",
+          "images": [
+            "/legacy/uploads/Untitled8.jpg"
+          ],
+          "links": [],
+          "headings": [
+            [
+              "1",
+              "品質・環境方針"
+            ]
+          ]
+        }
+      },
+      "contact": {
+        "html": {
+          "text": "Contact Information Ayutthaya Head Office Hi-tech Industrial Estate (Duty Free Zone) 148 Moo 1, T.Banlen, A.Bangpa-in, Ayutthaya 13160. Tel : 035 729 001-5, Fax : 035 729 007 Chonburi Branch Pinthong 3 Industrial Estate (General Zone) 219/20 Moo 6, T. Bo-Win, A.Sriracha, Chonburi 20230. Tel : 033-047-026-8 Fax : 033-047-029",
+          "images": [
+            "/legacy/uploads/contactus_photos/tmp_837_1750140747.jpg",
+            "/legacy/uploads/contactus_photos/tmp_673_1750212565.jpg"
+          ],
+          "links": [
+            "/legacy/uploads/contactus_photos/837_1750140747.jpg",
+            "/legacy/uploads/contactus_photos/673_1750212565.jpg"
+          ],
+          "headings": [
+            [
+              "1",
+              "Contact Information"
+            ],
+            [
+              "2",
+              "Ayutthaya Head Office"
+            ],
+            [
+              "2",
+              "Chonburi Branch"
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "zh": {
+    "source_file": "data/legacy/zh.json",
+    "source_sha256": "37d692a6b85aa33e4813faadd5f7a77d9a96072c797768f1a9664baaca001aa2",
+    "sections": {
+      "home": {
+        "introduction": {
+          "text": "For Prosperity And A Beautiful Earth MATSUDA IS OPERATING VARIOUS BUSINESSES RELATED TO PRECIOUS METALS. - PRECIOUS METAL SCRAP COLLECTION/RECOVERY - PRECIOUS METAL MATERIALS",
+          "images": [],
+          "links": [],
+          "headings": [
+            [
+              "2",
+              "For Prosperity And A Beautiful Earth"
+            ]
+          ]
+        },
+        "diagram": {
+          "text": "",
+          "images": [
+            "/legacy/images/line-index3-1.png",
+            "/legacy/images/img-index3-1_en.png",
+            "/legacy/images/img-index3-2.png"
+          ],
+          "links": [],
+          "headings": []
+        },
+        "businessTitle": {
+          "text": "PRECIOUS METALS RELATED BUSINESS",
+          "images": [],
+          "links": [],
+          "headings": []
+        },
+        "businessDescription": {
+          "text": "Matsuda Sangyo (Thailand) Co., ltd. contributes to the industries and the earth through an effective utilization of the earth resources. With our technology, all resources will be recycled and reused to prevent an un-necessary landfill.",
+          "images": [],
+          "links": [],
+          "headings": []
+        },
+        "map": {
+          "text": "",
+          "images": [],
+          "links": [],
+          "headings": []
+        }
+      },
+      "header": {
+        "nav": [
+          "首页",
+          "公司",
+          "相关链接",
+          "我们的业务",
+          "奖项及证书",
+          "品质与环境体系",
+          "联系我们"
+        ]
+      },
+      "footer": {
+        "html": {
+          "text": "Matsuda Sangyo (Thailand) Co., Ltd. has an efficient logistics system for support requests from customers. We provide Harzadous and Non-harzadous waste and scrap transportation by GPS equiped 4 to 10 wheels closed cargo truck. Matsuda Sangyo (Thailand) Co.,Ltd. operating with an advanced precious metal refining technology and environmental friendly know-how. Matsuda Sangyo (Thailand) Co.,Ltd. Hi-Tech Industrial Estate 148 Moo 1 T.Banlen A.Banpa-in, Ayutthaya 13160, Thailand. Tel: (+66)35-729-001-5 Fax: (+66)35-729-007 E-mail : About Starting business with us : sale1@matsuda-sangyo.co.th About Career opportunity : recruit@matsuda-sangyo.co.th About General matters : msta-admin@matsuda-sangyo.com",
+          "images": [
+            "/legacy/images/bg-footer.png"
+          ],
+          "links": [
+            "mailto:sale1@matsuda-sangyo.co.th",
+            "mailto:recruit@matsuda-sangyo.co.th",
+            "mailto:msta-admin@matsuda-sangyo.com"
+          ],
+          "headings": []
+        }
+      },
+      "company": {
+        "html": {
+          "text": "公司介绍 Matsuda Sangyo (Thailand) Co., Ltd. 公司介绍 大城府总部 股东 : Matsuda Sangyo Co., Ltd. 100% 注册资本 : 2.4亿泰铢 地址 : 高科技工业园， 大城府挽巴茵县邦棱镇1村148号。 邮编 : 13160 电话 : 035-729-001-5 传真 : 035-729-007 业务类型 : 收集和回收贵金属 （金、银、铂、钯） 及其他有色金属。 春武里府分公司 地址 : 品通工业园 3，春武里府是拉差县宝汶镇6村219/20号 邮编 : 20230 电话 : 033-047-026-8 传真 : 033-047-029 业务类型 : 收集贵金属 (金、银、铂、钯） 及其他有色金属",
+          "images": [
+            "/legacy/uploads/11903812.jpg",
+            "/legacy/uploads/companies/696_1691038676.jpg",
+            "/legacy/uploads/companies/300_1445940288.png"
+          ],
+          "links": [],
+          "headings": [
+            [
+              "1",
+              "公司介绍"
+            ],
+            [
+              "2",
+              "Matsuda Sangyo (Thailand) Co., Ltd."
+            ],
+            [
+              "3",
+              ""
+            ],
+            [
+              "2",
+              "公司介绍"
+            ]
+          ]
+        }
+      },
+      "links": {
+        "html": {
+          "text": "相关链接 Matsuda Sangyo Co., Ltd. Management Message Matsuda Sangyo (Thailand) Co., Ltd. is committed to responsible precious metal processing and recycling with advanced environmental technologies. Our operations focus on sustainability, safety, and continuous improvement in all aspects of metal refining and resource recovery. We maintain strict quality control standards and environmental compliance to ensure both product excellence and environmental protection for our communities and stakeholders.",
+          "images": [
+            "/legacy/images/bg-management2.png"
+          ],
+          "links": [
+            "http://www.matsuda-sangyo.co.jp/en/index.html"
+          ],
+          "headings": [
+            [
+              "1",
+              "相关链接"
+            ],
+            [
+              "2",
+              "Management Message"
+            ]
+          ]
+        }
+      },
+      "business": {
+        "html": {
+          "text": "我们的业务 Matsuda Sangyo (Thailand) Co., Ltd. provides efficient logistics solutions for precious metal processing and recycling. Our comprehensive business operations include: GPS-equipped transportation fleet (4-10 wheels closed cargo trucks) for safe, trackable delivery Advanced precious metal refining technology with environmental friendly know-how Green Industry certified operations at Ayutthaya Head Office and Chonburi Branch Carbon credit initiatives for sustainable business practices We serve customers throughout Thailand with reliable waste and scrap transportation services, supported by an efficient logistics system and experienced team dedicated to excellence in resource recovery.",
+          "images": [
+            "/legacy/images/img-business1_en.png"
+          ],
+          "links": [],
+          "headings": []
+        }
+      },
+      "awards": {
+        "html": {
+          "text": "奖项及证书 Page 1 from 1 1",
+          "images": [
+            "/legacy/uploads/awards/tmp_762_1726739420.jpg",
+            "/legacy/uploads/awards/tmp_731_1726732837.jpg",
+            "/legacy/uploads/awards/tmp_943_1726732821.jpg",
+            "/legacy/uploads/awards/tmp_732_1720411251.jpg",
+            "/legacy/uploads/awards/tmp_553_1764835658.jpg",
+            "/legacy/uploads/awards/tmp_838_1726739031.png"
+          ],
+          "links": [
+            "/legacy/uploads/awards/762_1726739420.jpg",
+            "/legacy/uploads/awards/731_1726732837.jpg",
+            "/legacy/uploads/awards/943_1726732821.jpg",
+            "/legacy/uploads/awards/732_1720411251.jpg",
+            "/legacy/uploads/awards/553_1764835658.jpg",
+            "/legacy/uploads/awards/838_1726739031.png"
+          ],
+          "headings": [
+            [
+              "1",
+              "奖项及证书"
+            ]
+          ]
+        }
+      },
+      "environment": {
+        "html": {
+          "text": "质量与环境政策",
+          "images": [
+            "/legacy/uploads/Untitled7.jpg"
+          ],
+          "links": [],
+          "headings": [
+            [
+              "1",
+              "质量与环境政策"
+            ]
+          ]
+        }
+      },
+      "contact": {
+        "html": {
+          "text": "Contact Information Ayutthaya Head Office Hi-tech Industrial Estate (Duty Free Zone) 148 Moo 1, T.Banlen, A.Bangpa-in, Ayutthaya 13160. Tel : 035 729 001-5, Fax : 035 729 007 Chonburi Branch Pinthong 3 Industrial Estate (General Zone) 219/20 Moo 6, T. Bo-Win, A.Sriracha, Chonburi 20230. Tel : 033-047-026-8 Fax : 033-047-029",
+          "images": [
+            "/legacy/uploads/contactus_photos/tmp_837_1750140747.jpg",
+            "/legacy/uploads/contactus_photos/tmp_673_1750212565.jpg"
+          ],
+          "links": [
+            "/legacy/uploads/contactus_photos/837_1750140747.jpg",
+            "/legacy/uploads/contactus_photos/673_1750212565.jpg"
+          ],
+          "headings": [
+            [
+              "1",
+              "Contact Information"
+            ],
+            [
+              "2",
+              "Ayutthaya Head Office"
+            ],
+            [
+              "2",
+              "Chonburi Branch"
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

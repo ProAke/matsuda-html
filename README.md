@@ -18,8 +18,10 @@ Static hosting: `npm run generate`, deploy `.output/public`. Configure the host 
 
 | Files | Responsibility |
 |---|---|
-| `data/legacy/{en,ja,th,zh}.json` | Imported original per-language HTML content, homepage blocks, navigation and footer. Edit trusted HTML blocks with code review. |
-| `data/locales/{en,ja,th,zh}.json` | UI labels, accessibility labels and SEO descriptions. |
+| `data/legacy/{en,ja,th,zh}.json` | Reference snapshots of the imported HTML, not rendered by active pages. |
+| `data/locales/{en,ja,th,zh}.json` | Active page content, localized addresses, UI labels and SEO descriptions. |
+| `data/site.json` | Single source of company facts, capital, shareholding, phones, fax and emails. |
+| `data/documents.json` | Maps, policy images and actual document languages. |
 | `data/assets.json` | Banner and gallery image lists. All website images are local. |
 | `public/legacy/` | Original logo, fonts, illustrations, photos, certificates and maps. |
 | `assets/css/legacy-original.css` | Supplied `template.css` with corrected asset/font paths. Prefer compatibility fixes below instead of changing this file. |
@@ -54,3 +56,13 @@ npm run test:browser
 ```
 
 Checks 28 localized routes, image loading, desktop/tablet/mobile overflow, menu, language switching, carousel and 404. Test-only Chromium is a development dependency and is not shipped to the site. External Google Maps embeds are stubbed during tests, so tests do not verify the Maps service. Screenshots go to ignored `.arena/screenshots/`.
+
+## Content corrections and awards pagination
+
+See `docs/audit/2026-11-04/FIXES-TH.md` for the current fix status. Active pages now use native Vue components and structured JSON, not the imported HTML snapshots. Re-importing HTML updates reference snapshots/CSS/assets; it does not translate or overwrite the active localized text.
+
+All eleven candidate awards URLs were checked. Page 1 exposes six documents; pages 2–11 expose no documents and report `from 1`, inconsistent with the first-page extraction `from 11`. No eleven-page collection is claimed or fabricated. Evidence is in `data/awards-source-review.json`.
+
+Feedback is an explicitly labeled **email-draft form**: it validates locally and offers a mailto link. It does not send messages, use a server API, store form data, or pretend a message was delivered. Native-language review remains required for draft translations.
+
+Legacy `.php`/`.html` redirects are implemented in Nuxt's route rules. Verify corresponding behavior separately on static hosts.
