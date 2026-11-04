@@ -1,7 +1,0 @@
-<script setup lang="ts">
-import site from '~/data/site.json'
-import assets from '~/data/assets.json'
-const { t, lang } = useContent()
-const capital = computed(() => new Intl.NumberFormat(lang.value).format(site.capitalAmount))
-</script>
-<template><div class="div-company1"><div class="wrapper"><h1 class="topic">{{ t.companyHeading }}</h1><div class="l"><img :src="assets.company" :alt="site.legalName"></div><div class="r"><h2>{{ site.legalName }}</h2></div><div class="clear"></div></div></div><section class="div-company2"><div class="wrapper"><h2>{{ t.profile }}</h2></div></section><div class="div-company3"><div class="wrapper"><section v-for="(office,i) in site.offices" :key="office.tel" :class="i === 0 ? 'l' : 'r'"><h3>{{ t.officeNames[i] }}</h3><dl class="fact-list"><template v-if="i === 0"><dt>{{ t.shareholder }}</dt><dd>{{ site.shareholderName }} {{ site.shareholdingPercent }}%</dd><dt>{{ t.capital }}</dt><dd>{{ capital }} {{ t.capitalUnit }}</dd></template><dt>{{ t.address }}</dt><dd>{{ t.officeAddresses[i] }}</dd><dt>{{ t.phone }}</dt><dd><a :href="`tel:${office.tel}`">{{ office.phone }}</a></dd><dt>{{ t.fax }}</dt><dd>{{ office.fax }}</dd><dt>{{ t.businessType }}</dt><dd>{{ t.businessTypes[i] }}</dd></dl></section></div></div><div class="div-company4"><div class="wrapper"><img v-for="image in assets.companyGallery" :key="image" :src="image" :alt="site.legalName" loading="lazy"></div></div></template>

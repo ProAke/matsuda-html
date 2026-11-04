@@ -1,0 +1,620 @@
+{
+  "date": "2026-11-04",
+  "pages": [
+    {
+      "file": "awarded.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "awarded_cn.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "awarded_jp.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "awarded_th.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "business.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "business_cn.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "business_en.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "business_jp.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "business_th.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "career.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "career_cn.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "career_jp.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "career_th.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "company.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "company_cn.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "company_jp.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "company_th.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "contactus.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "contactus_cn.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "contactus_jp.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "contactus_th.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "index_cn.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "index_jp.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "index_th.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "management.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "management_cn.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "management_en.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "management_jp.html",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "awarded.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "awarded_cn.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "awarded_jp.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "awarded_th.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "business.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "business_cn.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "business_en.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "business_jp.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "business_th.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "career.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "career_cn.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "career_jp.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "career_th.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "company.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "company_cn.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "company_jp.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "company_th.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "contactus.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "contactus_cn.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "contactus_jp.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "contactus_th.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "index.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "index_cn.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "index_jp.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "index_th.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "management.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "management_cn.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "management_en.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "management_jp.html",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "awarded.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "awarded_cn.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "awarded_jp.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "awarded_th.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "business.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "business_cn.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "business_en.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "business_jp.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "business_th.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "career.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "career_cn.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "career_jp.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "career_th.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "company.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "company_cn.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "company_jp.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "company_th.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "contactus.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "contactus_cn.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "contactus_jp.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "contactus_th.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "index.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "index_cn.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "index_jp.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "index_th.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "management.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "management_cn.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "management_en.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    },
+    {
+      "file": "management_jp.html",
+      "width": 1280,
+      "documentWidth": 1280,
+      "broken": [],
+      "hero": false
+    }
+  ],
+  "checks": {
+    "mobileNavigation": true,
+    "awardsGallery": true,
+    "escapeCloses": true
+  },
+  "note": "Local browser checks only. Live reference browser access is blocked; no pixel-perfect comparison claimed."
+}

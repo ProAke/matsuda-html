@@ -1,0 +1,623 @@
+{
+  "source": "matsuda-html-02/matsuda-static/",
+  "drive_folder_id": "1ihxLPaNrBgaagDJ6_ZwBD6l8Wg4Iu-UK",
+  "import_date": "2026-11-04",
+  "note": "Hashes describe files saved by the Drive connector before local compatibility patches; Drive metadata byte sizes differed for HTML downloads. .DS_Store excluded.",
+  "files": [
+    {
+      "path": "awarded.html",
+      "downloaded_bytes": 12268,
+      "downloaded_sha256": "fe68f2df91df1646da61884fd8d08dcfe30deb3b8edb73245b6beb810237b048"
+    },
+    {
+      "path": "awarded_cn.html",
+      "downloaded_bytes": 12357,
+      "downloaded_sha256": "94d3efca4347e522d69a95cb41c14e4a9f541351c8300263a7e6cf89c4a79c13"
+    },
+    {
+      "path": "awarded_jp.html",
+      "downloaded_bytes": 12435,
+      "downloaded_sha256": "934bd2b56e7b5357547e89116fad3bede28613da070eae83bc0c76b622d7a660"
+    },
+    {
+      "path": "awarded_th.html",
+      "downloaded_bytes": 12348,
+      "downloaded_sha256": "4211344bf7f01c0c25f3604802caca8916518e9e621611e1eae363a44d5c735a"
+    },
+    {
+      "path": "business.html",
+      "downloaded_bytes": 10749,
+      "downloaded_sha256": "3978b66e8f2390439b42acbb17c95bbc57a85a53bfe57bc3d8d7d66a7ae45913"
+    },
+    {
+      "path": "business_cn.html",
+      "downloaded_bytes": 10148,
+      "downloaded_sha256": "14c912363a12c2e658acb280d0723b6fcae1a9bf0fd6a84364f714c697cc8648"
+    },
+    {
+      "path": "business_en.html",
+      "downloaded_bytes": 10175,
+      "downloaded_sha256": "3948f26cfba45b63da184f73825639314d5b4336a0fde5129fde5b194adefc3e"
+    },
+    {
+      "path": "business_jp.html",
+      "downloaded_bytes": 10214,
+      "downloaded_sha256": "094f9d46c1124b12b445d2a4df0acbf9207bf508b086df50b696d4108fb1c042"
+    },
+    {
+      "path": "business_th.html",
+      "downloaded_bytes": 12180,
+      "downloaded_sha256": "40811e58c263943f251eb131e8d59d851cb40ea313642dee8c49dfc0a30b95fa"
+    },
+    {
+      "path": "career.html",
+      "downloaded_bytes": 11690,
+      "downloaded_sha256": "4ee6579c5b076fd0d7aa1b9f586b6bc99a021d58ff6c99cf6a71a875fd7ddf95"
+    },
+    {
+      "path": "career_cn.html",
+      "downloaded_bytes": 11767,
+      "downloaded_sha256": "93e393905031586094fdfd35d119c9a03094ad04484596fb6d5a0d9918a2d8cc"
+    },
+    {
+      "path": "career_jp.html",
+      "downloaded_bytes": 11845,
+      "downloaded_sha256": "350e064a7365cc13b58abdd5aac6bc1cfc4d07dc5e3831b0a5694d3f23dbd40a"
+    },
+    {
+      "path": "career_th.html",
+      "downloaded_bytes": 11737,
+      "downloaded_sha256": "a0b03c8d2a73fa33840067fb0a51ddba6bb9b8fa050c8850b918b7633cfda5e5"
+    },
+    {
+      "path": "company.html",
+      "downloaded_bytes": 20430,
+      "downloaded_sha256": "f7948ef40d0e29faf99e889823739ccb1741647961e61ab6448f312fa3015a86"
+    },
+    {
+      "path": "company_cn.html",
+      "downloaded_bytes": 21833,
+      "downloaded_sha256": "cb4c6b5540e4c13c38d516e025f87069bfa665617d1bb3c2c69285efab0aba80"
+    },
+    {
+      "path": "company_jp.html",
+      "downloaded_bytes": 19161,
+      "downloaded_sha256": "d70a4d067b1e5d84a03b75619eda80206df1cdb27d104cb14a8b98b5a340e885"
+    },
+    {
+      "path": "company_th.html",
+      "downloaded_bytes": 19587,
+      "downloaded_sha256": "efbb13b33dfc4dc0318cc81f2a1f1ce79a1a382dbcfbf4da540b9f8c68fd27bb"
+    },
+    {
+      "path": "contactus.html",
+      "downloaded_bytes": 13438,
+      "downloaded_sha256": "87751fe96f49ba3d62daf67da7a251c8d53cd5af6b0b0e1a87cf9a6aa985e77e"
+    },
+    {
+      "path": "contactus_cn.html",
+      "downloaded_bytes": 13680,
+      "downloaded_sha256": "460d6d34e218f89c809ac96653b6408c2664478781fa3ab8f68dbf8374320650"
+    },
+    {
+      "path": "contactus_jp.html",
+      "downloaded_bytes": 13794,
+      "downloaded_sha256": "e68e5aafee1dfd40bb880b7722a4be95db2c240bd92fd4789fded855f8d7eefa"
+    },
+    {
+      "path": "contactus_th.html",
+      "downloaded_bytes": 13663,
+      "downloaded_sha256": "b8e4e15d0a4439b098539fcb007c48c9dc524504a47299a49c3073d17919a18c"
+    },
+    {
+      "path": "fonts/CordiaUPC.eot",
+      "downloaded_bytes": 108718,
+      "downloaded_sha256": "8cb2fbc804baf424f3cc86ef749245dc21f5a9b755dd86bd34a478364a681358"
+    },
+    {
+      "path": "fonts/CordiaUPC.eot#iefix",
+      "downloaded_bytes": 108718,
+      "downloaded_sha256": "8cb2fbc804baf424f3cc86ef749245dc21f5a9b755dd86bd34a478364a681358"
+    },
+    {
+      "path": "fonts/CordiaUPC.svg#font1",
+      "downloaded_bytes": 203788,
+      "downloaded_sha256": "8ba6f743a4cb780990139a62006e444dc8371c3994a217505a6f712e43531717"
+    },
+    {
+      "path": "fonts/CordiaUPC.ttf",
+      "downloaded_bytes": 108544,
+      "downloaded_sha256": "1034a31e8b6724305d01f812547de6943fbf32033a4736f4013eb194020279ba"
+    },
+    {
+      "path": "fonts/CordiaUPC.woff",
+      "downloaded_bytes": 59952,
+      "downloaded_sha256": "a9892c40aaca91ea0c8530533154e9b825c8002ff584402cf737ee4f64ff0f53"
+    },
+    {
+      "path": "fonts/InSeeDang.eot",
+      "downloaded_bytes": 38966,
+      "downloaded_sha256": "3456d107b1788eff249e7f2ce4f83dbf07805fde824521cbbd905a4fb1015cfd"
+    },
+    {
+      "path": "fonts/InSeeDang.eot#iefix",
+      "downloaded_bytes": 38966,
+      "downloaded_sha256": "3456d107b1788eff249e7f2ce4f83dbf07805fde824521cbbd905a4fb1015cfd"
+    },
+    {
+      "path": "fonts/InSeeDang.svg#font2",
+      "downloaded_bytes": 28448,
+      "downloaded_sha256": "8a7f62e71d11d53ba8e3382aa3f4ae9f62eff14eb0559d50a214f11d2a1856e8"
+    },
+    {
+      "path": "fonts/InSeeDang.ttf",
+      "downloaded_bytes": 38692,
+      "downloaded_sha256": "fb3fe182aa7251595adec2ddd097500baa71026107dec4d201dd09f7f4943c92"
+    },
+    {
+      "path": "fonts/InSeeDang.woff",
+      "downloaded_bytes": 22800,
+      "downloaded_sha256": "5407b98cd3e92c59b12bc104a582e52ed5930b6b322242f30117233c3ae09c4a"
+    },
+    {
+      "path": "fonts/supermarket.eot",
+      "downloaded_bytes": 82842,
+      "downloaded_sha256": "bba258aef26e3482e32e1af30e6198ca0c19091327939e646343b70ac1b0d883"
+    },
+    {
+      "path": "fonts/supermarket.eot#iefix",
+      "downloaded_bytes": 82842,
+      "downloaded_sha256": "bba258aef26e3482e32e1af30e6198ca0c19091327939e646343b70ac1b0d883"
+    },
+    {
+      "path": "fonts/supermarket.svg#font3",
+      "downloaded_bytes": 271699,
+      "downloaded_sha256": "8a2d17c1d4168212545a13ae034a2473e6a0edbdf927677fcaae08b80bdf4650"
+    },
+    {
+      "path": "fonts/supermarket.ttf",
+      "downloaded_bytes": 82648,
+      "downloaded_sha256": "13c2ec0d537493f5f3a751b3edca6362b2471ab06fb4a6008555eb6c2ea7e471"
+    },
+    {
+      "path": "fonts/supermarket.woff",
+      "downloaded_bytes": 50796,
+      "downloaded_sha256": "fc09468807075fb5f7347d17dd621e07471464fa396327835e2409b3dd6e3dfa"
+    },
+    {
+      "path": "images/bg-awarded.png",
+      "downloaded_bytes": 720774,
+      "downloaded_sha256": "6a86af6591c09c203e146780c4a7ef5d18e4dc92640937815f11e09b714fcc81"
+    },
+    {
+      "path": "images/bg-footer.png",
+      "downloaded_bytes": 6586,
+      "downloaded_sha256": "7f4425604143d4084a82f85b64c481cc333325a162650e9cf18618f24270ff5a"
+    },
+    {
+      "path": "images/bg-footer3.png",
+      "downloaded_bytes": 3347,
+      "downloaded_sha256": "7041d546c0c430e8247dedbdeb918ac56ea19c6224e832d7e125209501357e75"
+    },
+    {
+      "path": "images/bg-header.png",
+      "downloaded_bytes": 2908,
+      "downloaded_sha256": "a4797a647e2121606c3bc92314cae4298aa6b452fa2e19abbb2303ebbda0c1bd"
+    },
+    {
+      "path": "images/bg-index4.png",
+      "downloaded_bytes": 855707,
+      "downloaded_sha256": "21324a141884230e17900f7908e327feb069d7ebacd6bae4f5b8491d25e371c2"
+    },
+    {
+      "path": "images/bg-management2.png",
+      "downloaded_bytes": 723364,
+      "downloaded_sha256": "e0875d28f6230064e306d7ed01370baa8d4badeb1e5133fde099cbdb2de7342f"
+    },
+    {
+      "path": "images/btn-next.png",
+      "downloaded_bytes": 1771,
+      "downloaded_sha256": "de9f10713e2e9391c11993c14b4110577d916753b12b6c5359105da90ba5c811"
+    },
+    {
+      "path": "images/btn-next2.png",
+      "downloaded_bytes": 1851,
+      "downloaded_sha256": "469dade7c5526faf903bac2bdae6cc86539ad50d374f3908ec91114d4fdc0bd5"
+    },
+    {
+      "path": "images/btn-prev.png",
+      "downloaded_bytes": 1733,
+      "downloaded_sha256": "e7d55268893a294bdb5d8a84761549c225b9424ed599273863db91a0d9227a38"
+    },
+    {
+      "path": "images/btn-prev2.png",
+      "downloaded_bytes": 1858,
+      "downloaded_sha256": "1b7fe0b0130cee962f3d943ec6cd3bdc0a65ce28c338591d83bb0a6aee38af86"
+    },
+    {
+      "path": "images/btn-top.png",
+      "downloaded_bytes": 3248,
+      "downloaded_sha256": "b1a6954b3c0cf3a57214555c266f3be72acff2cebfdb92908e6fa3b12fbecca9"
+    },
+    {
+      "path": "images/business_en.png",
+      "downloaded_bytes": 158718,
+      "downloaded_sha256": "8da8c27f99b2cb51f5896932d8eedabf745ff48c0522f23fdc501285b09f6156"
+    },
+    {
+      "path": "images/icon-fb.png",
+      "downloaded_bytes": 2052,
+      "downloaded_sha256": "f189e3e4901453ee928e5de34abb5e8601cfc2a824734b47e544f8526ce36588"
+    },
+    {
+      "path": "images/icon-gg.png",
+      "downloaded_bytes": 2513,
+      "downloaded_sha256": "b8adf119aa21883afdd1f8ff2c21c660ca9866677f371471dd4d0e2093dd4ee8"
+    },
+    {
+      "path": "images/icon-tw.png",
+      "downloaded_bytes": 2229,
+      "downloaded_sha256": "d7bb08d568d6b360201202f53ab71785139fc2b82c07991c26d5198bff4c7a6e"
+    },
+    {
+      "path": "images/icon-yt.png",
+      "downloaded_bytes": 2450,
+      "downloaded_sha256": "c65b343f3e58ec474986bdc591841871b7ab30974bb571e72bd73cc52f0abbdb"
+    },
+    {
+      "path": "images/img-business1_en.png",
+      "downloaded_bytes": 29443,
+      "downloaded_sha256": "15fc4ac6c0f209e038e24fe6aa9dfbfade66c3b3ea318ce4fe5d82b351a75889"
+    },
+    {
+      "path": "images/img-index3-1_en.png",
+      "downloaded_bytes": 35750,
+      "downloaded_sha256": "9f0db5b34f3a937493b1f408ba9f3e5cd7bc96fa7d8ed844dc9ca9540daff471"
+    },
+    {
+      "path": "images/img-index3-2.png",
+      "downloaded_bytes": 76270,
+      "downloaded_sha256": "64336f513d2159a7079278d8a5e99fd5a4e22b8829b1dab0ee3922007738f4e4"
+    },
+    {
+      "path": "images/line-index3-1.png",
+      "downloaded_bytes": 7793,
+      "downloaded_sha256": "1594c5861d08540fd8246548fe8f54c4d51564b87cecf5d62c57d8a42b7a12f4"
+    },
+    {
+      "path": "images/loading.gif",
+      "downloaded_bytes": 36760,
+      "downloaded_sha256": "97e9085e451f3bc5a39da39859fbec7c2961ed509006d2662b05e47c12d5a0df"
+    },
+    {
+      "path": "images/logo.png",
+      "downloaded_bytes": 9322,
+      "downloaded_sha256": "a72a179673f9a2bae074e916dc0afa4e54f5cc5ee4b8c4adbef4323819d20c8f"
+    },
+    {
+      "path": "index.html",
+      "downloaded_bytes": 21813,
+      "downloaded_sha256": "6d79634155f826d15f6ca615e54d55bb25b8a6bfa3c71e2fb4f5a43a4d75fa8b"
+    },
+    {
+      "path": "index_cn.html",
+      "downloaded_bytes": 21595,
+      "downloaded_sha256": "2526aa1d684eceb3b1876106c92a3a88e10587e0aa0bbb05ff128cd6ea1ff62e"
+    },
+    {
+      "path": "index_jp.html",
+      "downloaded_bytes": 21809,
+      "downloaded_sha256": "03e59915104def206ffb265bc0a2c2872bf7e0e8befac89e4c5b42f9e40ffb40"
+    },
+    {
+      "path": "index_th.html",
+      "downloaded_bytes": 21935,
+      "downloaded_sha256": "740c62a388df3867003d1e6c16d5654b1c8c4a21bfdbcb07c10cd1f85cc15745"
+    },
+    {
+      "path": "js/language.js",
+      "downloaded_bytes": 924,
+      "downloaded_sha256": "2fbb9e590f7b74c8f82ecaba286ab0e3e559c462cc31d5f6f593ebd77adadffc"
+    },
+    {
+      "path": "js/menu.js",
+      "downloaded_bytes": 12006,
+      "downloaded_sha256": "2de059b073786b6c6b68b5306bd623e24fecf809156e7ac71059784e285d4b0c"
+    },
+    {
+      "path": "js/script.js",
+      "downloaded_bytes": 7034,
+      "downloaded_sha256": "58119aa96e36baf7bcc413996a1b56b585c39ae5417c79452200ca42a818d6e7"
+    },
+    {
+      "path": "js/slider.js",
+      "downloaded_bytes": 6834,
+      "downloaded_sha256": "f89b9fc5c8ea5aa8b564d184a8a2b587ff9ecad048355616ac475dc3c012189a"
+    },
+    {
+      "path": "management.html",
+      "downloaded_bytes": 11548,
+      "downloaded_sha256": "9512fd8cf5c02395368beeb003c7c5ac14b3e027f21bf736ccb569d7f97ee96a"
+    },
+    {
+      "path": "management_cn.html",
+      "downloaded_bytes": 11006,
+      "downloaded_sha256": "5eaa168d50c8a933651eb53612cbd7e50a30ba060e1e9b65220ccce878bb4248"
+    },
+    {
+      "path": "management_en.html",
+      "downloaded_bytes": 11039,
+      "downloaded_sha256": "a4788760c3d062ff54e63eb71bc904677979f775a3165de65bb2f3e7e824852c"
+    },
+    {
+      "path": "management_jp.html",
+      "downloaded_bytes": 11078,
+      "downloaded_sha256": "3c5d0c8ecf7cb084a90728c910c4e7fb08a82a8ebe4e1b0d391b265f32ae3c45"
+    },
+    {
+      "path": "module/phpbe/ajaxbe.4.js",
+      "downloaded_bytes": 17429,
+      "downloaded_sha256": "8da0ed099a5b2344cb350c9b39b25d52d18d728805a74cd11a59b50fab544244"
+    },
+    {
+      "path": "module/phpbe/prototype/effects.js",
+      "downloaded_bytes": 38471,
+      "downloaded_sha256": "055be203cf7225e94dec4a5f72ba1f469a499ac78c24d9366705c1099de812d0"
+    },
+    {
+      "path": "module/phpbe/prototype/prototype.js",
+      "downloaded_bytes": 197777,
+      "downloaded_sha256": "a6b4f5343dd13746d73c87e9f2e6187768e92fdfd1334fb4613dd23c6cd3e819"
+    },
+    {
+      "path": "plugin/lightwindow/css/lightwindow.css",
+      "downloaded_bytes": 7438,
+      "downloaded_sha256": "50ac73347828d4dd8cd68249514082a067157347ca4422988f3c023ce94bfb70"
+    },
+    {
+      "path": "plugin/lightwindow/javascript/lightwindow.js",
+      "downloaded_bytes": 61908,
+      "downloaded_sha256": "cf14afe4cf3d91e46bab2737c0be5a2136d313bdea2605c099c93413d166f0cf"
+    },
+    {
+      "path": "report/index.html",
+      "downloaded_bytes": 15537,
+      "downloaded_sha256": "1ad0859b68d0ded9e5a7ec18148f335f86e368982871cdb1f82b684d30303458"
+    },
+    {
+      "path": "screenshots/01-home.png",
+      "downloaded_bytes": 99402,
+      "downloaded_sha256": "919c19c96bc6766c8f21541be96800d10f13cd44000a219e7f757ce881653d2d"
+    },
+    {
+      "path": "screenshots/02-company.png",
+      "downloaded_bytes": 208042,
+      "downloaded_sha256": "5982fe22ae548659145239bcf7bd95124fd142ea44c49b20693ca50c0b99105b"
+    },
+    {
+      "path": "screenshots/03-management.png",
+      "downloaded_bytes": 572044,
+      "downloaded_sha256": "a3270218e4482afe3e462f6d41b9223e18bc71f821d4ec1fd9fb5f4e57f5ab81"
+    },
+    {
+      "path": "screenshots/04-business.png",
+      "downloaded_bytes": 158329,
+      "downloaded_sha256": "d08fe465bc5a84f0e7373e8e71e95647e756975503967f9fc10e26be6c247178"
+    },
+    {
+      "path": "screenshots/05-awarded.png",
+      "downloaded_bytes": 433228,
+      "downloaded_sha256": "52f2d4dc8e15f787582e6c73a82a96eccba95ca54bc17c0b3b96eaf53bd71d02"
+    },
+    {
+      "path": "screenshots/06-career.png",
+      "downloaded_bytes": 151942,
+      "downloaded_sha256": "64a7f9a6e963dc9aacd01636c6452964e6c774c8d7169998bb1d089849bbad27"
+    },
+    {
+      "path": "screenshots/07-contact.png",
+      "downloaded_bytes": 322358,
+      "downloaded_sha256": "e0704fd6137058e1c53da2d38d0f553c726b8e56b3bc561f60aeec3aa1c1e679"
+    },
+    {
+      "path": "screenshots/awarded.png",
+      "downloaded_bytes": 201471,
+      "downloaded_sha256": "90680d40583372ce981e74339d6cbad1108e61a09d6f950398862acfe23f6811"
+    },
+    {
+      "path": "screenshots/business.png",
+      "downloaded_bytes": 81984,
+      "downloaded_sha256": "a34407e48248ee6fccd510d2e0864711bb770326fa91b5a0146652a730b44d3b"
+    },
+    {
+      "path": "screenshots/career.png",
+      "downloaded_bytes": 81792,
+      "downloaded_sha256": "0d79d06c5d5be18cbb6ecf86fff8ffbe9f23443e2801206529f6a71975883e14"
+    },
+    {
+      "path": "screenshots/company.png",
+      "downloaded_bytes": 79643,
+      "downloaded_sha256": "67677004064edc8d8737a5f96065447f0e01c2fc2e8dfe285ab1fcb0b951646e"
+    },
+    {
+      "path": "screenshots/contact.png",
+      "downloaded_bytes": 27398,
+      "downloaded_sha256": "4c2665d33bea6bd973ce2d75b6b402d83297596d2aa63f0287ccaefa4d98e60a"
+    },
+    {
+      "path": "screenshots/home.png",
+      "downloaded_bytes": 608018,
+      "downloaded_sha256": "69af2aa077f176c410df8cc6990f42563fceb327119af4912805cccdeefe2793"
+    },
+    {
+      "path": "screenshots/management.png",
+      "downloaded_bytes": 500049,
+      "downloaded_sha256": "e2a5840b6fd8ecd3f962f094a259214152afd5ea166c497266cc0ad49cdaf4d6"
+    },
+    {
+      "path": "template/styles/template.css",
+      "downloaded_bytes": 24476,
+      "downloaded_sha256": "9a160758157448af6d1ccc42ca326c6c8a26232148f6856f691ae0ef8ca197f5"
+    },
+    {
+      "path": "uploads/11903812.jpg",
+      "downloaded_bytes": 190374,
+      "downloaded_sha256": "ad17465fe2c8f099f290dc3b41691e0311d4f6f9555de2d46282254d30c291ea"
+    },
+    {
+      "path": "uploads/Untitled2.jpg",
+      "downloaded_bytes": 113183,
+      "downloaded_sha256": "6724de75a58788bdd90f0ffd74762f72849305f75d702cfd6e6b305e8d536136"
+    },
+    {
+      "path": "uploads/Untitled7.jpg",
+      "downloaded_bytes": 143569,
+      "downloaded_sha256": "659fb584616a0a466a3659c1091646920a86da409f4c742cdfaaa20f4fd4b2d7"
+    },
+    {
+      "path": "uploads/Untitled8.jpg",
+      "downloaded_bytes": 143569,
+      "downloaded_sha256": "659fb584616a0a466a3659c1091646920a86da409f4c742cdfaaa20f4fd4b2d7"
+    },
+    {
+      "path": "uploads/Untitledth.jpg",
+      "downloaded_bytes": 137493,
+      "downloaded_sha256": "327882cab13b7972c3e829ac9746fdbf3a1c286f0fa0bc58a6ece5ff354c65df"
+    },
+    {
+      "path": "uploads/awards/553_1764835658.jpg",
+      "downloaded_bytes": 582764,
+      "downloaded_sha256": "57e222c7fffec9072ea578775b56e9c067e83a75e77adceaa59b21bc2319d0fb"
+    },
+    {
+      "path": "uploads/awards/731_1726732837.jpg",
+      "downloaded_bytes": 1401911,
+      "downloaded_sha256": "377322e9f67db0a451cd6eaef09617c875d9a4124b819f796b3c520cdbecb099"
+    },
+    {
+      "path": "uploads/awards/732_1720411251.jpg",
+      "downloaded_bytes": 372492,
+      "downloaded_sha256": "064efecee94e1e527b21867673118d410277f75d62bcae22875b05f931d62db3"
+    },
+    {
+      "path": "uploads/awards/762_1726739420.jpg",
+      "downloaded_bytes": 3007066,
+      "downloaded_sha256": "c1e54b4b7ae02bcbb8ceff4e52da0e99d66dbda23e7ad9ed7b22290c0246747b"
+    },
+    {
+      "path": "uploads/awards/838_1726739031.png",
+      "downloaded_bytes": 548959,
+      "downloaded_sha256": "9f89984a89dc24e0225d2fa407a4a86da1cbc0e6e43117583a2c5dd07d6a5d10"
+    },
+    {
+      "path": "uploads/awards/943_1726732821.jpg",
+      "downloaded_bytes": 1499886,
+      "downloaded_sha256": "d2dc1ea50bd132ae70bf6888142b8db6b91f1049206042df1501840fa6abf80a"
+    },
+    {
+      "path": "uploads/awards/tmp_553_1764835658.jpg",
+      "downloaded_bytes": 10061,
+      "downloaded_sha256": "a341d98dada8416d0fb5c65fcf58a1d27300db85d1512c00f91568b2ece4a4b1"
+    },
+    {
+      "path": "uploads/awards/tmp_731_1726732837.jpg",
+      "downloaded_bytes": 8209,
+      "downloaded_sha256": "23717b167e5d2e4eaab2b51e6c9e67f058907247f9053846f54b171f6c64fde4"
+    },
+    {
+      "path": "uploads/awards/tmp_732_1720411251.jpg",
+      "downloaded_bytes": 8795,
+      "downloaded_sha256": "211c72a0b80975375f467a0a0757af9c202b681a9c0a9fafe729c3be8c97c91f"
+    },
+    {
+      "path": "uploads/awards/tmp_762_1726739420.jpg",
+      "downloaded_bytes": 5922,
+      "downloaded_sha256": "746cbb1fad6fc52c9bb62d9df25880aa13c5c0efaa647714b0764b43c86d22ad"
+    },
+    {
+      "path": "uploads/awards/tmp_838_1726739031.png",
+      "downloaded_bytes": 39349,
+      "downloaded_sha256": "9f5c880be881118ced5647605972e4bbd1b48c548e09e41803b72f2f1eb93a7a"
+    },
+    {
+      "path": "uploads/awards/tmp_943_1726732821.jpg",
+      "downloaded_bytes": 9588,
+      "downloaded_sha256": "ee217e7f9bcf622179fecac2af4dfdace0aea9bbfda3a38b3b9355e058255321"
+    },
+    {
+      "path": "uploads/companies/300_1445940288.png",
+      "downloaded_bytes": 7627,
+      "downloaded_sha256": "a54b5e745f33b66bbd0f510662af2ad647c037c0a37ed51d72d7b04c38f9ca28"
+    },
+    {
+      "path": "uploads/companies/696_1691038676.jpg",
+      "downloaded_bytes": 10866,
+      "downloaded_sha256": "22d415b5807c418c67122bf26b496c85f1c565b602b1e5cf4a868864715ff08f"
+    },
+    {
+      "path": "uploads/contactus_photos/673_1750212565.jpg",
+      "downloaded_bytes": 2380314,
+      "downloaded_sha256": "9b8594f9e2bb2a3d69ab6c92342896f5d4904778155d005b063230467b2267b5"
+    },
+    {
+      "path": "uploads/contactus_photos/837_1750140747.jpg",
+      "downloaded_bytes": 1906783,
+      "downloaded_sha256": "0a4cfbc8184c292d48c119c86cf3326a67c1fb034255e33e0366dc843a8f5281"
+    },
+    {
+      "path": "uploads/contactus_photos/tmp_673_1750212565.jpg",
+      "downloaded_bytes": 3633,
+      "downloaded_sha256": "eb9d543de85084ae681db8b8148f4a9f0b36962b75ee56340eb4c54847c7a78a"
+    },
+    {
+      "path": "uploads/contactus_photos/tmp_837_1750140747.jpg",
+      "downloaded_bytes": 3305,
+      "downloaded_sha256": "8815addfbe67620185c63b7762e542d382a2c0766ed435c22cd5ccaa88cb719b"
+    },
+    {
+      "path": "uploads/slides/152_1726731437.jpg",
+      "downloaded_bytes": 103702,
+      "downloaded_sha256": "b2421091f650c80764a548e94b50155aab27899393866cdea77e739903c9243c"
+    },
+    {
+      "path": "uploads/slides/610_1726731429.jpg",
+      "downloaded_bytes": 77596,
+      "downloaded_sha256": "7403a277e218028901853f7366a0cec54a00911d0f6157c9c22bf03e031ba63a"
+    },
+    {
+      "path": "uploads/slides/612_1726731399.jpg",
+      "downloaded_bytes": 135951,
+      "downloaded_sha256": "964811f9d370dfb20bffc432d41f39f468428437a5edb3e2ec0f9f10fdb2d5ed"
+    },
+    {
+      "path": "uploads/slides_2/291_1435625183.png",
+      "downloaded_bytes": 148471,
+      "downloaded_sha256": "fe5f22d8bf0544e761e6bc294fee419e02ff84012ec59a0a02e852f6043511c9"
+    },
+    {
+      "path": "uploads/slides_2/314_1435738620.jpg",
+      "downloaded_bytes": 6395,
+      "downloaded_sha256": "7d6cde02c7217c3dfca18c4ff6b09906c369e2ba986d6d54dbe2c1b44fa2dbe4"
+    },
+    {
+      "path": "uploads/slides_2/322_1437127598.jpg",
+      "downloaded_bytes": 18510,
+      "downloaded_sha256": "9e49edafdc8a7862b6ebf1b22af7f3dd04e7a3226892c4292323af8b3354c764"
+    },
+    {
+      "path": "uploads/slides_2/590_1435738676.jpg",
+      "downloaded_bytes": 6580,
+      "downloaded_sha256": "201a4fbad1869fdb2d2199a7b706a15cf69a74f767f548b121fa1d454866b598"
+    },
+    {
+      "path": "uploads/slides_2/718_1435625202.png",
+      "downloaded_bytes": 177949,
+      "downloaded_sha256": "97a75a2946cda1ecb50bb71b430470e51f005426e7efe0536e2c9b5867838b1a"
+    },
+    {
+      "path": "uploads/slides_2/997_1435738633.jpg",
+      "downloaded_bytes": 10748,
+      "downloaded_sha256": "f1440d944a2e3249fd134973c836deb61ade8e5717a1466b12968130dfc2245a"
+    }
+  ]
+}

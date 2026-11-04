@@ -1,13 +1,8 @@
-node_modules
-.nuxt
-.output
+.DS_Store
 .env
 *.log
-
-dist
-
+node_modules/
+.arena/
 google_drive/
 test-results/
 playwright-report/
-
-.arena/

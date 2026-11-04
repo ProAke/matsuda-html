@@ -1,0 +1,527 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+<title>Matsuda Sangyo (Thailand) Co., Ltd.</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Matsuda Sangyo (Thailand),customers 
+such as food product processing, restaurants, convenience stores, 
+and discount stores." /> 
+	<meta name="description" content="Matsuda Sangyo (Thailand) Co., Ltd. has an efficient sales and distribution 
+system that combines distribution and sales in one organization to 
+provide the delivery timing and varied lot sizes required by customers 
+such as food product processing, restaurants, convenience stores, 
+and discount stores." />
+	<link  type='text/css' rel='stylesheet' href='template/styles/template.css' media='screen' />
+	
+		<script type="text/javascript" src='module/phpbe/prototype/prototype.js'></script>
+	<script type="text/javascript" src='module/phpbe/prototype/effects.js'></script>
+	<script type="text/javascript" src='js/script.js'></script>
+	<script type="text/javascript" src='js/slider.js'></script>
+	<script type="text/javascript" src='js/language.js'></script>
+	<script type="text/javascript">
+function fnc_totop(){ window.scrollTo(0, 0); }
+
+	function default_scroll(){ /* scroll effects handled by inline fnc_resize/fnc_effect */ }
+	function default_resize(){ /* resize effects handled by inline fnc_resize */ }
+	</script>
+<script type="text/javascript">
+var  mg1 =null;
+var  mg2 =null;
+function fnc_resize(status){
+	var w=document.viewport.getWidth();
+	if(w>1024) w=1024;
+	if(w<920){
+		$('div-index2-l').removeClassName('div-index2-l');
+		$('div-index2-l').toggleClassName('div-index2-l-2',true);
+	}else{
+		$('div-index2-l').removeClassName('div-index2-l-2');
+		$('div-index2-l').toggleClassName('div-index2-l',true);
+	}
+
+	/*var h2=($('img-index3').clientHeight)*0.45;
+	$('bg-index3').setStyle({height:h2+'px'});
+*/
+	/* 126 = btn*2+border*2 = 60*2+3*2 */
+	/* resolution = 920   */
+	var w2=w;
+	if(w>920){ w2=920;}else if(w<310){ w2=310;}
+	var ws=(w2-126)/3;
+	var hs=215/265*ws;
+	
+	$('mg_loading').show();
+	$('mg1').hide();
+	if(mg1 != null){
+		mg1._clearTimeout();
+	}
+	setTimeout(function(){
+		 $('mg1').show();
+		 $('mg_loading').hide();
+		 mg1 = new mg_slider('mg1',{move:false,width:ws,height:hs,padding:0,border:0,margin:0,size:3,delay:10000});
+	},1000);
+
+	/* 1900 x  515 */
+	var ws2=document.viewport.getWidth();
+	 if(ws2<310){ ws2=310;}
+	var hs2=515/1900*ws2;
+
+	$('mg_loading2').show();
+	$('mg2').hide();
+	if(mg2 != null){
+		mg2._clearTimeout();
+	}
+	setTimeout(function(){
+		 $('mg2').show();
+		 $('mg_loading2').hide();
+		 mg2 = new mg_slider('mg2',{move:false,width:ws2,height:hs2,padding:0,border:0,margin:0,size:1,delay:10000});
+	},1000);
+
+}
+
+var fnc_effect={
+	n:0,
+	w:0,
+	s:[false,false,false,false,false,false,false,false],
+	init:function(){
+		var w=$('img-index3-1').getWidth()+10;
+		this.w=w;	
+		$('img-index3-1').setStyle({'left':-w+'px'});
+		$('img-index3-2').setStyle({'left':w+'px'});
+		
+		new Effect.Opacity('line-index3-1', { from: 1, to: 0, duration: 0 });
+		
+	},
+	
+	move:function(id,w){
+		new Effect.Move($(id), { x: w, y: 0 ,delay:0.5,transition: Effect.Transitions.spring});
+	},
+	opacity:function(id){
+		new Effect.Opacity(id, { from: 0, to: 1, duration: 1 });
+	},
+	set:function(n,d,line,h,w){
+		if(this.s[n]==false){
+	
+	var offsetY=Element.viewportOffset(d)[1];
+	
+	if(n==0){
+	
+	if(offsetY>=-50 && offsetY<h){
+	this.move(d,w);
+	this.s[n]=true;
+	}
+	}else{
+	var _this=this;
+	
+	if(offsetY>=0 && offsetY<=h*2/3 && offsetY<h){
+	
+	this.move(d,w);
+	this.s[n]=true;
+	if(line!=''){
+	setTimeout(function(){_this.opacity(line);},1000);
+	}
+	}
+	
+	}
+		
+	//$('testxx').innerHTML=n+'='+h+','+offsetY;
+		}
+		
+	},
+	next:function(){
+		if($('div-index3').getStyle('visibilty')!='visible'){
+	var h=document.viewport.getHeight();
+	this.set(0,'img-index3-1','',h,this.w);
+	this.set(1,'img-index3-2','line-index3-1',h,-this.w);
+	
+	
+		
+		
+		}
+	}
+}
+</script>	<script type="text/javascript">
+document.observe('dom:loaded',function(){
+	default_scroll();
+	default_resize(false);
+	
+	
+setTimeout(function(){
+	$('loading-index3').hide();
+	$('div-index3').setStyle({'visibility':'visible',height:'auto'});
+	fnc_effect.next();
+},1000);
+fnc_effect.init();
+
+fnc_resize(false);
+
+	});
+	var default_width=document.viewport.getWidth();
+	Event.observe(window, 'resize', function() { 
+		if(default_width!=document.viewport.getWidth()){
+		default_resize(true);
+	fnc_resize(true);
+	default_width=document.viewport.getWidth();
+	}
+
+	});
+	Event.observe(window, 'scroll', function() { 
+		default_scroll();
+		fnc_effect.next();		
+});
+	</script>
+
+
+	
+<script src="js/static-compat.js" defer></script>
+<link rel="stylesheet" href="template/styles/reference-repairs.css">
+</head>
+<body class="en" id="body">
+	<a href='javascript:void(0)' onclick="fnc_totop()" id='btn-scroll' title='TO TOP'>&nbsp;</a>
+
+	
+	<div id='empty-header'>&nbsp;</div>
+	<div class='header' id='header'>
+	<div class='wrapper'>
+		<div id='testxx'></div>
+		<a href='index.html' alt='home' class='logo' aria-label='Home'>&nbsp;</a>
+		
+		<ul class='menu-top2'  id='menu-top2'>
+	<li><a href='index.html' alt='ENG'  class='linked' aria-current='page'>ENG</a></li>
+	<li><p>/</p></li>
+	<li><a href='index_jp.html' alt='日本語' >日本語</a></li>
+	<li><p>/</p></li>
+	<li><a href='index_th.html' alt='ไทย'   >ไทย</a></li>
+	<li><p>/</p></li>
+	<li><a href='index_cn.html' alt='中文'   >中文</a></li>
+		</ul>
+
+
+		<ul class='menu-top' id='menu-top'>
+	<li><a href='index.html' alt='home'  class='linked'  >Home</a></li>
+	<li><a href='company.html' alt='COMPANY'  >Company</a></li>
+	<li><a href='management_en.html' alt='MANAGEMENT MESSAGE'  >Related Links</a></li>
+	<li><a href='business.html' alt='OUR BUSINESS'  >Our Business</a></li>
+	<li><a href='awarded.html' alt='AWARDED'  >Awards and Certifications</a></li>
+	<li><a href='career.html' alt='CAREER OPPORTUNITY'  >Quality &Environment System</a></li>
+	<li><a href='contactus.html' alt='CONTACT US'  >Contact Us</a></li>
+		</ul>
+		<nav class="mobile-navigation" aria-label="Mobile navigation"><button type="button" class="mobile-menu-toggle" aria-expanded="false" aria-controls="mobile-menu">☰ Menu</button><ul id="mobile-menu">
+	<li><a href='index.html' alt='home'  class='linked'  >Home</a></li>
+	<li><a href='company.html' alt='COMPANY'  >Company</a></li>
+	<li><a href='management_en.html' alt='MANAGEMENT MESSAGE'  >Related Links</a></li>
+	<li><a href='business.html' alt='OUR BUSINESS'  >Our Business</a></li>
+	<li><a href='awarded.html' alt='AWARDED'  >Awards and Certifications</a></li>
+	<li><a href='career.html' alt='CAREER OPPORTUNITY'  >Quality &Environment System</a></li>
+	<li><a href='contactus.html' alt='CONTACT US'  >Contact Us</a></li>
+		</ul></nav>
+<div class='clear'></div>
+	
+	</div><!-- .wrapper -->
+	</div><!-- header -->
+<div class='content'>
+		<!-- Hero Banner -->
+		
+
+	
+		
+		
+	
+		
+	<!---\. start popup -->
+<style>
+ /* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+	z-index:99999;
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: -moz-calc(100% - 50px) !important;width: -webkit-calc(100% - 50px) !important;width: calc(100% - 50px) !important;
+   
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+   width: -moz-calc(100% - 50px) !important;width: -webkit-calc(100% - 50px) !important;width: calc(100% - 50px) !important;
+
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}</style>
+
+
+<!-- Source popup script omitted: its div-dad/img-dad markup is absent. -->
+<!---\. end popup -->
+<div class='div-index1'>
+	<div class='gallery_slider'>
+		<div id='mg_loading2'><img src='./images/loading.gif' /></div>		
+		<div class='div_gallery'  id='mg2'>
+	<a href='javascript:void(0)' onclick="mg2.prev()" class='gs-prev'>&nbsp;</a>
+	<a href='javascript:void(0)' onclick="mg2.next()" class='gs-next'>&nbsp;</a>
+	<div class='div_gallery_container'>
+	<div class='div_gallery_inner'>
+	<div class='item-list'>
+	<img src="./uploads/slides/152_1726731437.jpg"  alt='introduce' />
+	
+	
+	</div>
+	<div class='item-list'>
+	<img src="./uploads/slides/610_1726731429.jpg"  alt='introduce' />
+	
+	
+	</div>
+	<div class='item-list'>
+	<img src="./uploads/slides/612_1726731399.jpg"  alt='introduce' />
+	
+	
+	</div>
+	
+	</div><!-- div_gallery_inner -->
+	</div><!-- div_gallery_container -->
+		</div><!-- mg2 -->
+	</div><!-- gallery_slider -->
+</div><!-- div-index1-->
+
+
+
+
+
+<div class='div-index2'>
+	<div class='wrapper2' style="padding-top:20px;padding-buttom:20px;">
+		<div class='l div-index2-l' id='div-index2-l'>
+		<h2 class='h-f3'>For Prosperity And A Beautiful Earth</h2>
+		</div>
+		<div  class='r div-index2-r' id='div-index2-r'>
+	<p style="font-size: 22px; color: #231f20; text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: 16px; color: #ffffff;">MATSUDA IS OPERATING</span></p>
+<p style="font-size: 22px; color: #231f20; text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: 16px; color: #ffffff;">VARIOUS BUSINESSES</span></p>
+<p style="font-size: 22px; color: #231f20; text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: 16px; color: #ffffff;">RELATED TO PRECIOUS METALS.</span></p>		</div>
+		<div  class='r2 div-index2-r2' id='div-index2-r2'>
+	<p style="font-size: 22px; color: #231f20;"><span style="color: #ffffff; font-family: 'trebuchet ms', geneva; font-size: 16px;">- PRECIOUS METAL SCRAP COLLECTION/RECOVERY&nbsp;</span></p>
+<p style="font-size: 22px; color: #231f20;"><span style="color: #ffffff; font-family: 'trebuchet ms', geneva; font-size: 16px;">- PRECIOUS METAL MATERIALS</span></p>	
+		</div>
+		<div class='clear'></div>
+	</div>
+</div><!-- div-index2-->
+
+<div id='loading-index3'><img src='./images/loading.gif' /></div>
+<div id='div-index3'>
+	<div class='div-index3-1'>
+		<div class='wrapper w-index3-1'>
+	<img src='./images/line-index3-1.png'  class='line-index3-1'  id='line-index3-1'/>
+		</div>
+		
+		<div class='wrapper wrapper-hidden w-index3-2'>
+	<img src='./images/img-index3-1_en.png'  class='img-index3-1' id='img-index3-1'/>
+		</div>
+		
+		
+	</div>
+	<div class='div-index3-2'>
+		<div class='wrapper wrapper-hidden'>
+	<img src='./images/img-index3-2.png'  class='img-index3-2' id='img-index3-2'/>
+		</div>
+	</div><!-- div-business2-->
+</div>
+
+
+<div class='div-index4'>
+	<div class='d'>
+		<div class='wrapper2'  style="padding-top:20px;padding-buttom:20px;">
+	<h2 style='margin-buttom=20px;'>PRECIOUS METALS RELATED BUSINESS</h2>
+
+	<p style="font-size: 30px; line-height: 30px;">Matsuda Sangyo (Thailand) Co., ltd. contributes to the industries and the earth through an effective utilization of the earth resources. With our technology, all resources will be recycled and reused to prevent an un-necessary landfill.</p>	<br><br>
+		<!-- start slider -->
+	<div class='gallery_slider'>
+	<div id='mg_loading'>LOADING...</div>
+	
+	<div class='div_gallery'  id='mg1'>
+	<a href='javascript:void(0)' onclick="mg1.prev()" class='gs-prev'>&nbsp;</a>
+	<a href='javascript:void(0)' onclick="mg1.next()" class='gs-next'>&nbsp;</a>
+	<div class='div_gallery_container'>
+	<div class='div_gallery_inner'>
+	<div class='item-list'>
+	<img src="./uploads/slides_2/590_1435738676.jpg"  alt='image slide' />
+	
+	</div>
+	<div class='item-list'>
+	<img src="./uploads/slides_2/314_1435738620.jpg"  alt='image slide' />
+	
+	</div>
+	<div class='item-list'>
+	<img src="./uploads/slides_2/997_1435738633.jpg"  alt='image slide' />
+	
+	</div>
+	<div class='item-list'>
+	<img src="./uploads/slides_2/718_1435625202.png"  alt='image slide' />
+	
+	</div>
+	<div class='item-list'>
+	<img src="./uploads/slides_2/322_1437127598.jpg"  alt='image slide' />
+	
+	</div>
+	<div class='item-list'>
+	<img src="./uploads/slides_2/291_1435625183.png"  alt='image slide' />
+	
+	</div>
+	
+	</div>
+	</div>
+	
+	</div>
+		</div>
+
+	<!-- end slider -->
+		</div>
+	</div>
+	<img src='./images/bg-index4.png' class='bg-index4' />
+</div>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3867.10428091017!2d100.5874401!3d14.2471387!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e277f3d7966e7d%3A0x95da6c42ab215d87!2sMatsuda%20Sangyo%20(Thailand)%20Company%20Limited!5e0!3m2!1sth!2sth!4v1700173726882!5m2!1sth!2sth" width="100%" height="305" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+<div class='footer'>
+	<div class='wrapper2'>
+		<div class='d'>
+	
+	<div class='r footer-r' id='footer-r'>
+	
+	<p><span style="font-size: 18px;">Matsuda Sangyo (Thailand) Co., Ltd. has an efficient logistics system for support requests from customers. </span></p>
+<p><span style="font-size: 18px;">We provide Harzadous and Non-harzadous waste and scrap transportation by GPS equiped 4 to 10 wheels closed cargo truck.</span></p>
+<p><span style="font-size: 18px;">&nbsp;</span></p>
+<p><span style="font-size: 18px;">Matsuda Sangyo (Thailand) Co., Ltd. operating with an advanced precious metal refining technology and environmental friendly know-how.</span></p>	</div><!-- r -->
+	<div class='r2 footer-r2' id='footer-r2'>
+	</div><!-- l2 -->
+	<div class='r3 footer-r3' id='footer-r3'>
+<p style="font-size: 24px;"><strong>Matsuda Sangyo (Thailand) Co., Ltd.</strong></p>
+<p><span style="color: #ffffff; font-size: 19px; background-color: #333333;">Hi-Tech Industrial Estate 148 Moo 1 T.Banlen</span></p>
+<p><span style="color: #ffffff; font-size: 19px; background-color: #333333;">A.Banpa-in, Ayutthaya 13160, Thailand.</span></p>
+<p style="color: #ea5504;"><span style="color: #ffffff; font-family: CordiaUPC,times; font-size: 19px; background-color: #333333;">Tel: (+66)35-729-001-5</span></p>
+<p style="color: #ea5504;"><span style="color: #ffffff; font-family: CordiaUPC,times; font-size: 19px; background-color: #333333;">Fax: (+66)35-729-007</span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 18px;"><strong>E-mail :</strong></span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">About Starting business with us :</span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;"><a href="mailto:sale1@matsuda-sangyo.co.th">sales1@matsuda-sangyo.com</a></span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">About Career opportunity :</span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;"><a href="mailto:recruit@matsuda-sangyo.co.th">recruit@matsuda-sangyo.com</a>&nbsp;</span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">About General matters :</span></p>
+<p><a href="mailto:msta-admin@matsuda-sangyo.com"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">msta-admin@matsuda-sangyo.com</span></a></p>
+<p>&nbsp;</p>	</div><!-- l -->
+	<div class='clear'></div>
+	</div><!-- d -->
+	</div><!-- wrapper -->
+		
+		<img src='./images/bg-footer.png' class='bg-footer'/>
+</div><!-- footer -->
+<div class='footer2'>
+	
+	<div class='wrapper2'>
+		<div class='l'>
+	<p>Copyright ©MATSUDA SANGYO CO.,LTD. All rights reserved.</p>
+	<ul class='menu-bottom' id='menu-bottom'>
+	<li><a href='index.html' alt='home'  class='linked'  >Home</a></li>
+	<li><a href='company.html' alt='COMPANY'  >Company</a></li>
+	<li><a href='management_en.html' alt='MANAGEMENT MESSAGE'  >Related Links</a></li>
+	<li><a href='business.html' alt='OUR BUSINESS'  >Our Business</a></li>
+	<li><a href='awarded.html' alt='AWARDED'  >Awards and Certifications</a></li>
+	<li><a href='career.html' alt='CAREER OPPORTUNITY'  >Quality &Environment System</a></li>
+	<li><a href='contactus.html' alt='CONTACT US'  >Contact Us</a></li>
+	</ul>
+	<div class='clear'></div>
+		</div>
+		<div class='r'>
+	<!--
+	<a href='#twitter' class='icon-tw'>&nbsp;</a>
+	<a href='#' class='icon-yt'>&nbsp;</a>
+	<a href='https://maps.app.goo.gl/2BVm7DtHijfziuBAA' class='icon-gg'>&nbsp;</a>
+	<a href='http://www.facebook.com' class='icon-fb'>&nbsp;</a>
+	<div class='clear'></div>
+	-->
+		</div>
+		<div class='clear'></div>
+		</div><!-- wrapper2-->
+</div>
+<div class='footer3'></div>
+
+<div class='wrapper'>
+	<div id='phpbeload'><div class="phpbeloadbox">Loading...</div></div>
+</div>
+	
+	
+
+
+
+	
+
+	<script type="text/javascript">
+//<![CDATA[
+window.onload = function() { fnc_lang("en"); };
+//]]>
+</script>
+</body>
+</html>
