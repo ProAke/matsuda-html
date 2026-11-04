@@ -1,0 +1,28 @@
+<script setup lang="ts">
+import assets from '~/data/assets.json'
+import site from '~/data/site.json'
+import { sections, languages } from '~/composables/useContent'
+definePageMeta({ validate: route => languages.some(l => l.code === route.params.lang) && (!route.params.page || sections.includes(String(route.params.page))) })
+const { t, lang, href } = useContent()
+const route = useRoute()
+const page = computed(() => String(route.params.page || 'home'))
+const title = computed(() => t.value.nav[sections.indexOf(page.value)])
+const slide = ref(0)
+useHead(() => ({ htmlAttrs: { lang: lang.value }, title: `${title.value} | ${site.legalName}` }))
+useSeoMeta({ description: () => t.value.description, ogTitle: () => `${title.value} | Matsuda Sangyo Thailand`, ogDescription: () => t.value.description, ogImage: assets.hero[0] })
+</script>
+<template><div><SiteHeader /><main id="main">
+<template v-if="page === 'home'">
+<section class="hero"><div class="hero-photo" :style="{ backgroundImage: `url('${assets.hero[slide]}')` }"></div><div class="hero-shade"></div><div class="hero-content"><p class="eyebrow">{{ t.eyebrow }}</p><h1>{{ t.hero[0] }}<br><em>{{ t.hero[1] }}</em></h1><p class="hero-description">{{ t.businessDesc }}</p><NuxtLink class="button" :to="href('business')">{{ t.explore }} <span>↗</span></NuxtLink></div><div class="hero-bottom"><span>01 — RESOURCE CIRCULATION</span><div class="slide-controls"><button v-for="(_,i) in assets.hero" :key="i" :aria-label="`${t.slide} ${i+1}`" :aria-pressed="slide === i" :class="{ active: slide === i }" @click="slide = i">0{{ i+1 }}</button></div><a href="#introduction" class="scroll-link" aria-label="Scroll to introduction">↓</a></div></section>
+<section id="introduction" class="intro section"><div class="section-label"><span class="tiny-square"></span> ABOUT MATSUDA <span>01 /</span></div><div class="intro-grid"><h2>{{ t.intro }}</h2><div><p class="large-copy">{{ t.description }}</p><NuxtLink class="text-link" :to="href('company')">{{ t.about }} <span>↗</span></NuxtLink></div></div><div class="resource-strip"><span>Au <small>GOLD</small></span><span>Ag <small>SILVER</small></span><span>Pt <small>PLATINUM</small></span><span>Pd <small>PALLADIUM</small></span><div class="resource-end">PRECIOUS RESOURCES.<br>ENDLESS POSSIBILITIES. <b>↗</b></div></div></section>
+<section class="business-section section"><div class="section-label"><span class="tiny-square"></span> OUR BUSINESS <span>02 /</span></div><div class="section-heading"><h2>{{ t.businessTitle }}</h2><p>{{ t.businessDesc }}</p></div><div class="service-grid"><NuxtLink v-for="(s,i) in t.services" :key="s" :to="href('business')" class="service-card"><div class="service-photo"><OriginalImage :src="assets.services[i]!" :alt="s" /><span class="card-number">0{{ i+1 }}</span></div><div class="card-content"><h3>{{ s }}<span>↗</span></h3><p>{{ t.serviceDescriptions[i] }}</p></div></NuxtLink></div></section>
+<section class="purpose"><div class="orbit" aria-hidden="true"><span>↗</span></div><div><p class="eyebrow">OUR PURPOSE</p><h2>{{ t.purpose }}</h2><p>{{ t.purposeText }}</p><NuxtLink class="text-link" :to="href('environment')">{{ t.nav[4] }} <span>↗</span></NuxtLink></div></section>
+</template>
+<template v-else><section class="page-heading"><div class="breadcrumb"><NuxtLink :to="href()">{{ t.nav[0] }}</NuxtLink><span>/</span>{{ title }}</div><p class="eyebrow">MATSUDA SANGYO · THAILAND</p><h1>{{ title }}</h1></section><div class="section inner-page">
+<template v-if="page === 'company'"><div class="intro-grid"><h2>{{ t.companyTitle }}</h2><OriginalImage :src="assets.company" :alt="site.legalName" eager /></div><h2 class="subheading">{{ t.profile }}</h2><dl class="profile"><div><dt>{{ t.shareholder }}</dt><dd>{{ site.shareholder }}</dd></div><div><dt>{{ t.capital }}</dt><dd>{{ site.capital }}</dd></div></dl><OfficeCards /><div class="gallery"><OriginalImage v-for="image in assets.companyGallery" :key="image" :src="image" :alt="site.legalName" /></div></template>
+<template v-else-if="page === 'business'"><h2>{{ t.businessTitle }}</h2><p class="large-copy lead">{{ t.businessDesc }}</p><div class="service-grid"><article v-for="(s,i) in t.services" :key="s" class="service-card"><OriginalImage :src="assets.services[i]!" :alt="s" /><div class="card-content"><h3>{{ s }}</h3><p>{{ t.serviceDescriptions[i] }}</p></div></article></div><div class="documents"><OriginalImage v-for="image in assets.business" :key="image" :src="image" :alt="t.nav[2]" /></div></template>
+<template v-else-if="page === 'awards'"><p class="large-copy lead">{{ t.awardsIntro }}</p><div class="award-grid"><a v-for="award in assets.awards" :key="award.src" :href="award.src" target="_blank" rel="noopener" class="award-card"><OriginalImage :src="award.src" :alt="award.title" /><h3>{{ award.title }} ↗</h3></a></div><a class="text-link" href="https://hi.matsuda-sangyothailand.com/awarded.php" target="_blank" rel="noopener">{{ t.view }} ↗</a></template>
+<template v-else-if="page === 'environment'"><p class="large-copy lead">{{ t.environmentIntro }}</p><a :href="assets.policy" target="_blank" rel="noopener"><OriginalImage class="policy" :src="assets.policy" :alt="t.environmentIntro" /></a></template>
+<template v-else-if="page === 'links'"><p class="large-copy lead">{{ t.linksIntro }}</p><a class="group-link" href="https://www.matsuda-sangyo.co.jp/en/" target="_blank" rel="noopener">Matsuda Sangyo Co., Ltd. <span>↗</span></a><OriginalImage :src="assets.group" :alt="t.linksIntro" /></template>
+<template v-else-if="page === 'contact'"><h2>{{ t.contactTitle }}</h2><p class="large-copy lead">{{ t.contactText }}</p><OfficeCards /></template>
+</div></template></main><SiteFooter /></div></template>

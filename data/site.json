@@ -1,0 +1,22 @@
+{
+  "name": "MATSUDA SANGYO",
+  "legalName": "Matsuda Sangyo (Thailand) Co., Ltd.",
+  "capital": "240,000,000 THB",
+  "shareholder": "Matsuda Sangyo Co., Ltd. \u2014 100%",
+  "offices": [
+    {
+      "address": "Hitech Industrial Estate, 148 Moo 1, Banlen, Bangpa-in, Ayutthaya 13160",
+      "phone": "035-729-001-5",
+      "tel": "+6635729001",
+      "fax": "035-729-007",
+      "map": "https://www.google.com/maps/search/?api=1&query=Matsuda+Sangyo+Ayutthaya"
+    },
+    {
+      "address": "Pinthong 3 Industrial Estate, 219/20 Moo 6, Bo-Win, Sriracha, Chonburi 20230",
+      "phone": "033-047-026-8",
+      "tel": "+6633047026",
+      "fax": "033-047-029",
+      "map": "https://www.google.com/maps/search/?api=1&query=Matsuda+Sangyo+Pinthong+3"
+    }
+  ]
+}
