@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import site from '~/data/site.json'
-import { sections } from '~/composables/useContent'
+const legacy = useLegacy()
 const { t, href } = useContent()
+const order = ['home', 'company', 'links', 'business', 'awards', 'environment', 'contact']
+const toTop = () => window.scrollTo({ top: 0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' })
 </script>
-<template><section class="contact-band"><div><span class="eyebrow">MATSUDA SANGYO · THAILAND</span><h2>{{ t.contactTitle }}</h2><p>{{ t.contactText }}</p></div><NuxtLink class="button light" :to="href('contact')">{{ t.contactButton }} <span>↗</span></NuxtLink></section><footer><div class="footer-main"><div><div class="footer-brand">MATSUDA SANGYO<span>THAILAND</span></div><p>{{ site.legalName }}</p><p>{{ site.offices[0].address }}</p></div><div class="footer-links"><NuxtLink v-for="(s,i) in sections" :key="s" :to="href(s)">{{ t.nav[i] }}</NuxtLink></div></div><div class="footer-bottom"><span>© {{ new Date().getFullYear() }} MATSUDA SANGYO CO., LTD. {{ t.copyright }}</span><span>RESOURCES FOR THE FUTURE.</span></div></footer></template>
+<template><footer><div v-html="legacy.footer.html"></div><div class="footer2"><div class="wrapper2"><p>Copyright ©MATSUDA SANGYO CO.,LTD. {{ t.copyright }}</p><nav :aria-label="t.menu"><ul class="menu-bottom"><li v-for="(s,i) in order" :key="s"><NuxtLink :to="href(s)">{{ legacy.header.nav[i] }}</NuxtLink></li></ul></nav><div class="clear"></div></div></div><div class="footer3"></div></footer><button id="btn-scroll" aria-label="Back to top" @click="toTop"></button></template>

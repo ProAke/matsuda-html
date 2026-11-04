@@ -9,7 +9,10 @@ for (const lang of ['en','ja','th','zh']) test(`${lang}: complete translation ke
  for (const key of Object.keys(english)) {
   assert.equal(typeof content[key], typeof english[key])
   if (Array.isArray(english[key])) assert.equal(content[key].length, english[key].length)
-  assert.ok(Array.isArray(content[key]) ? content[key].every(v => typeof v === 'string' && v.trim()) : content[key].trim())
+  if (key === 'legacyHome') {
+   assert.deepEqual(Object.keys(content[key]).sort(), Object.keys(english[key]).sort())
+   assert.ok(Object.values(content[key]).every(v => typeof v === 'string' && v.trim()))
+  } else assert.ok(Array.isArray(content[key]) ? content[key].every(v => typeof v === 'string' && v.trim()) : content[key].trim())
  }
 })
 test('original image manifest and office information', async () => {
