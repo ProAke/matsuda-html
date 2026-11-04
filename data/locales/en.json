@@ -1,0 +1,60 @@
+{
+  "nav": [
+    "Home",
+    "Company",
+    "Our business",
+    "Awards & certifications",
+    "Quality & environment",
+    "Related links",
+    "Contact us"
+  ],
+  "eyebrow": "RESOURCE RECOVERY. REIMAGINED.",
+  "hero": [
+    "For prosperity.",
+    "For a beautiful Earth."
+  ],
+  "intro": "Giving resources a new life.",
+  "description": "Matsuda Sangyo (Thailand) contributes to industry and the Earth through the effective utilization of resources. With our technology, resources are recycled and reused to prevent unnecessary landfill.",
+  "explore": "Explore our business",
+  "about": "Get to know Matsuda",
+  "businessTitle": "Value beyond the ordinary.",
+  "businessDesc": "Connecting industry to a more sustainable future through precious metal recovery and recycling.",
+  "services": [
+    "Precious metal recovery",
+    "Precious metal materials",
+    "Resource recycling"
+  ],
+  "serviceDescriptions": [
+    "Collecting and recovering gold, silver, platinum and palladium from industrial scrap.",
+    "Supporting industrial applications through the effective use of precious metals.",
+    "Recovering non-ferrous metals and bringing valuable resources back into circulation."
+  ],
+  "learn": "Discover more",
+  "purpose": "A better future starts with what we recover today.",
+  "purposeText": "Responsible resource use. Lasting industrial value. A beautiful Earth for generations to come.",
+  "contactTitle": "Let’s create value together.",
+  "contactText": "Connect with our team in Thailand to discuss precious metal recovery and recycling.",
+  "contactButton": "Get in touch",
+  "companyTitle": "Built on expertise. Driven by responsibility.",
+  "profile": "Company profile",
+  "capital": "Registered capital",
+  "shareholder": "Shareholder",
+  "officeNames": [
+    "Ayutthaya Head Office",
+    "Chonburi Branch"
+  ],
+  "address": "Address",
+  "phone": "Telephone",
+  "fax": "Fax",
+  "directions": "Get directions",
+  "awardsIntro": "Awards and certificates published on our original website.",
+  "environmentIntro": "Our quality and environmental policy.",
+  "linksIntro": "Discover the Matsuda Sangyo group.",
+  "view": "View original document",
+  "menu": "Menu",
+  "skip": "Skip to content",
+  "back": "Back to home",
+  "copyright": "All rights reserved.",
+  "slide": "Select slide",
+  "notFound": "Page not found"
+}
