@@ -1,0 +1,12 @@
+/* Company EN/TH/JP follow company_cn.html's layout. Loaded on these three
+   pages only: leave the approved Chinese page and other sections untouched. */
+@media (min-width: 1024px) {
+  /* Long translated menus must not add an extra header row and move all
+     company sections down. Allow wrapping inside the navigation's own slot. */
+  .header .wrapper { display:flex; align-items:center; min-height:65px; }
+  .header .logo { flex-shrink:0; margin:0 10px; }
+  .header .menu-top { flex:1; min-width:0; display:flex; flex-wrap:wrap; justify-content:flex-end; padding:0; }
+  .header .menu-top > li { float:none; }
+  .header .menu-top li a { margin:0 0 3px 12px; }
+  .header .menu-top2 { order:3; flex-shrink:0; padding:0 0 0 16px; }
+}
