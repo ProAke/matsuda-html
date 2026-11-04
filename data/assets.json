@@ -1,49 +1,63 @@
 {
   "hero": [
-    "https://hi.matsuda-sangyothailand.com/uploads/slides/152_1726731437.jpg",
-    "https://hi.matsuda-sangyothailand.com/uploads/slides/610_1726731429.jpg",
-    "https://hi.matsuda-sangyothailand.com/uploads/slides/612_1726731399.jpg"
+    "/legacy/uploads/slides/152_1726731437.jpg",
+    "/legacy/uploads/slides/610_1726731429.jpg",
+    "/legacy/uploads/slides/612_1726731399.jpg"
   ],
   "services": [
-    "https://hi.matsuda-sangyothailand.com/uploads/slides_2/590_1435738676.jpg",
-    "https://hi.matsuda-sangyothailand.com/uploads/slides_2/314_1435738620.jpg",
-    "https://hi.matsuda-sangyothailand.com/uploads/slides_2/997_1435738633.jpg"
+    "/legacy/uploads/slides_2/590_1435738676.jpg",
+    "/legacy/uploads/slides_2/314_1435738620.jpg",
+    "/legacy/uploads/slides_2/997_1435738633.jpg"
   ],
-  "company": "https://hi.matsuda-sangyothailand.com/uploads/11903812.jpg",
+  "company": "/legacy/uploads/11903812.jpg",
   "companyGallery": [
-    "https://hi.matsuda-sangyothailand.com/uploads/companies/696_1691038676.jpg",
-    "https://hi.matsuda-sangyothailand.com/uploads/companies/300_1445940288.png"
+    "/legacy/uploads/companies/696_1691038676.jpg",
+    "/legacy/uploads/companies/300_1445940288.png"
   ],
   "business": [
-    "https://hi.matsuda-sangyothailand.com/images/img-business1_en.png",
-    "https://hi.matsuda-sangyothailand.com/images/business_en.png"
+    "/legacy/images/img-business1_en.png",
+    "/legacy/images/business_en.png"
   ],
-  "policy": "https://hi.matsuda-sangyothailand.com/uploads/Untitled7.jpg",
-  "group": "https://hi.matsuda-sangyothailand.com/uploads/Untitled2.jpg",
+  "policy": "/legacy/uploads/Untitled7.jpg",
+  "group": "/legacy/uploads/Untitled2.jpg",
   "awards": [
     {
       "title": "White Factory",
-      "src": "https://hi.matsuda-sangyothailand.com/uploads/awards/762_1726739420.jpg"
+      "src": "/legacy/uploads/awards/762_1726739420.jpg"
     },
     {
       "title": "ISO 9001 & 14001",
-      "src": "https://hi.matsuda-sangyothailand.com/uploads/awards/731_1726732837.jpg"
+      "src": "/legacy/uploads/awards/731_1726732837.jpg"
     },
     {
       "title": "ISO 9001 & 14001",
-      "src": "https://hi.matsuda-sangyothailand.com/uploads/awards/943_1726732821.jpg"
+      "src": "/legacy/uploads/awards/943_1726732821.jpg"
     },
     {
       "title": "Rental Car Carbon Credit",
-      "src": "https://hi.matsuda-sangyothailand.com/uploads/awards/732_1720411251.jpg"
+      "src": "/legacy/uploads/awards/732_1720411251.jpg"
     },
     {
-      "title": "Green Industry Level 4 \u2014 Ayutthaya",
-      "src": "https://hi.matsuda-sangyothailand.com/uploads/awards/553_1764835658.jpg"
+      "title": "Green Industry Level 4 — Ayutthaya",
+      "src": "/legacy/uploads/awards/553_1764835658.jpg"
     },
     {
-      "title": "Green Industry Level 3 \u2014 Pinthong 3",
-      "src": "https://hi.matsuda-sangyothailand.com/uploads/awards/838_1726739031.png"
+      "title": "Green Industry Level 3 — Pinthong 3",
+      "src": "/legacy/uploads/awards/838_1726739031.png"
     }
+  ],
+  "homeDiagram": [
+    "/legacy/images/line-index3-1.png",
+    "/legacy/images/img-index3-1_en.png",
+    "/legacy/images/img-index3-2.png"
+  ],
+  "homeBackground": "/legacy/images/bg-index4.png",
+  "homeGallery": [
+    "/legacy/uploads/slides_2/590_1435738676.jpg",
+    "/legacy/uploads/slides_2/314_1435738620.jpg",
+    "/legacy/uploads/slides_2/997_1435738633.jpg",
+    "/legacy/uploads/slides_2/718_1435625202.png",
+    "/legacy/uploads/slides_2/322_1437127598.jpg",
+    "/legacy/uploads/slides_2/291_1435625183.png"
   ]
 }

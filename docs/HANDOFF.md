@@ -1,29 +1,47 @@
-# ส่งต่อทีม / Migration checklist
+# ส่งต่อทีม — ย้ายดีไซน์จาก HTML เดิม
 
-## ทำแล้ว
-- Nuxt SSR และรองรับ static generation ทั้ง 28 หน้า (7 ส่วน × 4 ภาษา)
-- แยก JSON ภาษา ข้อมูลบริษัท และ manifest รูปภาพ ไม่ใช้ฐานข้อมูล
-- หน้าแรก บริษัท ธุรกิจ รางวัล นโยบายคุณภาพ/สิ่งแวดล้อม ลิงก์ และติดต่อ
-- สลับภาษาคงหน้าปัจจุบัน เมนูมือถือ ลิงก์โทรศัพท์และแผนที่
-- ตรวจ route ที่ไม่ถูกต้องเป็น 404, แสดง fallback เมื่อรูปโหลดไม่ได้
-- SEO title/description ตามภาษา, skip link, focus style, reduced motion
+## แหล่งข้อมูลที่อนุมัติ
+- Google Drive folder: **matsuda-html** (`1vhA71nu58lRoA8D95t6lWvld9uf1-Dh-`)
+- ใช้ HTML ทั้ง 28 ไฟล์ (7 หน้า × ไทย/อังกฤษ/ญี่ปุ่น/จีน) ไม่ใช้ archive PHP
+- ใช้ `template/styles/template.css`, โลโก้ `images/logo.png`, ฟอนต์เดิม 3 ชุด และรูปเดิมจาก images/uploads
+- รูปที่นำมาใช้เก็บใน `public/legacy/` แล้ว ไม่ต้องโหลดจากโดเมนเว็บเก่า
+- ภาพอ้างอิง `screenshots/home.png` และ `01-home.png` อยู่ในชุด Drive (ไฟล์ดาวน์โหลดในเครื่องถูก ignore)
 
-## ข้อจำกัดที่ต้องปิดก่อน production
-1. **รูปยังเป็น remote URL**: binary download ถูกจำกัดใน sandbox ใช้ `scripts/sync-assets.mjs` จาก network ที่เข้าถึงเว็บเดิมได้ แล้วตรวจว่าไฟล์ตรงต้นฉบับ ไม่มีการสร้างรูปทดแทน
-2. **ยังไม่ใช่การย้ายสื่อทุกไฟล์ครบถ้วน**: ดึงรูปที่พบจากหน้าหลักและหน้าเนื้อหาที่อ่านได้ รางวัลเดิมมี 11 หน้า ปัจจุบันมี 6 รายการจากหน้าแรก ต้องรวบรวมที่เหลือและตรวจรูป/ไฟล์ทั้งหมดกับเจ้าของเว็บ รวมถึง slides_2 ที่เหลือและกราฟิกตกแต่งเดิม
-3. **โลโก้**: wordmark ในหัวเว็บเป็นข้อความและตัว M ชั่วคราว ไม่ใช่ไฟล์โลโก้ต้นฉบับ ต้องให้ทีมส่งโลโก้จริงและแทนก่อนเปิดใช้
-4. **คำแปล**: เนื้อหา EN อ้างอิงเว็บเดิมและเรียบเรียงใหม่ ส่วน TH/JA/ZH เป็นร่าง ต้องให้เจ้าของภาษาและฝ่ายกฎหมายอนุมัติ ชื่อใบรับรอง ที่อยู่ และข้อความในภาพยังคงต้นฉบับ
-5. ตรวจวันหมดอายุและความถูกต้องของใบรับรอง ไม่ถือว่าการแสดงเอกสารยืนยันสถานะปัจจุบัน
-6. ไม่เพิ่มฟอร์มส่งข้อมูลหลอก: ติดต่อผ่านโทรศัพท์และแผนที่จริง หากต้องการแบบฟอร์มให้กำหนดบริการรับข้อความและนโยบายความเป็นส่วนตัว
-7. ตรวจ redirect ของ URL PHP เดิมที่ hosting (company.php → /en/company, business.php → /en/business, awarded.php → /en/awards, career.php → /en/environment, management.php → /en/links, contactus.php → /en/contact) ค่า 301 เมื่อเปิดใช้จริง
+## สถาปัตยกรรม
+- Nuxt 3 SSR/static generation, ไม่มีฐานข้อมูล
+- หน้าแรก/เมนู/ท้ายเว็บใช้ Vue components; ส่วนเนื้อหาภายในเก็บ markup เดิมใน JSON เพื่อรักษาตารางและ inline typography
+- `data/legacy/{lang}.json` คือเนื้อหาจริงที่นำเข้าจาก HTML; `data/locales/{lang}.json` คือ UI/SEO
+- importer กรอง scripts, event handlers, Cloudflare runtime และ URL แบบ javascript ออก ไม่ใช้ jQuery/Prototype
+- JSON เป็น trusted repository source เท่านั้น อย่าเปิด v-html ให้รับข้อมูลจากผู้ใช้โดยไม่ sanitize
 
-## QA ก่อนเปิดใช้งาน
-- `npm ci && npm test && npm run generate`
-- ตรวจครบ 28 routes, refresh deep links, route ผิดได้ 404 และ URL root ไป /en
-- ตรวจทุกภาษาใน desktop/tablet/mobile, keyboard menu และ screen reader
-- ตรวจ browser console/network, รูป local ทุกไฟล์, ความคมชัดและ crop เทียบต้นฉบับ
-- ยืนยันที่อยู่ เบอร์โทร ทุน และลิงก์แผนที่กับบริษัท
-- ตรวจ dependency audit และ security updates ก่อน deploy
+## การแก้ error ที่จำเป็นโดยไม่ออกแบบใหม่
+- ถอด hero ที่ซ้ำและ margin ติดลบจาก HTML export ซึ่งทำให้เนื้อหาถูกบัง
+- ใช้สไลด์ Vue แทน slider script เดิมที่รอ loading ค้าง รองรับปุ่มก่อนหน้า/ถัดไปและ reduced motion
+- แก้การอ้างอิงฟอนต์และรูปให้เป็น local paths
+- ย้าย background รูปหน้า Related Links เข้า container ที่ถูกต้อง เพื่อไม่ให้บังเนื้อหาและท้ายเว็บ
+- คืน class ของ gallery ที่ปกติสคริปต์เก่าเป็นตัวเพิ่ม
+- แก้มือถือไม่ให้ตารางและเมนูทำให้เกิด horizontal overflow
+- ถอด Cloudflare email masking โดย decode จาก href เดิม ไม่เดาที่อยู่อีเมล
+- ลิงก์เอกสารเปิดรูปเต็มในแท็บใหม่แทน popup เก่า
+
+## ข้อจำกัด / ต้องยืนยันก่อน production
+1. **แบบฟอร์ม Feedback เดิมใช้ PHP**: ยังไม่ย้ายฟอร์มส่งข้อมูล ไม่มี backend หรือการแสดง success หลอก ติดต่อผ่านเบอร์และอีเมลในท้ายเว็บได้ หากต้องการฟอร์ม ให้เลือกบริการรับข้อความก่อน
+2. **รางวัลใน HTML export มี 6 รายการ**: ไม่ใช่หลักฐานว่ามีเอกสารครบทุกหน้าของเว็บ live และไม่ใช่การรับรองว่าใบรับรองยังไม่หมดอายุ
+3. **ไฟล์ตกแต่งบางไฟล์ไม่มีในชุด HTML**: ดู `data/legacy/import-report.json` เป็นรูป CSS ของ selector เก่า/ส่วน admin หรือ social ที่ไม่แสดงในเว็บนี้ ไม่สร้างภาพใหม่แทน ไม่มี missing asset ในหน้าที่ทดสอบ
+4. **ภาษา**: ใช้ข้อความจาก HTML ตามแต่ละภาษาโดยตรง บางส่วนของต้นฉบับ (เช่นภาพ embedded text และเนื้อหาบางย่อหน้า) ยังเป็นอังกฤษแม้เปิดภาษาญี่ปุ่น/จีน ต้องให้บริษัทตรวจรับ ไม่แปลทับข้อความในรูปเดิมเอง
+5. เทียบกับ HTML export ไม่อ้างว่าเหมือนเว็บ live ทุกพิกเซล เพราะ export มีส่วนที่ถูกแก้ไข/มี error มาก่อน ต้องให้เจ้าของเว็บตรวจรับภาพรวม
+6. Google Maps เป็น external embed ต้องตรวจบนเครือข่ายจริงและจัดการ privacy/consent ตามนโยบายบริษัท Browser tests จำลอง Maps ไม่ได้ทดสอบบริการจริง
+7. `npm audit` พบ 2 low / 9 moderate จาก dependency tree ให้ทีมตรวจและอัปเดตก่อนเปิดใช้งานจริง
+8. static hosting ต้องตั้ง root redirect `/` → `/th` และ redirect URL `.html`/`.php` เดิม ส่วน Nuxt Node มี root redirect แล้ว
 
 ## การแบ่งงาน
-Frontend: layout/components/responsive · Content: site.json + inventory · Translation: locale JSON · QA: routes/accessibility/assets · DevOps: static/Node hosting, HTTPS, redirects.
+- Frontend: shared components, carousel, accessibility และ compatibility CSS
+- Content/Translation: JSON ใน data/legacy, metadata/UI ใน data/locales (ต้อง review markup)
+- Assets: ตรวจรูป/โลโก้/ฟอนต์ใน public/legacy เทียบไฟล์ Drive
+- QA: `npm test`, `npm run build`, `npm run generate`, `npm run test:browser` พร้อมตรวจด้วยสายตา
+- DevOps: static/Node hosting, HTTPS, redirect และ privacy headers
+
+## ตรวจแล้ว
+- Unit/content tests: 10 tests
+- Browser smoke: 28 routes, รูป local, overflow ที่ 1280/768/375 px, mobile menu, language switch, carousel, 404
+- Browser test ไม่พบ console/hydration errors บนหน้าปกติ (404 ที่ตั้งใจทดสอบแยกต่างหาก)

@@ -5,3 +5,9 @@ node_modules
 *.log
 
 dist
+
+google_drive/
+test-results/
+playwright-report/
+
+.arena/
