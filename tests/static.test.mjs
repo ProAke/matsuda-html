@@ -93,5 +93,8 @@ test('server rejects submissions instead of pretending to send mail', async () =
   assert.match(await response.text(), /No form-processing backend/);
   const compatibility = await readFile(path.join(root, 'js/static-compat.js'), 'utf8');
   assert.match(compatibility, /preventDefault/);
-  assert.match(compatibility, /has not been sent/);
+  assert.doesNotMatch(compatibility, /has not been sent/);
+  const handler = await readFile(path.join(root, 'js/contact-form.js'), 'utf8');
+  assert.match(handler, /MAIL_ACCEPTED/);
+  assert.match(handler, /fetch\('\/api\/contact'/);
 });

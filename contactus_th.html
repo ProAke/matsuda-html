@@ -24,16 +24,6 @@ function fnc_totop(){ window.scrollTo(0, 0); }
 	function default_resize(){ /* resize effects handled by inline fnc_resize */ }
 	</script>
 	<script type="text/javascript">
-var check ={
-	add:function(e){
-		// PHP form processing removed - no-op for static site
-		Event.stop(e);
-	}
-}
-document.observe('dom:loaded',function(){
-	Event.observe('frm_check','submit',check.add,false);
-});
-
 var  mg1 =null;
 function fnc_resize(status){
 	var w=document.viewport.getWidth();
@@ -101,6 +91,7 @@ document.observe('dom:loaded',function(){
 
 	
 <script src="js/static-compat.js" defer></script>
+<script src="js/contact-form.js" defer></script>
 <link rel="stylesheet" href="template/styles/reference-repairs.css">
 </head>
 <body class="th" id="body">
@@ -190,23 +181,24 @@ document.observe('dom:loaded',function(){
 
 
 		<h2>ความคิดเห็น</h2>
-		<form method='post' action='contactus.php' id='frm_check'  >
-		<div id='warning_text' style='display:none'>Invalid information please check again</div>
+		<form method='post' action='/api/contact' id='frm_check'  >
+		<div id='warning_text' role='status' aria-live='polite' style='display:none'></div>
 
 	<div class='msg_success' id='msg_success'></div>
 	<div class='msg_error' id='msg_error'></div>
 	
 		
-	<div class='contact-input'><input type='text' name='name'  class='input'  placeholder="ชื่อ *"/></div>
-	<div class='contact-input'><input type='text' name='email'  class='input'  placeholder="อีเมล *"/></div>
-	<div class='contact-input'><input type='text' name='phone'  class='input'  placeholder="โทรศัพท์ *"/></div>
-	<div class='contact-input'><input type='text' name='topic'  class='input'  placeholder="หัวข้อ *"/></div>
-	<div class='contact-input2'><textarea placeholder="ความคิดเห็น *" name='detail'></textarea></div>
+	<div class='contact-input'><input type='text' name='name' required maxlength='120' autocomplete='name'  class='input'  placeholder="ชื่อ *"/></div>
+	<div class='contact-input'><input type='email' name='email' required maxlength='254' autocomplete='email'  class='input'  placeholder="อีเมล *"/></div>
+	<div class='contact-input'><input type='tel' name='phone' required maxlength='40' autocomplete='tel'  class='input'  placeholder="โทรศัพท์ *"/></div>
+	<div class='contact-input'><input type='text' name='topic' required maxlength='200'  class='input'  placeholder="หัวข้อ *"/></div>
+	<div class='contact-input2'><textarea placeholder="ความคิดเห็น *" name='detail' required maxlength='5000'></textarea></div>
 	<div class='contact-submit'><input type='submit' value='ส่ง' class='btn'/></div>
 	<div class='clear'></div>
 
 	
-		</form>
+		<div hidden aria-hidden='true'><label>Website<input type='text' name='website' tabindex='-1' autocomplete='off'></label></div>
+</form>
 	</div>
 </div><!-- div-contactus3-->
 
@@ -237,7 +229,7 @@ document.observe('dom:loaded',function(){
 <p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">About Career opportunity :</span></p>
 <p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;"><a href="mailto:recruit@matsuda-sangyo.co.th">recruit@matsuda-sangyo.com</a>&nbsp;</span></p>
 <p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">About General matters :</span></p>
-<p><a href="mailto:msta-admin@matsuda-sangyo.com"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">msta-admin@matsuda-sangyo.com</span></a></p>
+<p><a href="mailto:contact-ga@matsuda-sangyo.com"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">contact-ga@matsuda-sangyo.com</span></a></p>
 <p>&nbsp;</p>	</div><!-- l -->
 	<div class='clear'></div>
 	</div><!-- d -->
