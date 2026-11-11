@@ -1,5 +1,5 @@
 /** Optional browser regression suite. Install Playwright separately for QA;
- * the website and `npm test` still require no dependencies.
+ * run npm ci first; Playwright is an optional QA dependency.
  * BASE_URL defaults to http://127.0.0.1:3000 (start with npm start).
  * BROWSER_EXECUTABLE_PATH / BROWSER_ARGS_JSON support CI-provided Chromium.
  */
@@ -122,7 +122,7 @@ try {
   }
   assert.deepEqual(errors,[],'Browser JavaScript errors');
   assert.deepEqual(httpErrors,[],'Local HTTP errors');
-  assert.deepEqual(posts,[],'No form-delivery backend must be called');
+  assert.deepEqual(posts,[],'Empty invalid forms must not call the delivery API');
   const report = { date:'2026-11-04', source:'Local Chromium checks; CN variants are per-category layout baselines. Chinese Company HTML remains unchanged. Not a live pixel diff.', thirdPartyEmbeds:'External requests blocked for deterministic QA; Google Maps is not validated.', viewports, pages:pages.length, checks:results.length, interactions, results };
   await writeFile(new URL(process.env.LAYOUT_REPORT || 'docs/all-pages-layout-checks.json',root), JSON.stringify(report,null,2)+'\n');
   console.log(`PASS: ${results.length} page/viewport checks; ${interactions.length} page interaction/resize checks; 7 categories, 4 languages, no JS/HTTP errors or horizontal overflow.`);

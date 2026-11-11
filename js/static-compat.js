@@ -22,28 +22,6 @@
     window.default_resize();
   });
 
-  // No PHP/mail backend was included. Never submit personal data to a dead URL
-  // or claim a message was sent. Keep the original form and explain this limit.
-  document.addEventListener('submit', function (event) {
-    if (event.target.id !== 'frm_check') return;
-    event.preventDefault();
-    event.stopImmediatePropagation();
-    var filename = location.pathname;
-    var message = /_th\.html$/.test(filename)
-      ? 'เว็บไซต์ static นี้ยังไม่มีระบบส่งข้อความ กรุณาติดต่อทางโทรศัพท์หรืออีเมลที่ระบุบนหน้านี้ (ข้อความยังไม่ได้ถูกส่ง)'
-      : /_jp\.html$/.test(filename)
-        ? 'この静的サイトには送信機能がありません。記載の電話番号またはメールでお問い合わせください。メッセージは送信されていません。'
-        : /_cn\.html$/.test(filename)
-          ? '此静态网站尚无消息发送功能。请使用本页列出的电话或电子邮件联系。消息尚未发送。'
-          : 'This static site has no message-delivery backend. Please contact us using the phone or email listed on this page. Your message has not been sent.';
-    var warning = document.getElementById('warning_text');
-    if (warning) {
-      warning.textContent = message;
-      warning.style.display = 'block';
-      warning.setAttribute('role', 'status');
-      warning.scrollIntoView({ block: 'center' });
-    }
-  }, true);
 }());
 
 // Restore the mobile menu and image gallery without a PHP or library backend.

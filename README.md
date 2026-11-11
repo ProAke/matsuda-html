@@ -15,9 +15,10 @@ Folder ID: `1ihxLPaNrBgaagDJ6_ZwBD6l8Wg4Iu-UK`
 
 ## เปิดเว็บ
 
-ต้องมี Node.js 20 ขึ้นไป ไม่ต้องติดตั้ง dependencies
+ต้องมี Node.js 20 ขึ้นไป และติดตั้ง dependency สำหรับ SMTP
 
 ```sh
+npm ci
 npm start
 # หรือ npm run dev
 ```
@@ -29,7 +30,7 @@ npm start
 
 Browser QA (optional): `npm run test:browser` ต้องติดตั้ง Playwright/Chromium แยกและเปิดเว็บก่อน ดูวิธีในเอกสารการซ่อมทุกหน้า
 
-สำหรับ production ให้อัปโหลดไฟล์เว็บไปยัง static hosting เช่น Apache, Nginx หรือ static file hosting ได้โดยตรง ใช้ `index.html` เป็นหน้าแรก ไม่ต้องใช้ Node server, Nuxt, Vue หรือ SPA fallback บน production
+สำหรับ production ใช้ **Node.js / npm start** เพื่อให้ฟอร์มส่งอีเมลผ่าน SMTP ได้ ตั้งค่า environment ตาม [คู่มือ SMTP](docs/CONTACT-SMTP-TH.md) และ `.env.example` ก่อนใช้งานจริง (npm start ไม่โหลด .env อัตโนมัติ) ไม่ต้องใช้ Nuxt, Vue หรือ SPA fallback
 
 ## โครงสร้าง
 
@@ -37,9 +38,10 @@ Browser QA (optional): `npm run test:browser` ต้องติดตั้ง 
 - `template/styles/template.css` — CSS ต้นฉบับ
 - `images/`, `uploads/`, `fonts/` — ไฟล์ประกอบจาก Drive
 - `js/`, `module/`, `plugin/` — JavaScript ต้นฉบับ (โฟลเดอร์ `module/phpbe` มีเฉพาะไฟล์ JS ไม่ใช่ PHP backend)
-- `js/static-compat.js` — ระยะ header ที่ติดตามฟอนต์/การ resize, เมนูมือถือ/แกลเลอรีแยกภาษา และคำเตือนฟอร์มไม่มี backend
+- `js/static-compat.js` — ระยะ header ที่ติดตามฟอนต์/การ resize, เมนูมือถือ/แกลเลอรีแยกภาษา
 - `template/styles/site-layout.css` — กฎ responsive ร่วมทุกหน้า โหลดผ่าน `reference-repairs.css`
-- `scripts/serve.mjs` — development/preview static server แบบไม่มี dependencies
+- `scripts/serve.mjs` — Node server สำหรับหน้า static และ `/api/contact`
+- `js/contact-form.js`, `server/contact.mjs` — ฟอร์ม 4 ภาษาและ SMTP backend; ผู้รับ contact-ga@matsuda-sangyo.com
 - `tests/` — ตรวจ HTML, ไฟล์ประกอบ, hash assets และ HTTP server
 - `docs/source-manifest.json` — รายชื่อและ SHA-256 ของไฟล์ที่ connector ดาวน์โหลดก่อนปรับ compatibility
 
@@ -54,8 +56,8 @@ Browser QA (optional): `npm run test:browser` ต้องติดตั้ง 
 
 ## ข้อจำกัดสำคัญ
 
-- **ฟอร์มติดต่อยังไม่ส่งข้อความ/อีเมล** เพราะไม่มี PHP/mail backend ฟอร์มจะไม่ POST ข้อมูลและแสดงคำเตือนว่าไม่ได้ส่ง กรุณาใช้ช่องทางติดต่อที่ระบุอยู่บนหน้าเว็บ
-- ซ่อมลิงก์ footer และหน้าล้นจอบนมือถือแล้ว ยังต้องตรวจทานคำแปลทั้ง 4 ภาษา และยืนยัน email ที่แสดงกับ mailto บางรายการที่ไม่ตรงกัน ดูขอบเขตและข้อจำกัดในบันทึกการซ่อมล่าสุด
+- **ต้องตั้งค่า SMTP บน hosting ก่อนส่งอีเมลจริง** โค้ดรองรับแล้วทั้ง 4 ภาษา แต่ยังไม่มีข้อมูล SMTP บริษัทและยังไม่ยืนยันการนำส่งจริง ดู [คู่มือ SMTP](docs/CONTACT-SMTP-TH.md)
+- ซ่อมลิงก์ footer และหน้าล้นจอบนมือถือแล้ว ยังต้องตรวจทานคำแปลทั้ง 4 ภาษา โดย General matters ใช้ contact-ga@matsuda-sangyo.com ตรงกันทั้งข้อความและ mailto ทุกหน้า ดูขอบเขตและข้อจำกัดในบันทึกการซ่อมล่าสุด
 - การแก้จากแอป Nuxt ครั้งก่อน **ไม่ได้ยกมาใช้** ตามคำขอให้แทนด้วยต้นฉบับชุดใหม่
 
 Git history และ `.git` ยังคงอยู่ ดูแอปก่อนการย้ายได้จาก commit `d6eb6632be28001f70ed981bc7b9f734146387c8` ไม่ได้แก้หรือลบต้นฉบับใน Google Drive
