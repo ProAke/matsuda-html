@@ -44,10 +44,11 @@ test('validation rejects missing fields, header injection, invalid email and ove
 test('SMTP acceptance returns 202 and client-supplied recipients/from cannot override routing', async t => {
   let sent;
   const post = await api(t,{ sendMail:async message => { sent=message;return { accepted:[CONTACT_RECIPIENT] }; } });
-  const response = await post({ ...valid, to:'evil@example.org', from:'evil@example.org', bcc:'evil@example.org' });
+  const response = await post({ ...valid, to:'evil@example.org', cc:'evil@example.org', from:'evil@example.org', bcc:'evil@example.org' });
   assert.equal(response.status,202); assert.deepEqual(await response.json(),{ ok:true, code:'MAIL_ACCEPTED' });
   assert.equal(sent.to,'contact-ga@matsuda-sangyo.com'); assert.equal(sent.from,env.SMTP_FROM);
   assert.equal(sent.replyTo,valid.email); assert.equal(sent.bcc,undefined);
+  assert.equal(sent.cc,'worapot.bhi@gmail.com', 'temporary test CC is server-controlled');
 });
 
 test('unconfigured SMTP never reports success', async t => {

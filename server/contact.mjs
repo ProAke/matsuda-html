@@ -2,6 +2,9 @@ import nodemailer from 'nodemailer';
 
 // Deliberately not configurable by the browser, query string or form fields.
 export const CONTACT_RECIPIENT = 'contact-ga@matsuda-sangyo.com';
+// TEMPORARY: requested test copy. Remove this constant and the cc field below
+// after the owner confirms receipt; do not retain for normal customer traffic.
+export const CONTACT_TEST_CC = 'worapot.bhi@gmail.com';
 const emailPattern = /^[^\s@<>\r\n]+@[^\s@<>\r\n]+\.[^\s@<>\r\n]+$/;
 const isEmail = value => typeof value === 'string' && value.length <= 254 && emailPattern.test(value);
 
@@ -37,7 +40,7 @@ export function smtpOptions(env = process.env) {
 
 export function contactMessage(input, from) {
   return {
-    from, to:CONTACT_RECIPIENT, replyTo:input.email,
+    from, to:CONTACT_RECIPIENT, cc:CONTACT_TEST_CC, replyTo:input.email,
     subject:`[Website contact] ${input.topic}`,
     text:[
       'Website contact form — Matsuda Sangyo (Thailand)',
